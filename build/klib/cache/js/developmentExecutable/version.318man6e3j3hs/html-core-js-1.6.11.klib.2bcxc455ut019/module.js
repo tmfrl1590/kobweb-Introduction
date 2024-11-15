@@ -690,11 +690,11 @@
   initMetadataForClass(CSSMediaRuleDeclaration, 'CSSMediaRuleDeclaration', VOID, VOID, [CSSGroupingRuleDeclaration]);
   initMetadataForClass(CSSStyleRuleDeclaration, 'CSSStyleRuleDeclaration', VOID, VOID, [CSSRuleDeclaration, CSSStyledRuleDeclaration]);
   initMetadataForInterface(CSSUnit, 'CSSUnit');
-  initMetadataForInterface(CSSUnitLengthOrPercentage, 'CSSUnitLengthOrPercentage', VOID, VOID, [CSSUnit]);
   initMetadataForInterface(CSSUnitTime, 'CSSUnitTime', VOID, VOID, [CSSUnit]);
+  initMetadataForInterface(CSSUnitLengthOrPercentage, 'CSSUnitLengthOrPercentage', VOID, VOID, [CSSUnit]);
+  initMetadataForInterface(CSSUnitLength, 'CSSUnitLength', VOID, VOID, [CSSUnitLengthOrPercentage]);
   initMetadataForInterface(CSSUnitPercentage, 'CSSUnitPercentage', VOID, VOID, [CSSUnitLengthOrPercentage]);
   initMetadataForInterface(percent, 'percent', VOID, VOID, [CSSUnitPercentage]);
-  initMetadataForInterface(CSSUnitLength, 'CSSUnitLength', VOID, VOID, [CSSUnitLengthOrPercentage]);
   initMetadataForInterface(CSSUnitRel, 'CSSUnitRel', VOID, VOID, [CSSUnitLength]);
   initMetadataForInterface(em, 'em', VOID, VOID, [CSSUnitRel]);
   initMetadataForInterface(ex, 'ex', VOID, VOID, [CSSUnitRel]);
@@ -3507,9 +3507,9 @@
     StyleScopeBuilder.call(this);
     this.$stable_2 = 0;
   }
-  function CSSUnitLengthOrPercentage() {
-  }
   function CSSUnitTime() {
+  }
+  function CSSUnitLength() {
   }
   function percent() {
   }
@@ -3753,15 +3753,7 @@
   }
   function CSSUnit() {
   }
-  function CSSUnitLength() {
-  }
-  function get_cssRem(_this__u8e3s4) {
-    var tmp = numberToDouble(_this__u8e3s4);
-    // Inline function 'org.jetbrains.compose.web.css.Companion.rem' call
-    Companion_getInstance_14();
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return new CSSUnitValueTyped(tmp, 'rem');
+  function CSSUnitAngle() {
   }
   function get_px(_this__u8e3s4) {
     var tmp = numberToDouble(_this__u8e3s4);
@@ -3771,6 +3763,16 @@
     // Inline function 'kotlin.js.asDynamic' call
     return new CSSUnitValueTyped(tmp, 'px');
   }
+  function CSSUnitLengthOrPercentage() {
+  }
+  function get_cssRem(_this__u8e3s4) {
+    var tmp = numberToDouble(_this__u8e3s4);
+    // Inline function 'org.jetbrains.compose.web.css.Companion.rem' call
+    Companion_getInstance_14();
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return new CSSUnitValueTyped(tmp, 'rem');
+  }
   function get_percent(_this__u8e3s4) {
     var tmp = numberToDouble(_this__u8e3s4);
     // Inline function 'org.jetbrains.compose.web.css.Companion.percent' call
@@ -3778,14 +3780,6 @@
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return new CSSUnitValueTyped(tmp, '%');
-  }
-  function get_fr(_this__u8e3s4) {
-    var tmp = numberToDouble(_this__u8e3s4);
-    // Inline function 'org.jetbrains.compose.web.css.Companion.fr' call
-    Companion_getInstance_14();
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return new CSSUnitValueTyped(tmp, 'fr');
   }
   function get_ms(_this__u8e3s4) {
     var tmp = numberToDouble(_this__u8e3s4);
@@ -3795,6 +3789,16 @@
     // Inline function 'kotlin.js.asDynamic' call
     return new CSSUnitValueTyped(tmp, 'ms');
   }
+  function get_fr(_this__u8e3s4) {
+    var tmp = numberToDouble(_this__u8e3s4);
+    // Inline function 'org.jetbrains.compose.web.css.Companion.fr' call
+    Companion_getInstance_14();
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return new CSSUnitValueTyped(tmp, 'fr');
+  }
+  function CSSUnitPercentage() {
+  }
   function get_vh(_this__u8e3s4) {
     var tmp = numberToDouble(_this__u8e3s4);
     // Inline function 'org.jetbrains.compose.web.css.Companion.vh' call
@@ -3802,18 +3806,6 @@
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     return new CSSUnitValueTyped(tmp, 'vh');
-  }
-  function CSSUnitPercentage() {
-  }
-  function CSSUnitRel() {
-  }
-  function CSSUnitAbs() {
-  }
-  function CSSUnitAngle() {
-  }
-  function CSSUnitFrequency() {
-  }
-  function CSSUnitResolution() {
   }
   function CSSUnitFlex() {
   }
@@ -3865,6 +3857,14 @@
       return false;
     return true;
   };
+  function CSSUnitRel() {
+  }
+  function CSSUnitAbs() {
+  }
+  function CSSUnitFrequency() {
+  }
+  function CSSUnitResolution() {
+  }
   function get_deg(_this__u8e3s4) {
     var tmp = numberToDouble(_this__u8e3s4);
     // Inline function 'org.jetbrains.compose.web.css.Companion.deg' call
@@ -7239,6 +7239,76 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(Div$lambda(attrs_0, content_0, $changed, $default));
     }
   }
+  function H3_0(attrs, content, $composer, $changed, $default) {
+    _init_properties_Elements_kt__eyv5nt();
+    var attrs_0 = {_v: attrs};
+    var content_0 = {_v: content};
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(894596430);
+    var $dirty = $changed;
+    if (!(($default & 1) === 0))
+      $dirty = $dirty | 6;
+    else if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(attrs_0._v) ? 4 : 2);
+    if (!(($default & 2) === 0))
+      $dirty = $dirty | 48;
+    else if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(content_0._v) ? 32 : 16);
+    if (!(($dirty & 91) === 18) || !$composer_0.get_skipping_3owdve_k$()) {
+      if (!(($default & 1) === 0)) {
+        attrs_0._v = null;
+      }
+      if (!(($default & 2) === 0)) {
+        content_0._v = null;
+      }
+      if (isTraceInProgress()) {
+        traceEventStart(894596430, $dirty, -1, 'org.jetbrains.compose.web.dom.H3 (Elements.kt:545)');
+      }
+      TagElement(get_H3(), attrs_0._v, content_0._v, $composer_0, 112 & $dirty << 3 | 896 & $dirty << 3);
+      if (isTraceInProgress()) {
+        traceEventEnd();
+      }
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(H3$lambda(attrs_0, content_0, $changed, $default));
+    }
+  }
+  function Hr_0(attrs, $composer, $changed, $default) {
+    _init_properties_Elements_kt__eyv5nt();
+    var attrs_0 = {_v: attrs};
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(1499320512);
+    var $dirty = $changed;
+    if (!(($default & 1) === 0))
+      $dirty = $dirty | 6;
+    else if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(attrs_0._v) ? 4 : 2);
+    if (!(($dirty & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
+      if (!(($default & 1) === 0)) {
+        attrs_0._v = null;
+      }
+      if (isTraceInProgress()) {
+        traceEventStart(1499320512, $dirty, -1, 'org.jetbrains.compose.web.dom.Hr (Elements.kt:845)');
+      }
+      TagElement(get_Hr(), attrs_0._v, null, $composer_0, 384 | 112 & $dirty << 3);
+      if (isTraceInProgress()) {
+        traceEventEnd();
+      }
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(Hr$lambda(attrs_0, $changed, $default));
+    }
+  }
   function Companion_16() {
     Companion_instance_16 = this;
     var tmp = this;
@@ -7491,6 +7561,18 @@
   function Div$lambda($attrs, $content, $$changed, $$default) {
     return function ($composer, $force) {
       Div_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      return Unit_getInstance();
+    };
+  }
+  function H3$lambda($attrs, $content, $$changed, $$default) {
+    return function ($composer, $force) {
+      H3_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      return Unit_getInstance();
+    };
+  }
+  function Hr$lambda($attrs, $$changed, $$default) {
+    return function ($composer, $force) {
+      Hr_0($attrs._v, $composer, updateChangedFlags($$changed | 1), $$default);
       return Unit_getInstance();
     };
   }
@@ -8773,10 +8855,12 @@
   _.$_$.x4 = width_0;
   _.$_$.y4 = width;
   _.$_$.z4 = Div_0;
-  _.$_$.a5 = Img_0;
-  _.$_$.b5 = Span_0;
-  _.$_$.c5 = Style_1;
-  _.$_$.d5 = Text_0;
+  _.$_$.a5 = H3_0;
+  _.$_$.b5 = Hr_0;
+  _.$_$.c5 = Img_0;
+  _.$_$.d5 = Span_0;
+  _.$_$.e5 = Style_1;
+  _.$_$.f5 = Text_0;
   //endregion
   return _;
 }));

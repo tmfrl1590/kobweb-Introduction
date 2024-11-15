@@ -31,8 +31,8 @@
   var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f1;
   var THROW_CCE = kotlin_kotlin.$_$.bf;
   var Unit_getInstance = kotlin_kotlin.$_$.m4;
-  var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r2;
-  var Style = kotlin_org_jetbrains_compose_html_html_core.$_$.c5;
+  var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s2;
+  var Style = kotlin_org_jetbrains_compose_html_html_core.$_$.e5;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
   var StyleSheet = kotlin_org_jetbrains_compose_html_html_core.$_$.d3;
   var VOID = kotlin_kotlin.$_$.f;
@@ -48,7 +48,7 @@
   var initMetadataForClass = kotlin_kotlin.$_$.xa;
   var KProperty1 = kotlin_kotlin.$_$.pc;
   var getPropertyCallableRef = kotlin_kotlin.$_$.ua;
-  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
+  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x2;
   var objectCreate = kotlin_kotlin.$_$.zb;
   var charSequenceLength = kotlin_kotlin.$_$.na;
   var toString = kotlin_kotlin.$_$.cc;
@@ -57,14 +57,14 @@
   var startsWith = kotlin_kotlin.$_$.wd;
   var endsWith = kotlin_kotlin.$_$.ed;
   var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.q2;
-  var whiteSpace = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.j2;
-  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n2;
+  var whiteSpace = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k2;
+  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o2;
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
-  var Span = kotlin_org_jetbrains_compose_html_html_core.$_$.b5;
+  var Span = kotlin_org_jetbrains_compose_html_html_core.$_$.d5;
   var initMetadataForInterface = kotlin_kotlin.$_$.ab;
   var registerRefScope = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.y1;
-  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.d5;
+  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.f5;
   var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.l;
   var mutableStateListOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.r;
   var CompositionLocalProvider = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d;
@@ -104,7 +104,7 @@
   var mutableListOf = kotlin_kotlin.$_$.a8;
   var plus_0 = kotlin_kotlin.$_$.d8;
   var ComparableStyleScope = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.b;
-  var toStyles = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o2;
+  var toStyles = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p2;
   var equals = kotlin_kotlin.$_$.qa;
   var substringAfterLast = kotlin_kotlin.$_$.xd;
   var plus_1 = kotlin_kotlin.$_$.f8;
@@ -150,10 +150,10 @@
   var mutableStateOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.s;
   var KProperty0 = kotlin_kotlin.$_$.oc;
   var compositionLocalOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.o;
-  var Companion_getInstance_4 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s2;
+  var Companion_getInstance_4 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.t2;
   var com_varabyte_kobweb_compose_ui_graphics_Color_Rgb$stableprop_getter = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e;
   var ensureNotNull = kotlin_kotlin.$_$.tf;
-  var styleModifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m2;
+  var styleModifier = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n2;
   //endregion
   //region block: pre-declaration
   initMetadataForObject(SilkStyleSheet, 'SilkStyleSheet', VOID, StyleSheet);

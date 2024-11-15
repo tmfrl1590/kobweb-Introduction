@@ -49,10 +49,10 @@ fun NavigationItems() {
     NavigationItem(
         modifier = Modifier.margin(bottom = 24.px),
         title = "자기소개",
-        selected = context.route.path == Screen.Screen1.route,
+        selected = context.route.path == Screen.Introduction.route,
         //icon = Res.PathIcon.home,
         onClick = {
-            context.router.navigateTo(Screen.Screen1.route)
+            context.router.navigateTo(Screen.Introduction.route)
         }
     )
     NavigationItem(

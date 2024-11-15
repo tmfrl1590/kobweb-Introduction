@@ -75,55 +75,61 @@
   var isBlank = kotlin_kotlin.$_$.jd;
   var VOID = kotlin_kotlin.$_$.f;
   var removeSuffix = kotlin_kotlin.$_$.qd;
-  var initSilkWidgets = kotlin_com_varabyte_kobweb_silk_widgets.$_$.b;
+  var initSilkWidgets = kotlin_com_varabyte_kobweb_silk_widgets.$_$.c;
   var initSilkWidgetsKobweb = kotlin_com_varabyte_kobweb_silk_widgets_kobweb.$_$.b;
   var SilkApp = kotlin_com_varabyte_kobweb_kobweb_silk.$_$.a;
-  var get_SmoothColorStyle = kotlin_com_varabyte_kobweb_silk_widgets.$_$.d;
+  var get_SmoothColorStyle = kotlin_com_varabyte_kobweb_silk_widgets.$_$.e;
   var toModifier = kotlin_com_varabyte_kobweb_silk_foundation.$_$.z;
   var get_vh = kotlin_org_jetbrains_compose_html_html_core.$_$.w4;
-  var minHeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l1;
+  var minHeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m1;
   var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.q4;
-  var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v1;
+  var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w1;
   var backgroundColor = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.j;
-  var Center_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v2;
+  var Center_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
   var Box = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
-  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
-  var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k2;
+  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x2;
+  var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l2;
   var fillMaxHeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x;
-  var Center_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p2;
+  var Center_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q2;
   var Row = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c;
   var Color_getInstance = kotlin_org_jetbrains_compose_html_html_core.$_$.g;
   var Color = kotlin_org_jetbrains_compose_html_html_core.$_$.t2;
-  var zIndex = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l2;
+  var zIndex = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m2;
   var Column = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b;
   var rememberPageContext = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
-  var margin = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k1;
+  var margin = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l1;
   var Companion_getInstance_2 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.e2;
   var cursor = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v;
-  var onClick = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o1;
-  var CenterVertically_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u2;
+  var onClick = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p1;
+  var CenterVertically_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v2;
   var fontSize = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a1;
   var color = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u;
   var SpanText = kotlin_com_varabyte_kobweb_silk_foundation.$_$.a;
   var initMetadataForClass = kotlin_kotlin.$_$.xa;
   var fontWeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b1;
-  var size = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.z1;
+  var size = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a2;
   var Image = kotlin_com_varabyte_kobweb_silk_widgets_kobweb.$_$.a;
-  var SpaceBetween_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q2;
+  var SpaceBetween_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r2;
   var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.f2;
-  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.d5;
+  var padding_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v1;
+  var fillMaxWidth = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y;
+  var margin_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k1;
+  var HorizontalDivider = kotlin_com_varabyte_kobweb_silk_widgets.$_$.a;
+  var H3 = kotlin_org_jetbrains_compose_html_html_core.$_$.a5;
+  var lineHeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g1;
+  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.f5;
   //endregion
   //region block: pre-declaration
   initMetadataForObject(ComposableSingletons$MainKt, 'ComposableSingletons$MainKt');
   initMetadataForObject(ComposableSingletons$SIdePanelKt, 'ComposableSingletons$SIdePanelKt');
   initMetadataForClass(Screen, 'Screen');
   initMetadataForObject(Home, 'Home', VOID, Screen);
-  initMetadataForObject(Screen1, 'Screen1', VOID, Screen);
+  initMetadataForObject(Introduction, 'Introduction', VOID, Screen);
   initMetadataForObject(Screen2, 'Screen2', VOID, Screen);
   initMetadataForObject(Screen3, 'Screen3', VOID, Screen);
   initMetadataForObject(ComposableSingletons$IndexKt, 'ComposableSingletons$IndexKt');
-  initMetadataForObject(ComposableSingletons$Screen1Kt, 'ComposableSingletons$Screen1Kt');
+  initMetadataForObject(ComposableSingletons$IntroductionKt, 'ComposableSingletons$IntroductionKt');
   initMetadataForObject(ComposableSingletons$Screen2Kt, 'ComposableSingletons$Screen2Kt');
   initMetadataForObject(ComposableSingletons$Screen3Kt, 'ComposableSingletons$Screen3Kt');
   initMetadataForObject(Image_0, 'Image');
@@ -196,7 +202,7 @@
   function ComposableSingletons$MainKt$lambda_2$lambda_dts8wk($composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
-      IntroductionPage($composer_0, 0);
+      introductionPage($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -402,7 +408,7 @@
   }
   function main$lambda(ctx) {
     ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/', VOID, ComposableSingletons$MainKt_getInstance().lambda_1_r8sbbp_1);
-    ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/screen1', VOID, ComposableSingletons$MainKt_getInstance().lambda_2_r8sbbo_1);
+    ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/introduction', VOID, ComposableSingletons$MainKt_getInstance().lambda_2_r8sbbo_1);
     ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/screen2', VOID, ComposableSingletons$MainKt_getInstance().lambda_3_r8sbbn_1);
     ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/screen3', VOID, ComposableSingletons$MainKt_getInstance().lambda_4_r8sbbm_1);
     return Unit_getInstance();
@@ -713,7 +719,7 @@
       var tmp4_selected = context.get_route_iy3cio_k$().get_path_wos8ry_k$() === Home_getInstance().get_route_iy3cio_k$();
       NavigationItem(tmp3_modifier, tmp4_selected, '\uD648', NavigationItems$lambda(context), $composer_0, 392, 0);
       var tmp5_modifier = margin(Companion_getInstance_1(), VOID, VOID, get_px(24));
-      var tmp6_selected = context.get_route_iy3cio_k$().get_path_wos8ry_k$() === Screen1_getInstance().get_route_iy3cio_k$();
+      var tmp6_selected = context.get_route_iy3cio_k$().get_path_wos8ry_k$() === Introduction_getInstance().get_route_iy3cio_k$();
       NavigationItem(tmp5_modifier, tmp6_selected, '\uC790\uAE30\uC18C\uAC1C', NavigationItems$lambda_0(context), $composer_0, 392, 0);
       var tmp7_modifier = margin(Companion_getInstance_1(), VOID, VOID, get_px(24));
       var tmp8_selected = context.get_route_iy3cio_k$().get_path_wos8ry_k$() === Screen2_getInstance().get_route_iy3cio_k$();
@@ -759,7 +765,7 @@
         selected_0._v = false;
       }
       var tmp = cursor(Companion_getInstance_1().then_mmfvo6_k$(modifier_0._v), Companion_getInstance_2().get_Pointer_m64vg4_k$());
-      $composer_0.startReplaceableGroup_ip860b_k$(62691700);
+      $composer_0.startReplaceableGroup_ip860b_k$(62692020);
       // Inline function 'androidx.compose.runtime.cache' call
       var this_0 = $composer_0;
       var invalid = ($dirty & 7168) === 2048;
@@ -867,7 +873,7 @@
   }
   function NavigationItems$lambda_0($context) {
     return function () {
-      $context.get_router_j3zccy_k$().navigateTo$default_onbd51_k$(Screen1_getInstance().get_route_iy3cio_k$());
+      $context.get_router_j3zccy_k$().navigateTo$default_onbd51_k$(Introduction_getInstance().get_route_iy3cio_k$());
       return Unit_getInstance();
     };
   }
@@ -933,7 +939,7 @@
     };
   }
   var com_my_profile_navigation_Screen_Home$stable;
-  var com_my_profile_navigation_Screen_Screen1$stable;
+  var com_my_profile_navigation_Screen_Introduction$stable;
   var com_my_profile_navigation_Screen_Screen2$stable;
   var com_my_profile_navigation_Screen_Screen3$stable;
   var com_my_profile_navigation_Screen$stable;
@@ -961,29 +967,29 @@
       new Home();
     return Home_instance;
   }
-  function Screen1() {
-    Screen1_instance = this;
-    Screen.call(this, '/screen1');
+  function Introduction() {
+    Introduction_instance = this;
+    Screen.call(this, '/introduction');
   }
-  protoOf(Screen1).toString = function () {
-    return 'Screen1';
+  protoOf(Introduction).toString = function () {
+    return 'Introduction';
   };
-  protoOf(Screen1).hashCode = function () {
-    return 41987427;
+  protoOf(Introduction).hashCode = function () {
+    return 1833130684;
   };
-  protoOf(Screen1).equals = function (other) {
+  protoOf(Introduction).equals = function (other) {
     if (this === other)
       return true;
-    if (!(other instanceof Screen1))
+    if (!(other instanceof Introduction))
       return false;
-    other instanceof Screen1 || THROW_CCE();
+    other instanceof Introduction || THROW_CCE();
     return true;
   };
-  var Screen1_instance;
-  function Screen1_getInstance() {
-    if (Screen1_instance == null)
-      new Screen1();
-    return Screen1_instance;
+  var Introduction_instance;
+  function Introduction_getInstance() {
+    if (Introduction_instance == null)
+      new Introduction();
+    return Introduction_instance;
   }
   function Screen2() {
     Screen2_instance = this;
@@ -1042,8 +1048,8 @@
   function com_my_profile_navigation_Screen_Home$stableprop_getter() {
     return com_my_profile_navigation_Screen_Home$stable;
   }
-  function com_my_profile_navigation_Screen_Screen1$stableprop_getter() {
-    return com_my_profile_navigation_Screen_Screen1$stable;
+  function com_my_profile_navigation_Screen_Introduction$stableprop_getter() {
+    return com_my_profile_navigation_Screen_Introduction$stable;
   }
   function com_my_profile_navigation_Screen_Screen2$stableprop_getter() {
     return com_my_profile_navigation_Screen_Screen2$stable;
@@ -1156,9 +1162,9 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
       ProfileInfoArea($composer_0, 0);
-      var tmp0_src = '/profile.png';
-      var tmp1_modifier = size(Companion_getInstance_1(), get_px(200));
-      Image(tmp0_src, tmp1_modifier, null, null, null, 'Varabyte Logo', false, null, $composer_0, 196678, 220);
+      var tmp12_src = '/profile.png';
+      var tmp13_modifier = size(Companion_getInstance_1(), get_px(200));
+      Image(tmp12_src, tmp13_modifier, null, null, null, 'Varabyte Logo', false, null, $composer_0, 196678, 220);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -1254,11 +1260,11 @@
       return Unit_getInstance();
     };
   }
-  function IntroductionPage($composer, $changed) {
+  function introductionPage($composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1509525070);
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-770027363);
     if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
-      Introduction($composer_0, 0);
+      introduction($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -1266,14 +1272,14 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_t8jcf_k$(IntroductionPage$lambda($changed));
+      tmp0_safe_receiver.updateScope_t8jcf_k$(introductionPage$lambda($changed));
     }
   }
-  function Introduction($composer, $changed) {
+  function introduction($composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1591753663);
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(1470445422);
     if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
-      AdminPageLayout(ComposableSingletons$Screen1Kt_getInstance().lambda_1_r8sbbp_1, $composer_0, 6);
+      AdminPageLayout(ComposableSingletons$IntroductionKt_getInstance().lambda_1_r8sbbp_1, $composer_0, 6);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -1281,16 +1287,15 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_t8jcf_k$(Introduction$lambda($changed));
+      tmp0_safe_receiver.updateScope_t8jcf_k$(introduction$lambda($changed));
     }
   }
-  function IntroductionContent($composer, $changed) {
+  function introductionContent($composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-801368744);
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(858319095);
     if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
-      var tmp = backgroundColor(padding(fillMaxHeight(width(Companion_getInstance_1(), get_px(700)))), get_white());
-      var tmp_0 = Center_getInstance();
-      Box(tmp, tmp_0, null, ComposableSingletons$Screen1Kt_getInstance().lambda_2_r8sbbo_1, $composer_0, 3144, 4);
+      var tmp = backgroundColor(padding_0(fillMaxHeight(width(Companion_getInstance_1(), get_px(700))), get_px(40)), get_white());
+      Column(tmp, null, null, null, ComposableSingletons$IntroductionKt_getInstance().lambda_2_r8sbbo_1, $composer_0, 24584, 14);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -1298,7 +1303,94 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_t8jcf_k$(IntroductionContent$lambda($changed));
+      tmp0_safe_receiver.updateScope_t8jcf_k$(introductionContent$lambda($changed));
+    }
+  }
+  function introductionItem(title, description, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1287880689);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(title) ? 4 : 2);
+    if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(description) ? 32 : 16);
+    if (!(($dirty & 91) === 18) || !$composer_0.get_skipping_3owdve_k$()) {
+      introductionItemTitle(title, $composer_0, 14 & $dirty);
+      introductionItemDescription(description, $composer_0, 14 & $dirty >> 3);
+      var tmp = margin_0(fillMaxWidth(Companion_getInstance_1()), get_px(20));
+      HorizontalDivider(tmp, null, $composer_0, 8, 2);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(introductionItem$lambda(title, description, $changed));
+    }
+  }
+  function introductionItemTitle(title, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1401274382);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(title) ? 4 : 2);
+    if (!(($dirty & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
+      // Inline function 'kotlin.run' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'com.my.profile.pages.introductionItemTitle.<anonymous>' call
+      var tmp = $composer_0;
+      var dispatchReceiver = composableLambda(tmp, -1808698479, true, introductionItemTitle$lambda(title));
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      $composer_1.startReplaceableGroup_ip860b_k$(1157296644);
+      sourceInformation($composer_1, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+      var it = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_0;
+      if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        // Inline function 'com.my.profile.pages.introductionItemTitle.<anonymous>.<anonymous>' call
+        var value = ComposableLambda$invoke$ref_18(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value);
+        tmp_0 = value;
+      } else {
+        tmp_0 = it;
+      }
+      var tmp_1 = tmp_0;
+      var tmp0 = (tmp_1 == null ? true : !(tmp_1 == null)) ? tmp_1 : THROW_CCE();
+      $composer_1.endReplaceableGroup_ern0ak_k$();
+      H3(null, tmp0, $composer_0, 48, 1);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(introductionItemTitle$lambda_0(title, $changed));
+    }
+  }
+  function introductionItemDescription(description, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(1460567254);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(description) ? 4 : 2);
+    if (!(($dirty & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
+      var tmp = lineHeight(Companion_getInstance_1(), 1.5);
+      SpanText(description, tmp, null, null, $composer_0, 64 | 14 & $dirty, 12);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(introductionItemDescription$lambda(description, $changed));
     }
   }
   function ComposableLambda$invoke$ref_16($boundThis) {
@@ -1306,10 +1398,10 @@
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
   }
-  function ComposableSingletons$Screen1Kt$lambda_1$lambda_doufmj($composer, $changed) {
+  function ComposableSingletons$IntroductionKt$lambda_1$lambda_x80tv2($composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
-      IntroductionContent($composer_0, 0);
+      introductionContent($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -1320,49 +1412,84 @@
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
   }
-  function ComposableSingletons$Screen1Kt$lambda_2$lambda_sin5ae($this$Box, $composer, $changed) {
+  function ComposableSingletons$IntroductionKt$lambda_2$lambda_8zgr1v($this$Column, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
-      Text('\uC790\uAE30\uC18C\uAC1C Content', $composer_0, 6);
+      introductionItem('\uC0AC\uC6A9\uC790 \uC785\uC7A5\uC5D0\uC11C \uBB38\uC81C\uB97C \uD574\uACB0\uD558\uAE30 \uC704\uD574 \uC5EC\uB7EC \uBC29\uD5A5\uC5D0\uC11C \uACE0\uBBFC\uD569\uB2C8\uB2E4.', '\uAC1C\uBC1C\uC790\uB294 \uBB38\uC81C\uB97C \uD574\uACB0\uD558\uB294 \uC0AC\uB78C\uC774\uB77C\uACE0 \uC0DD\uAC01\uD558\uBA70, \uC774\uB97C \uC704\uD574 \uD504\uB85C\uC81D\uD2B8\uB97C \uC804\uCCB4\uC801\uC73C\uB85C \uC774\uD574\uD558\uB294 \uAC83\uC774 \uC911\uC694\uD558\uB2E4\uACE0 \uC0DD\uAC01\uD569\uB2C8\uB2E4. \uC774\uC804 \uD68C\uC0AC\uC5D0\uC11C Android\uC640 \uBC31\uC5D4\uB4DC \uAC1C\uBC1C\uC744 \uBAA8\uB450 \uB2F4\uB2F9\uD558\uBA70 \uC694\uAD6C\uC0AC\uD56D \uBD84\uC11D, DB \uC124\uACC4, \uAC1C\uBC1C, \uBC30\uD3EC\uAE4C\uC9C0 \uD504\uB85C\uC81D\uD2B8 \uC804 \uACFC\uC815\uC744 \uACBD\uD5D8\uD588\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uD504\uB85C\uC81D\uD2B8\uC758 \uC804\uBC18\uC801\uC778 \uD750\uB984\uC744 \uC774\uD574\uD558\uAC8C \uB418\uC5C8\uACE0, \uB2E4\uC591\uD55C \uAD00\uC810\uC5D0\uC11C \uBB38\uC81C\uB97C \uD574\uACB0\uD558\uB294 \uC5ED\uB7C9\uC744 \uD0A4\uC6B8 \uC218 \uC788\uC5C8\uC2B5\uB2C8\uB2E4.\n\n\uD504\uB85C\uC81D\uD2B8 \uC9C4\uD589 \uC911\uC5D0 \uC571\uC5D0\uC11C \uC11C\uBC84\uC640 \uD1B5\uC2E0\uD558\uB294 \uACFC\uC815\uC5D0\uC11C \uC11C\uBC84\uC5D0\uC11C \uB0B4\uB824\uC624\uB294 \uB370\uC774\uD130\uC758 null \uCC98\uB9AC\uAC00 \uB418\uC9C0 \uC54A\uC544 \uC571\uC774 \uD06C\uB798\uC2DC\uB418\uB294 \uBB38\uC81C\uAC00 \uC788\uC5C8\uC2B5\uB2C8\uB2E4. \uC774\uB7F4 \uB54C\uB9C8\uB2E4 \uC571\uC744 \uC5C5\uB370\uC774\uD2B8\uD558\uAE30\uC5D0\uB294 \uC0AC\uC6A9\uC790\uC5D0\uAC8C \uBC88\uAC70\uB85C\uC6C0\uC774 \uC0DD\uAE38 \uAC83 \uAC19\uC544\uC11C, \uC11C\uBC84\uC5D0\uC11C null \uCC98\uB9AC\uB97C \uD558\uB3C4\uB85D \uC694\uCCAD\uD558\uC5EC \uC571\uC758 \uBD88\uD544\uC694\uD55C \uC5C5\uB370\uC774\uD2B8 \uC5C6\uC774 \uBB38\uC81C\uB97C \uD574\uACB0\uD560 \uC218 \uC788\uC5C8\uC2B5\uB2C8\uB2E4.\n\n\uC774\uCC98\uB7FC Android\uC5D0\uB9CC \uAD6D\uD55C\uB418\uC9C0 \uC54A\uACE0, \uC0AC\uC6A9\uC790 \uC785\uC7A5\uC5D0\uC11C \uCD5C\uC120\uC758 \uD574\uACB0\uCC45\uC744 \uCC3E\uAE30 \uC704\uD574 \uC5EC\uB7EC \uBC29\uBA74\uC5D0\uC11C \uACE0\uBBFC\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4.', $composer_0, 54);
+      introductionItem('\uCD5C\uC2E0\uAE30\uC220\uC744 \uBE60\uB974\uAC8C \uC2B5\uB4DD\uD558\uACE0 \uC2E4\uBB34\uC5D0 \uC801\uC6A9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.', '\uC774\uC804 \uD68C\uC0AC\uC5D0\uC11C \uC774\uCEE4\uBA38\uC2A4 \uC571\uC744 \uAC1C\uBC1C\uD558\uBA70 \uD654\uBA74 \uC218\uC640 UI \uBCF5\uC7A1\uC131\uC774 \uC99D\uAC00\uD558\uAC8C \uB418\uBA74\uC11C \uBC18\uBCF5 \uC791\uC5C5\uACFC \uCF54\uB4DC\uB7C9\uC774 \uB9CE\uC544\uC9C0\uB294 \uBB38\uC81C\uB97C \uACAA\uC5C8\uC2B5\uB2C8\uB2E4. \uC774 \uBB38\uC81C\uB97C \uD574\uACB0\uD558\uAE30 \uC704\uD574 JetPack Compose\uB97C \uB3C4\uC785\uD558\uC5EC \uC810\uC9C4\uC801\uC73C\uB85C \uC801\uC6A9\uD588\uACE0, UI \uCEF4\uD3EC\uB10C\uD2B8 \uC7AC\uC0AC\uC6A9\uC131\uC744 \uB192\uC5EC \uAC1C\uBC1C \uC18D\uB3C4\uC640 \uC720\uC9C0\uBCF4\uC218 \uD6A8\uC728\uC131\uC744 \uAC1C\uC120\uD55C \uACBD\uD5D8\uC774 \uC788\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uCF54\uB4DC\uB7C9\uC744 \uC904\uC774\uACE0, \uBCF5\uC7A1\uD55C UI \uC694\uAD6C\uC0AC\uD56D\uB3C4 \uD574\uACB0\uD560 \uC218 \uC788\uC5C8\uC2B5\uB2C8\uB2E4.', $composer_0, 54);
+      introductionItem('\uC548\uC815\uC801\uC774\uACE0 \uC2E0\uB8B0\uD560 \uC218 \uC788\uB294 \uCF54\uB4DC\uB97C \uC791\uC131\uD569\uB2C8\uB2E4.', '\uC548\uC815\uC801\uC774\uACE0 \uC2E0\uB8B0\uD560 \uC218 \uC788\uB294 \uCF54\uB4DC\uB97C \uC791\uC131\uD558\uAE30 \uC704\uD574\uC11C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC744 \uC911\uC694\uD558\uAC8C \uC0DD\uAC01\uD569\uB2C8\uB2E4. Unit Test, UI Test \uC791\uC131\uC73C\uB85C \uCF54\uB4DC\uC758 \uC548\uC815\uC131\uC744 \uB192\uC774\uB824\uACE0 \uB178\uB825\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uC2E4\uC81C\uB85C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC744 \uD1B5\uD574 \uBE44\uC988\uB2C8\uC2A4 \uB85C\uC9C1\uC774 \uC218\uC815\uB420 \uB54C, \uC608\uC0C1\uD558\uC9C0 \uBABB\uD55C \uC624\uB958\uB97C \uBBF8\uB9AC \uBC1C\uACAC\uD558\uACE0 \uD574\uACB0\uD55C \uACBD\uD5D8\uC774 \uB9CE\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC758 \uC911\uC694\uC131\uC744 \uB290\uB07C\uAC8C \uB418\uC5C8\uC2B5\uB2C8\uB2E4.\n\n', $composer_0, 54);
+      introductionItem('\uD22C\uBA85\uD55C \uC18C\uD1B5\uACFC \uD6A8\uC728\uC801\uC778 \uD611\uC5C5\uC744 \uC911\uC694\uC2DC\uD569\uB2C8\uB2E4.', '\uD504\uB85C\uC81D\uD2B8 \uC9C4\uD589 \uC911 \uBC1C\uC0DD\uD55C \uBB38\uC81C\uB098 \uC2E4\uC218\uB97C \uC194\uC9C1\uD558\uAC8C \uACF5\uC720\uD558\uB294 \uBB38\uD654\uB97C \uC911\uC694\uD558\uAC8C \uC0DD\uAC01\uD569\uB2C8\uB2E4. \uC774\uC804\uC5D0 \uD504\uB85C\uC81D\uD2B8 \uC9C4\uD589 \uC911\uC5D0, \uC678\uBD80 API \uBA85\uC138\uAC00 \uBCC0\uACBD\uB418\uC11C \uAD00\uB828 \uC791\uC5C5\uC744 \uD574\uC57C\uD588\uC9C0\uB9CC \uC774\uB97C \uBBF8\uB8E8\uB2E4 \uC78A\uC5B4\uBC84\uB9B0 \uC801\uC774 \uC788\uC5C8\uACE0, \uC774\uB97C \uAE09\uD558\uAC8C \uD574\uACB0\uD558\uB294 \uACFC\uC815\uC5D0\uC11C \uD300\uC6D0\uB4E4\uC5D0\uAC8C \uACF5\uC720\uD558\uC9C0 \uC54A\uC544 \uC77C\uC815\uC774 \uB2A6\uC5B4\uC9C4 \uC77C\uC774 \uC788\uC5C8\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uBB38\uC81C\uAC00 \uC0DD\uAE30\uBA74 \uBE60\uB974\uAC8C \uACF5\uC720\uD558\uC5EC \uD568\uAED8 \uD574\uACB0\uD558\uB294 \uAC83\uC774 \uC911\uC694\uD558\uB2E4\uB294 \uAC83\uC744 \uAE68\uB2EC\uC558\uC2B5\uB2C8\uB2E4. \uADF8 \uC774\uD6C4\uB85C\uB294 \uBB38\uC81C\uAC00 \uC0DD\uAE30\uBA74 \uD300\uC6D0\uB4E4\uACFC \uC989\uC2DC \uACF5\uC720\uD558\uC5EC \uD568\uAED8 \uD574\uACB0\uD558\uACE0 \uD504\uB85C\uC81D\uD2B8\uB97C \uC6D0\uD65C\uD558\uAC8C \uB9C8\uBB34\uB9AC \uD560 \uC218 \uC788\uC5C8\uC2B5\uB2C8\uB2E4.\n\n', $composer_0, 54);
+      introductionItem('\uC0AC\uC6A9\uC790 \uC911\uC2EC\uC758 UI/UX \uC124\uACC4\uB97C \uD1B5\uD574 \uC9C1\uAD00\uC801\uC778 \uC778\uD130\uD398\uC774\uC2A4\uB97C \uAD6C\uD604\uD569\uB2C8\uB2E4.', '\uC0AC\uC6A9\uC790 \uC911\uC2EC\uC758 UI/UX \uC124\uACC4\uB97C \uD1B5\uD574 \uB204\uAD6C\uB098 \uC27D\uAC8C \uC0AC\uC6A9\uD560 \uC218 \uC788\uB294 \uC9C1\uAD00\uC801\uC778 \uC778\uD130\uD398\uC774\uC2A4 \uAD6C\uD604\uC5D0 \uB178\uB825\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uC2A4\uB9C8\uD2B8\uD31C IoT \uD504\uB85C\uC81D\uD2B8\uC5D0\uC11C \uACE0\uB839\uCE35 \uC0AC\uC6A9\uC790\uC758 \uBD88\uD3B8\uC744 \uD574\uACB0\uD558\uAE30 \uC704\uD574 \uBC84\uD2BC\uC758 \uC704\uCE58\uC640 \uD06C\uAE30, \uD14D\uC2A4\uD2B8 \uD06C\uAE30\uB97C \uD0A4\uC6B0\uB294 \uB4F1 UI\uB97C \uAC1C\uC120\uD55C \uACBD\uD5D8\uC774 \uC788\uC73C\uBA70, \uC774\uB97C \uD1B5\uD574 \uC0AC\uC6A9\uC790 \uC911\uC2EC\uC758 UI/UX \uC124\uACC4\uAC00 \uC911\uC694\uD558\uB2E4\uB294 \uAC83\uC744 \uB290\uB07C\uAC8C \uB418\uC5C8\uC2B5\uB2C8\uB2E4.', $composer_0, 54);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
     return Unit_getInstance();
   }
-  function ComposableSingletons$Screen1Kt() {
-    ComposableSingletons$Screen1Kt_instance = this;
+  function ComposableSingletons$IntroductionKt() {
+    ComposableSingletons$IntroductionKt_instance = this;
     var tmp = this;
-    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_16(composableLambdaInstance(-1656242082, false, ComposableSingletons$Screen1Kt$lambda_1$lambda_doufmj));
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_16(composableLambdaInstance(311903601, false, ComposableSingletons$IntroductionKt$lambda_1$lambda_x80tv2));
     var tmp_0 = this;
-    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_17(composableLambdaInstance(-1567303150, false, ComposableSingletons$Screen1Kt$lambda_2$lambda_sin5ae));
+    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_17(composableLambdaInstance(-2115740178, false, ComposableSingletons$IntroductionKt$lambda_2$lambda_8zgr1v));
   }
-  protoOf(ComposableSingletons$Screen1Kt).get_lambda_1_lx0epu_k$ = function () {
+  protoOf(ComposableSingletons$IntroductionKt).get_lambda_1_lx0epu_k$ = function () {
     return this.lambda_1_r8sbbp_1;
   };
-  protoOf(ComposableSingletons$Screen1Kt).get_lambda_2_mfh9r5_k$ = function () {
+  protoOf(ComposableSingletons$IntroductionKt).get_lambda_2_mfh9r5_k$ = function () {
     return this.lambda_2_r8sbbo_1;
   };
-  var ComposableSingletons$Screen1Kt_instance;
-  function ComposableSingletons$Screen1Kt_getInstance() {
-    if (ComposableSingletons$Screen1Kt_instance == null)
-      new ComposableSingletons$Screen1Kt();
-    return ComposableSingletons$Screen1Kt_instance;
+  var ComposableSingletons$IntroductionKt_instance;
+  function ComposableSingletons$IntroductionKt_getInstance() {
+    if (ComposableSingletons$IntroductionKt_instance == null)
+      new ComposableSingletons$IntroductionKt();
+    return ComposableSingletons$IntroductionKt_instance;
   }
-  function IntroductionPage$lambda($$changed) {
+  function introductionPage$lambda($$changed) {
     return function ($composer, $force) {
-      IntroductionPage($composer, updateChangedFlags($$changed | 1));
+      introductionPage($composer, updateChangedFlags($$changed | 1));
       return Unit_getInstance();
     };
   }
-  function Introduction$lambda($$changed) {
+  function introduction$lambda($$changed) {
     return function ($composer, $force) {
-      Introduction($composer, updateChangedFlags($$changed | 1));
+      introduction($composer, updateChangedFlags($$changed | 1));
       return Unit_getInstance();
     };
   }
-  function IntroductionContent$lambda($$changed) {
+  function introductionContent$lambda($$changed) {
     return function ($composer, $force) {
-      IntroductionContent($composer, updateChangedFlags($$changed | 1));
+      introductionContent($composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function introductionItem$lambda($title, $description, $$changed) {
+    return function ($composer, $force) {
+      introductionItem($title, $description, $composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function introductionItemTitle$lambda($title) {
+    return function ($this$H3, $composer, $changed) {
+      var $composer_0 = $composer;
+      var tmp = fontWeight(Companion_getInstance_1(), Companion_getInstance_3().get_Bold_wnz5ke_k$());
+      SpanText($title, tmp, null, null, $composer_0, 64, 12);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_18($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function introductionItemTitle$lambda_0($title, $$changed) {
+    return function ($composer, $force) {
+      introductionItemTitle($title, $composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function introductionItemDescription$lambda($description, $$changed) {
+    return function ($composer, $force) {
+      introductionItemDescription($description, $composer, updateChangedFlags($$changed | 1));
       return Unit_getInstance();
     };
   }
@@ -1413,7 +1540,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(Screen2Content$lambda($changed));
     }
   }
-  function ComposableLambda$invoke$ref_18($boundThis) {
+  function ComposableLambda$invoke$ref_19($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -1427,7 +1554,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_19($boundThis) {
+  function ComposableLambda$invoke$ref_20($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -1444,9 +1571,9 @@
   function ComposableSingletons$Screen2Kt() {
     ComposableSingletons$Screen2Kt_instance = this;
     var tmp = this;
-    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_18(composableLambdaInstance(-104865965, false, ComposableSingletons$Screen2Kt$lambda_1$lambda_9xj1g));
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_19(composableLambdaInstance(-104865965, false, ComposableSingletons$Screen2Kt$lambda_1$lambda_9xj1g));
     var tmp_0 = this;
-    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_19(composableLambdaInstance(432589261, false, ComposableSingletons$Screen2Kt$lambda_2$lambda_sjoy0r));
+    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_20(composableLambdaInstance(432589261, false, ComposableSingletons$Screen2Kt$lambda_2$lambda_sjoy0r));
   }
   protoOf(ComposableSingletons$Screen2Kt).get_lambda_1_lx0epu_k$ = function () {
     return this.lambda_1_r8sbbp_1;
@@ -1525,7 +1652,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(Screen3Content$lambda($changed));
     }
   }
-  function ComposableLambda$invoke$ref_20($boundThis) {
+  function ComposableLambda$invoke$ref_21($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -1539,7 +1666,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_21($boundThis) {
+  function ComposableLambda$invoke$ref_22($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -1556,9 +1683,9 @@
   function ComposableSingletons$Screen3Kt() {
     ComposableSingletons$Screen3Kt_instance = this;
     var tmp = this;
-    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_20(composableLambdaInstance(864744849, false, ComposableSingletons$Screen3Kt$lambda_1$lambda_e8phpf));
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_21(composableLambdaInstance(864744849, false, ComposableSingletons$Screen3Kt$lambda_1$lambda_e8phpf));
     var tmp_0 = this;
-    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_21(composableLambdaInstance(1126011757, false, ComposableSingletons$Screen3Kt$lambda_2$lambda_ekwzcs));
+    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_22(composableLambdaInstance(1126011757, false, ComposableSingletons$Screen3Kt$lambda_2$lambda_ekwzcs));
   }
   protoOf(ComposableSingletons$Screen3Kt).get_lambda_1_lx0epu_k$ = function () {
     return this.lambda_1_r8sbbp_1;
@@ -1640,7 +1767,7 @@
   }
   //region block: init
   com_my_profile_navigation_Screen_Home$stable = 0;
-  com_my_profile_navigation_Screen_Screen1$stable = 0;
+  com_my_profile_navigation_Screen_Introduction$stable = 0;
   com_my_profile_navigation_Screen_Screen2$stable = 0;
   com_my_profile_navigation_Screen_Screen3$stable = 0;
   com_my_profile_navigation_Screen$stable = 0;

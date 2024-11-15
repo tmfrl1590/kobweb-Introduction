@@ -235,8 +235,8 @@ if (typeof String.prototype.endsWith === 'undefined') {
   initMetadataForInterface(Function1, 'Function1');
   initMetadataForInterface(Function20, 'Function20');
   initMetadataForInterface(Function2, 'Function2');
-  initMetadataForInterface(Function4, 'Function4');
   initMetadataForInterface(Function3, 'Function3');
+  initMetadataForInterface(Function4, 'Function4');
   initMetadataForInterface(Function6, 'Function6');
   initMetadataForInterface(Function5, 'Function5');
   initMetadataForInterface(Function7, 'Function7');
@@ -5896,9 +5896,9 @@ if (typeof String.prototype.endsWith === 'undefined') {
   }
   function Function2() {
   }
-  function Function4() {
-  }
   function Function3() {
+  }
+  function Function4() {
   }
   function Function6() {
   }

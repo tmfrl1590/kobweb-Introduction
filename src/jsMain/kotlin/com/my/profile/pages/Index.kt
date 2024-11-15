@@ -18,7 +18,6 @@ import org.jetbrains.compose.web.css.px
 @Page
 @Composable
 fun HomePage() {
-
     HomeScreen()
 }
 

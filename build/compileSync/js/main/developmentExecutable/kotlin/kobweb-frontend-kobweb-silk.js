@@ -30,7 +30,7 @@
   var THROW_CCE = kotlin_kotlin.$_$.bf;
   var KobwebApp = kotlin_com_varabyte_kobweb_kobweb_core.$_$.c;
   var Unit_getInstance = kotlin_kotlin.$_$.m4;
-  var setSilkWidgetVariables = kotlin_com_varabyte_kobweb_silk_widgets.$_$.c;
+  var setSilkWidgetVariables = kotlin_com_varabyte_kobweb_silk_widgets.$_$.d;
   var prepareSilkFoundation = kotlin_com_varabyte_kobweb_silk_foundation.$_$.i1;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
   //endregion

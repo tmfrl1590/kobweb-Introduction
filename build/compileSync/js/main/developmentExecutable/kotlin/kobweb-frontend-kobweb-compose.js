@@ -3494,14 +3494,19 @@
   function zIndex_0(_this__u8e3s4, value) {
     return styleModifier(_this__u8e3s4, zIndex$lambda(value));
   }
-  function margin_1(_this__u8e3s4, top, leftRight, bottom) {
+  function margin_1(_this__u8e3s4, topBottom, leftRight) {
+    topBottom = topBottom === VOID ? get_px(0) : topBottom;
+    leftRight = leftRight === VOID ? get_px(0) : leftRight;
+    return styleModifier(_this__u8e3s4, margin$lambda_0(topBottom, leftRight));
+  }
+  function margin_2(_this__u8e3s4, top, leftRight, bottom) {
     top = top === VOID ? get_px(0) : top;
     leftRight = leftRight === VOID ? get_px(0) : leftRight;
     bottom = bottom === VOID ? get_px(0) : bottom;
-    return styleModifier(_this__u8e3s4, margin$lambda_0(top, leftRight, bottom));
+    return styleModifier(_this__u8e3s4, margin$lambda_1(top, leftRight, bottom));
   }
-  function margin_2(_this__u8e3s4, all) {
-    return styleModifier(_this__u8e3s4, margin$lambda_1(all));
+  function margin_3(_this__u8e3s4, all) {
+    return styleModifier(_this__u8e3s4, margin$lambda_2(all));
   }
   function verticalAlign_0(_this__u8e3s4, verticalAlign) {
     return styleModifier(_this__u8e3s4, verticalAlign$lambda(verticalAlign));
@@ -3554,13 +3559,19 @@
       return Unit_getInstance();
     };
   }
-  function margin$lambda_0($top, $leftRight, $bottom) {
+  function margin$lambda_0($topBottom, $leftRight) {
+    return function ($this$styleModifier) {
+      margin($this$styleModifier, [$topBottom, $leftRight]);
+      return Unit_getInstance();
+    };
+  }
+  function margin$lambda_1($top, $leftRight, $bottom) {
     return function ($this$styleModifier) {
       margin($this$styleModifier, [$top, $leftRight, $bottom]);
       return Unit_getInstance();
     };
   }
-  function margin$lambda_1($all) {
+  function margin$lambda_2($all) {
     return function ($this$styleModifier) {
       margin($this$styleModifier, [$all]);
       return Unit_getInstance();
@@ -3912,46 +3923,47 @@
   _.$_$.g1 = lineHeight_0;
   _.$_$.h1 = listStyle_0;
   _.$_$.i1 = margin_0;
-  _.$_$.j1 = margin_2;
+  _.$_$.j1 = margin_3;
   _.$_$.k1 = margin_1;
-  _.$_$.l1 = minHeight_0;
-  _.$_$.m1 = minWidth_0;
-  _.$_$.n1 = objectFit_0;
-  _.$_$.o1 = onClick;
-  _.$_$.p1 = opacity_0;
-  _.$_$.q1 = outline_0;
-  _.$_$.r1 = overflow_1;
-  _.$_$.s1 = overflow_0;
-  _.$_$.t1 = paddingInline_0;
-  _.$_$.u1 = padding_0;
-  _.$_$.v1 = padding_1;
-  _.$_$.w1 = position_0;
-  _.$_$.x1 = right_0;
-  _.$_$.y1 = setVariable_0;
-  _.$_$.z1 = size;
-  _.$_$.a2 = tabIndex;
-  _.$_$.b2 = textAlign_0;
-  _.$_$.c2 = textDecorationLine_0;
-  _.$_$.d2 = top_0;
-  _.$_$.e2 = transition_1;
-  _.$_$.f2 = transition_0;
-  _.$_$.g2 = translateX_0;
-  _.$_$.h2 = userSelect_0;
-  _.$_$.i2 = verticalAlign_0;
-  _.$_$.j2 = whiteSpace_0;
-  _.$_$.k2 = width_0;
-  _.$_$.l2 = zIndex_0;
-  _.$_$.m2 = styleModifier;
-  _.$_$.n2 = toAttrs;
-  _.$_$.o2 = toStyles;
-  _.$_$.p2 = Center_getInstance;
-  _.$_$.q2 = SpaceBetween_getInstance;
-  _.$_$.r2 = KobwebComposeStyleSheet_getInstance;
-  _.$_$.s2 = Companion_getInstance_10;
-  _.$_$.t2 = Colors_getInstance;
-  _.$_$.u2 = CenterVertically_getInstance;
-  _.$_$.v2 = Center_getInstance_0;
-  _.$_$.w2 = Companion_getInstance_9;
+  _.$_$.l1 = margin_2;
+  _.$_$.m1 = minHeight_0;
+  _.$_$.n1 = minWidth_0;
+  _.$_$.o1 = objectFit_0;
+  _.$_$.p1 = onClick;
+  _.$_$.q1 = opacity_0;
+  _.$_$.r1 = outline_0;
+  _.$_$.s1 = overflow_1;
+  _.$_$.t1 = overflow_0;
+  _.$_$.u1 = paddingInline_0;
+  _.$_$.v1 = padding_0;
+  _.$_$.w1 = padding_1;
+  _.$_$.x1 = position_0;
+  _.$_$.y1 = right_0;
+  _.$_$.z1 = setVariable_0;
+  _.$_$.a2 = size;
+  _.$_$.b2 = tabIndex;
+  _.$_$.c2 = textAlign_0;
+  _.$_$.d2 = textDecorationLine_0;
+  _.$_$.e2 = top_0;
+  _.$_$.f2 = transition_1;
+  _.$_$.g2 = transition_0;
+  _.$_$.h2 = translateX_0;
+  _.$_$.i2 = userSelect_0;
+  _.$_$.j2 = verticalAlign_0;
+  _.$_$.k2 = whiteSpace_0;
+  _.$_$.l2 = width_0;
+  _.$_$.m2 = zIndex_0;
+  _.$_$.n2 = styleModifier;
+  _.$_$.o2 = toAttrs;
+  _.$_$.p2 = toStyles;
+  _.$_$.q2 = Center_getInstance;
+  _.$_$.r2 = SpaceBetween_getInstance;
+  _.$_$.s2 = KobwebComposeStyleSheet_getInstance;
+  _.$_$.t2 = Companion_getInstance_10;
+  _.$_$.u2 = Colors_getInstance;
+  _.$_$.v2 = CenterVertically_getInstance;
+  _.$_$.w2 = Center_getInstance_0;
+  _.$_$.x2 = Companion_getInstance_9;
   //endregion
   return _;
 }));

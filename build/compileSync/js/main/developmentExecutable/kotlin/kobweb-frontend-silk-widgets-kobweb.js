@@ -37,16 +37,16 @@
   var ComponentKind = kotlin_com_varabyte_kobweb_silk_foundation.$_$.p;
   var initMetadataForInterface = kotlin_kotlin.$_$.ab;
   var VOID = kotlin_kotlin.$_$.f;
-  var get_BorderColorVar = kotlin_com_varabyte_kobweb_silk_widgets.$_$.e;
+  var get_BorderColorVar = kotlin_com_varabyte_kobweb_silk_widgets.$_$.f;
   var StyleVariable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.g;
   var initMetadataForObject = kotlin_kotlin.$_$.cb;
-  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
+  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x2;
   var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.i2;
   var listStyle = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.h1;
   var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.l2;
-  var textAlign = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b2;
+  var textAlign = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c2;
   var get_cssRem = kotlin_org_jetbrains_compose_html_html_core.$_$.r3;
-  var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u1;
+  var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v1;
   var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.q4;
   var borderRadius = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m;
   var Companion_getInstance_2 = kotlin_org_jetbrains_compose_html_html_core.$_$.k;
@@ -58,7 +58,7 @@
   var addVariantBase = kotlin_com_varabyte_kobweb_silk_foundation.$_$.t;
   var Companion_getInstance_4 = kotlin_org_jetbrains_compose_html_html_core.$_$.h;
   var display = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w;
-  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n2;
+  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o2;
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
   var Companion_getInstance_5 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f1;
@@ -67,12 +67,12 @@
   var Companion_getInstance_6 = kotlin_com_varabyte_kobweb_kobweb_core.$_$.i;
   var prependIf = kotlin_com_varabyte_kobweb_kobweb_core.$_$.f;
   var toModifier = kotlin_com_varabyte_kobweb_silk_foundation.$_$.y;
-  var Img = kotlin_org_jetbrains_compose_html_html_core.$_$.a5;
+  var Img = kotlin_org_jetbrains_compose_html_html_core.$_$.c5;
   var Unit_getInstance = kotlin_kotlin.$_$.m4;
   var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.o4;
-  var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k2;
+  var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l2;
   var Companion_getInstance_7 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.j2;
-  var objectFit = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n1;
+  var objectFit = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o1;
   var registerRefScope = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.x1;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
   var CssStyle = kotlin_com_varabyte_kobweb_silk_foundation.$_$.r;
@@ -81,15 +81,15 @@
   var get_visited = kotlin_com_varabyte_kobweb_silk_foundation.$_$.o;
   var get_hover = kotlin_com_varabyte_kobweb_silk_foundation.$_$.k;
   var Companion_getInstance_8 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.m2;
-  var textDecorationLine = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c2;
+  var textDecorationLine = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.d2;
   var color = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u;
-  var get_ColorVar = kotlin_com_varabyte_kobweb_silk_widgets.$_$.f;
+  var get_ColorVar = kotlin_com_varabyte_kobweb_silk_widgets.$_$.g;
   var addVariant = kotlin_com_varabyte_kobweb_silk_foundation.$_$.u;
-  var Colors_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.t2;
-  var get_SilkColorsStyle = kotlin_com_varabyte_kobweb_silk_widgets.$_$.a;
+  var Colors_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u2;
+  var get_SilkColorsStyle = kotlin_com_varabyte_kobweb_silk_widgets.$_$.b;
   var modifyStyleBase = kotlin_com_varabyte_kobweb_silk_foundation.$_$.g1;
   var toPalette = kotlin_com_varabyte_kobweb_silk_foundation.$_$.d1;
-  var setVariable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y1;
+  var setVariable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.z1;
   var ColorGroup = kotlin_com_varabyte_kobweb_silk_foundation.$_$.a1;
   var initMetadataForClass = kotlin_kotlin.$_$.xa;
   var MutablePalette = kotlin_com_varabyte_kobweb_silk_foundation.$_$.b1;
@@ -175,6 +175,8 @@
     return FitWidthImageVariant;
   }
   var FitWidthImageVariant;
+  function ImageKind() {
+  }
   function Image(src, modifier, variant, width, height, alt, autoPrefix, ref, $composer, $changed, $default) {
     _init_properties_Image_kt__h9v8mh();
     var modifier_0 = {_v: modifier};
@@ -311,8 +313,6 @@
     else {
       tmp1_safe_receiver.updateScope_t8jcf_k$(Image$lambda_1(src, modifier_0, variant_0, width_0, height_0, alt_0, autoPrefix_0, ref_0, $changed, $default));
     }
-  }
-  function ImageKind() {
   }
   function ImageStyle$lambda($this$CssStyle) {
     _init_properties_Image_kt__h9v8mh();
