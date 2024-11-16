@@ -67,10 +67,10 @@ fun NavigationItems() {
     NavigationItem(
         modifier = Modifier.margin(bottom = 24.px),
         title = "자격증",
-        selected = context.route.path == Screen.Screen3.route,
+        selected = context.route.path == Screen.Certification.route,
         //icon = Res.PathIcon.home,
         onClick = {
-            context.router.navigateTo(Screen.Screen3.route)
+            context.router.navigateTo(Screen.Certification.route)
         }
     )
 }

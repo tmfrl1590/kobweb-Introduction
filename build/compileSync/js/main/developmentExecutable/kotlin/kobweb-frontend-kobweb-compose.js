@@ -3465,6 +3465,12 @@
   function padding_0(_this__u8e3s4, all) {
     return styleModifier(_this__u8e3s4, padding$lambda(all));
   }
+  function padding_1(_this__u8e3s4, top, leftRight, bottom) {
+    top = top === VOID ? get_px(0) : top;
+    leftRight = leftRight === VOID ? get_px(0) : leftRight;
+    bottom = bottom === VOID ? get_px(0) : bottom;
+    return styleModifier(_this__u8e3s4, padding$lambda_0(top, leftRight, bottom));
+  }
   function margin_0(_this__u8e3s4, top, right, bottom, left) {
     top = top === VOID ? get_px(0) : top;
     right = right === VOID ? get_px(0) : right;
@@ -3475,10 +3481,10 @@
   function lineHeight_0(_this__u8e3s4, value) {
     return styleModifier(_this__u8e3s4, lineHeight$lambda(value));
   }
-  function padding_1(_this__u8e3s4, topBottom, leftRight) {
+  function padding_2(_this__u8e3s4, topBottom, leftRight) {
     topBottom = topBottom === VOID ? get_px(0) : topBottom;
     leftRight = leftRight === VOID ? get_px(0) : leftRight;
-    return styleModifier(_this__u8e3s4, padding$lambda_0(topBottom, leftRight));
+    return styleModifier(_this__u8e3s4, padding$lambda_1(topBottom, leftRight));
   }
   function overflow_0(_this__u8e3s4, overflow) {
     return styleModifier(_this__u8e3s4, overflow$lambda(overflow));
@@ -3517,6 +3523,12 @@
       return Unit_getInstance();
     };
   }
+  function padding$lambda_0($top, $leftRight, $bottom) {
+    return function ($this$styleModifier) {
+      padding($this$styleModifier, [$top, $leftRight, $bottom]);
+      return Unit_getInstance();
+    };
+  }
   function margin$lambda($top, $right, $bottom, $left) {
     return function ($this$styleModifier) {
       margin($this$styleModifier, [$top, $right, $bottom, $left]);
@@ -3529,7 +3541,7 @@
       return Unit_getInstance();
     };
   }
-  function padding$lambda_0($topBottom, $leftRight) {
+  function padding$lambda_1($topBottom, $leftRight) {
     return function ($this$styleModifier) {
       padding($this$styleModifier, [$topBottom, $leftRight]);
       return Unit_getInstance();
@@ -3675,11 +3687,11 @@
     };
   }
   var com_varabyte_kobweb_compose_ui_modifiers_OverscrollBehaviorScope$stable;
-  function height_0(_this__u8e3s4, size) {
-    return styleModifier(_this__u8e3s4, height$lambda(size));
-  }
   function size(_this__u8e3s4, size) {
     return size_0(_this__u8e3s4, size, size);
+  }
+  function height_0(_this__u8e3s4, size) {
+    return styleModifier(_this__u8e3s4, height$lambda(size));
   }
   function width_0(_this__u8e3s4, size) {
     return styleModifier(_this__u8e3s4, width$lambda(size));
@@ -3937,33 +3949,34 @@
   _.$_$.u1 = paddingInline_0;
   _.$_$.v1 = padding_0;
   _.$_$.w1 = padding_1;
-  _.$_$.x1 = position_0;
-  _.$_$.y1 = right_0;
-  _.$_$.z1 = setVariable_0;
-  _.$_$.a2 = size;
-  _.$_$.b2 = tabIndex;
-  _.$_$.c2 = textAlign_0;
-  _.$_$.d2 = textDecorationLine_0;
-  _.$_$.e2 = top_0;
-  _.$_$.f2 = transition_1;
-  _.$_$.g2 = transition_0;
-  _.$_$.h2 = translateX_0;
-  _.$_$.i2 = userSelect_0;
-  _.$_$.j2 = verticalAlign_0;
-  _.$_$.k2 = whiteSpace_0;
-  _.$_$.l2 = width_0;
-  _.$_$.m2 = zIndex_0;
-  _.$_$.n2 = styleModifier;
-  _.$_$.o2 = toAttrs;
-  _.$_$.p2 = toStyles;
-  _.$_$.q2 = Center_getInstance;
-  _.$_$.r2 = SpaceBetween_getInstance;
-  _.$_$.s2 = KobwebComposeStyleSheet_getInstance;
-  _.$_$.t2 = Companion_getInstance_10;
-  _.$_$.u2 = Colors_getInstance;
-  _.$_$.v2 = CenterVertically_getInstance;
-  _.$_$.w2 = Center_getInstance_0;
-  _.$_$.x2 = Companion_getInstance_9;
+  _.$_$.x1 = padding_2;
+  _.$_$.y1 = position_0;
+  _.$_$.z1 = right_0;
+  _.$_$.a2 = setVariable_0;
+  _.$_$.b2 = size;
+  _.$_$.c2 = tabIndex;
+  _.$_$.d2 = textAlign_0;
+  _.$_$.e2 = textDecorationLine_0;
+  _.$_$.f2 = top_0;
+  _.$_$.g2 = transition_1;
+  _.$_$.h2 = transition_0;
+  _.$_$.i2 = translateX_0;
+  _.$_$.j2 = userSelect_0;
+  _.$_$.k2 = verticalAlign_0;
+  _.$_$.l2 = whiteSpace_0;
+  _.$_$.m2 = width_0;
+  _.$_$.n2 = zIndex_0;
+  _.$_$.o2 = styleModifier;
+  _.$_$.p2 = toAttrs;
+  _.$_$.q2 = toStyles;
+  _.$_$.r2 = Center_getInstance;
+  _.$_$.s2 = SpaceBetween_getInstance;
+  _.$_$.t2 = KobwebComposeStyleSheet_getInstance;
+  _.$_$.u2 = Companion_getInstance_10;
+  _.$_$.v2 = Colors_getInstance;
+  _.$_$.w2 = CenterVertically_getInstance;
+  _.$_$.x2 = Center_getInstance_0;
+  _.$_$.y2 = Companion_getInstance_9;
   //endregion
   return _;
 }));

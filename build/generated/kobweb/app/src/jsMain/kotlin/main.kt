@@ -84,9 +84,9 @@ public fun main() {
     val router = Router()
     com.varabyte.kobweb.core.init.initKobweb(router) { ctx ->
         ctx.router.register("/") { com.my.profile.pages.HomePage() }
+        ctx.router.register("/certification") { com.my.profile.pages.certificationPage() }
         ctx.router.register("/introduction") { com.my.profile.pages.introductionPage() }
         ctx.router.register("/screen2") { com.my.profile.pages.Screen2Page() }
-        ctx.router.register("/screen3") { com.my.profile.pages.Screen3Page() }
 
     }
     router.addRouteInterceptor {

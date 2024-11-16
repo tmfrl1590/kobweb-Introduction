@@ -83,42 +83,44 @@
   var get_vh = kotlin_org_jetbrains_compose_html_html_core.$_$.w4;
   var minHeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m1;
   var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.q4;
-  var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w1;
+  var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x1;
   var backgroundColor = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.j;
-  var Center_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
+  var Center_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x2;
   var Box = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
-  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x2;
-  var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l2;
+  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y2;
+  var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m2;
   var fillMaxHeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x;
-  var Center_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q2;
+  var Center_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r2;
   var Row = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c;
   var Color_getInstance = kotlin_org_jetbrains_compose_html_html_core.$_$.g;
   var Color = kotlin_org_jetbrains_compose_html_html_core.$_$.t2;
-  var zIndex = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m2;
+  var zIndex = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n2;
   var Column = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b;
   var rememberPageContext = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
   var margin = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l1;
   var Companion_getInstance_2 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.e2;
   var cursor = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v;
   var onClick = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p1;
-  var CenterVertically_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v2;
+  var CenterVertically_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
   var fontSize = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a1;
   var color = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u;
   var SpanText = kotlin_com_varabyte_kobweb_silk_foundation.$_$.a;
   var initMetadataForClass = kotlin_kotlin.$_$.xa;
-  var fontWeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b1;
-  var size = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a2;
-  var Image = kotlin_com_varabyte_kobweb_silk_widgets_kobweb.$_$.a;
-  var SpaceBetween_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r2;
-  var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.f2;
   var padding_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v1;
   var fillMaxWidth = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y;
-  var margin_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k1;
+  var H3 = kotlin_org_jetbrains_compose_html_html_core.$_$.b5;
+  var padding_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w1;
+  var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.f2;
+  var fontWeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b1;
+  var H2 = kotlin_org_jetbrains_compose_html_html_core.$_$.a5;
   var HorizontalDivider = kotlin_com_varabyte_kobweb_silk_widgets.$_$.a;
-  var H3 = kotlin_org_jetbrains_compose_html_html_core.$_$.a5;
+  var size = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b2;
+  var Image = kotlin_com_varabyte_kobweb_silk_widgets_kobweb.$_$.a;
+  var SpaceBetween_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s2;
+  var margin_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k1;
   var lineHeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g1;
-  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.f5;
+  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.g5;
   //endregion
   //region block: pre-declaration
   initMetadataForObject(ComposableSingletons$MainKt, 'ComposableSingletons$MainKt');
@@ -127,11 +129,11 @@
   initMetadataForObject(Home, 'Home', VOID, Screen);
   initMetadataForObject(Introduction, 'Introduction', VOID, Screen);
   initMetadataForObject(Screen2, 'Screen2', VOID, Screen);
-  initMetadataForObject(Screen3, 'Screen3', VOID, Screen);
+  initMetadataForObject(Certification, 'Certification', VOID, Screen);
+  initMetadataForObject(ComposableSingletons$CertificationKt, 'ComposableSingletons$CertificationKt');
   initMetadataForObject(ComposableSingletons$IndexKt, 'ComposableSingletons$IndexKt');
   initMetadataForObject(ComposableSingletons$IntroductionKt, 'ComposableSingletons$IntroductionKt');
   initMetadataForObject(ComposableSingletons$Screen2Kt, 'ComposableSingletons$Screen2Kt');
-  initMetadataForObject(ComposableSingletons$Screen3Kt, 'ComposableSingletons$Screen3Kt');
   initMetadataForObject(Image_0, 'Image');
   initMetadataForObject(Res, 'Res');
   //endregion
@@ -202,7 +204,7 @@
   function ComposableSingletons$MainKt$lambda_2$lambda_dts8wk($composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
-      introductionPage($composer_0, 0);
+      certificationPage($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -216,7 +218,7 @@
   function ComposableSingletons$MainKt$lambda_3$lambda_ezu85n($composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
-      Screen2Page($composer_0, 0);
+      introductionPage($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -230,7 +232,7 @@
   function ComposableSingletons$MainKt$lambda_4$lambda_r7ncra($composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
-      Screen3Page($composer_0, 0);
+      Screen2Page($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -408,9 +410,9 @@
   }
   function main$lambda(ctx) {
     ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/', VOID, ComposableSingletons$MainKt_getInstance().lambda_1_r8sbbp_1);
-    ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/introduction', VOID, ComposableSingletons$MainKt_getInstance().lambda_2_r8sbbo_1);
-    ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/screen2', VOID, ComposableSingletons$MainKt_getInstance().lambda_3_r8sbbn_1);
-    ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/screen3', VOID, ComposableSingletons$MainKt_getInstance().lambda_4_r8sbbm_1);
+    ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/certification', VOID, ComposableSingletons$MainKt_getInstance().lambda_2_r8sbbo_1);
+    ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/introduction', VOID, ComposableSingletons$MainKt_getInstance().lambda_3_r8sbbn_1);
+    ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/screen2', VOID, ComposableSingletons$MainKt_getInstance().lambda_4_r8sbbm_1);
     return Unit_getInstance();
   }
   function main$lambda_0($this$addRouteInterceptor) {
@@ -725,7 +727,7 @@
       var tmp8_selected = context.get_route_iy3cio_k$().get_path_wos8ry_k$() === Screen2_getInstance().get_route_iy3cio_k$();
       NavigationItem(tmp7_modifier, tmp8_selected, '\uACBD\uB825', NavigationItems$lambda_1(context), $composer_0, 392, 0);
       var tmp9_modifier = margin(Companion_getInstance_1(), VOID, VOID, get_px(24));
-      var tmp10_selected = context.get_route_iy3cio_k$().get_path_wos8ry_k$() === Screen3_getInstance().get_route_iy3cio_k$();
+      var tmp10_selected = context.get_route_iy3cio_k$().get_path_wos8ry_k$() === Certification_getInstance().get_route_iy3cio_k$();
       NavigationItem(tmp9_modifier, tmp10_selected, '\uC790\uACA9\uC99D', NavigationItems$lambda_2(context), $composer_0, 392, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
@@ -765,7 +767,7 @@
         selected_0._v = false;
       }
       var tmp = cursor(Companion_getInstance_1().then_mmfvo6_k$(modifier_0._v), Companion_getInstance_2().get_Pointer_m64vg4_k$());
-      $composer_0.startReplaceableGroup_ip860b_k$(62692020);
+      $composer_0.startReplaceableGroup_ip860b_k$(62692404);
       // Inline function 'androidx.compose.runtime.cache' call
       var this_0 = $composer_0;
       var invalid = ($dirty & 7168) === 2048;
@@ -885,7 +887,7 @@
   }
   function NavigationItems$lambda_2($context) {
     return function () {
-      $context.get_router_j3zccy_k$().navigateTo$default_onbd51_k$(Screen3_getInstance().get_route_iy3cio_k$());
+      $context.get_router_j3zccy_k$().navigateTo$default_onbd51_k$(Certification_getInstance().get_route_iy3cio_k$());
       return Unit_getInstance();
     };
   }
@@ -941,7 +943,7 @@
   var com_my_profile_navigation_Screen_Home$stable;
   var com_my_profile_navigation_Screen_Introduction$stable;
   var com_my_profile_navigation_Screen_Screen2$stable;
-  var com_my_profile_navigation_Screen_Screen3$stable;
+  var com_my_profile_navigation_Screen_Certification$stable;
   var com_my_profile_navigation_Screen$stable;
   function Home() {
     Home_instance = this;
@@ -1015,29 +1017,29 @@
       new Screen2();
     return Screen2_instance;
   }
-  function Screen3() {
-    Screen3_instance = this;
-    Screen.call(this, '/screen3');
+  function Certification() {
+    Certification_instance = this;
+    Screen.call(this, '/certification');
   }
-  protoOf(Screen3).toString = function () {
-    return 'Screen3';
+  protoOf(Certification).toString = function () {
+    return 'Certification';
   };
-  protoOf(Screen3).hashCode = function () {
-    return 41987429;
+  protoOf(Certification).hashCode = function () {
+    return -134830504;
   };
-  protoOf(Screen3).equals = function (other) {
+  protoOf(Certification).equals = function (other) {
     if (this === other)
       return true;
-    if (!(other instanceof Screen3))
+    if (!(other instanceof Certification))
       return false;
-    other instanceof Screen3 || THROW_CCE();
+    other instanceof Certification || THROW_CCE();
     return true;
   };
-  var Screen3_instance;
-  function Screen3_getInstance() {
-    if (Screen3_instance == null)
-      new Screen3();
-    return Screen3_instance;
+  var Certification_instance;
+  function Certification_getInstance() {
+    if (Certification_instance == null)
+      new Certification();
+    return Certification_instance;
   }
   function Screen(route) {
     this.route_1 = route;
@@ -1054,11 +1056,308 @@
   function com_my_profile_navigation_Screen_Screen2$stableprop_getter() {
     return com_my_profile_navigation_Screen_Screen2$stable;
   }
-  function com_my_profile_navigation_Screen_Screen3$stableprop_getter() {
-    return com_my_profile_navigation_Screen_Screen3$stable;
+  function com_my_profile_navigation_Screen_Certification$stableprop_getter() {
+    return com_my_profile_navigation_Screen_Certification$stable;
   }
   function com_my_profile_navigation_Screen$stableprop_getter() {
     return com_my_profile_navigation_Screen$stable;
+  }
+  function certificationPage($composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(2128888697);
+    if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
+      certification($composer_0, 0);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(certificationPage$lambda($changed));
+    }
+  }
+  function certification($composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(1210594504);
+    if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
+      AdminPageLayout(ComposableSingletons$CertificationKt_getInstance().lambda_1_r8sbbp_1, $composer_0, 6);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(certification$lambda($changed));
+    }
+  }
+  function certificationContent($composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1261323673);
+    if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
+      var tmp = backgroundColor(padding_0(fillMaxHeight(width(Companion_getInstance_1(), get_px(700))), get_px(40)), get_white());
+      Column(tmp, null, null, null, ComposableSingletons$CertificationKt_getInstance().lambda_3_r8sbbn_1, $composer_0, 24584, 14);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(certificationContent$lambda($changed));
+    }
+  }
+  function certificationItem(title, organization, date, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1107976122);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(title) ? 4 : 2);
+    if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(organization) ? 32 : 16);
+    if (($changed & 896) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(date) ? 256 : 128);
+    if (!(($dirty & 731) === 146) || !$composer_0.get_skipping_3owdve_k$()) {
+      var tmp = fillMaxWidth(Companion_getInstance_1());
+      // Inline function 'kotlin.run' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'com.my.profile.pages.certificationItem.<anonymous>' call
+      var tmp_0 = $composer_0;
+      var dispatchReceiver = composableLambda(tmp_0, 430146031, true, certificationItem$lambda(title, organization, date));
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      $composer_1.startReplaceableGroup_ip860b_k$(1157296644);
+      sourceInformation($composer_1, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+      var it = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_1;
+      if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        // Inline function 'com.my.profile.pages.certificationItem.<anonymous>.<anonymous>' call
+        var value = ComposableLambda$invoke$ref_15(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value);
+        tmp_1 = value;
+      } else {
+        tmp_1 = it;
+      }
+      var tmp_2 = tmp_1;
+      var tmp0 = (tmp_2 == null ? true : !(tmp_2 == null)) ? tmp_2 : THROW_CCE();
+      $composer_1.endReplaceableGroup_ern0ak_k$();
+      Column(tmp, null, null, null, tmp0, $composer_0, 24584, 14);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(certificationItem$lambda_0(title, organization, date, $changed));
+    }
+  }
+  function certificationItemTitle(title, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-441205044);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(title) ? 4 : 2);
+    if (!(($dirty & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
+      // Inline function 'kotlin.run' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'com.my.profile.pages.certificationItemTitle.<anonymous>' call
+      var tmp = $composer_0;
+      var dispatchReceiver = composableLambda(tmp, -1133738325, true, certificationItemTitle$lambda(title));
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      $composer_1.startReplaceableGroup_ip860b_k$(1157296644);
+      sourceInformation($composer_1, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+      var it = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_0;
+      if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        // Inline function 'com.my.profile.pages.certificationItemTitle.<anonymous>.<anonymous>' call
+        var value = ComposableLambda$invoke$ref_16(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value);
+        tmp_0 = value;
+      } else {
+        tmp_0 = it;
+      }
+      var tmp_1 = tmp_0;
+      var tmp0 = (tmp_1 == null ? true : !(tmp_1 == null)) ? tmp_1 : THROW_CCE();
+      $composer_1.endReplaceableGroup_ern0ak_k$();
+      H3(null, tmp0, $composer_0, 48, 1);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(certificationItemTitle$lambda_0(title, $changed));
+    }
+  }
+  function certificationItemOrganization(text, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1553850957);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(text) ? 4 : 2);
+    if (!(($dirty & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
+      var tmp = padding_1(fontSize(Companion_getInstance_1(), get_px(16)), VOID, VOID, get_px(5));
+      SpanText(text, tmp, null, null, $composer_0, 64 | 14 & $dirty, 12);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(certificationItemOrganization$lambda(text, $changed));
+    }
+  }
+  function ComposableLambda$invoke$ref_12($boundThis) {
+    return function (p0, p1) {
+      return $boundThis.invoke_z8di7s_k$(p0, p1);
+    };
+  }
+  function ComposableSingletons$CertificationKt$lambda_1$lambda_k52qz4($composer, $changed) {
+    var $composer_0 = $composer;
+    if (!(($changed & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
+      certificationContent($composer_0, 0);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    return Unit_getInstance();
+  }
+  function ComposableLambda$invoke$ref_13($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function ComposableSingletons$CertificationKt$lambda_2$lambda_m2etxt($this$H2, $composer, $changed) {
+    var $composer_0 = $composer;
+    var tmp = fontSize(fontWeight(Companion_getInstance_1(), Companion_getInstance_3().get_Bold_wnz5ke_k$()), get_px(32));
+    SpanText('\uC790\uACA9\uC99D', tmp, null, null, $composer_0, 70, 12);
+    return Unit_getInstance();
+  }
+  function ComposableLambda$invoke$ref_14($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function ComposableSingletons$CertificationKt$lambda_3$lambda_6r7n4e($this$Column, $composer, $changed) {
+    var $composer_0 = $composer;
+    if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
+      H2(null, ComposableSingletons$CertificationKt_getInstance().lambda_2_r8sbbo_1, $composer_0, 48, 1);
+      certificationItem('\uC815\uBCF4\uCC98\uB9AC\uAE30\uC0AC', '\uD55C\uAD6D\uC0B0\uC5C5\uC778\uB825\uACF5\uB2E8', '\uCDE8\uB4DD\uC77C : 2023.06', $composer_0, 438);
+      certificationItem('\uB9AC\uB205\uC2A4 \uB9C8\uC2A4\uD130 2\uAE09', '\uD55C\uAD6D\uC815\uBCF4\uD1B5\uC2E0\uC9C4\uD765\uD611\uD68C', '\uCDE8\uB4DD\uC77C : 2020.01.03', $composer_0, 438);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    return Unit_getInstance();
+  }
+  function ComposableSingletons$CertificationKt() {
+    ComposableSingletons$CertificationKt_instance = this;
+    var tmp = this;
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_12(composableLambdaInstance(248434187, false, ComposableSingletons$CertificationKt$lambda_1$lambda_k52qz4));
+    var tmp_0 = this;
+    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_13(composableLambdaInstance(-1632334020, false, ComposableSingletons$CertificationKt$lambda_2$lambda_m2etxt));
+    var tmp_1 = this;
+    tmp_1.lambda_3_r8sbbn_1 = ComposableLambda$invoke$ref_14(composableLambdaInstance(1115934110, false, ComposableSingletons$CertificationKt$lambda_3$lambda_6r7n4e));
+  }
+  protoOf(ComposableSingletons$CertificationKt).get_lambda_1_lx0epu_k$ = function () {
+    return this.lambda_1_r8sbbp_1;
+  };
+  protoOf(ComposableSingletons$CertificationKt).get_lambda_2_mfh9r5_k$ = function () {
+    return this.lambda_2_r8sbbo_1;
+  };
+  protoOf(ComposableSingletons$CertificationKt).get_lambda_3_mxy4sg_k$ = function () {
+    return this.lambda_3_r8sbbn_1;
+  };
+  var ComposableSingletons$CertificationKt_instance;
+  function ComposableSingletons$CertificationKt_getInstance() {
+    if (ComposableSingletons$CertificationKt_instance == null)
+      new ComposableSingletons$CertificationKt();
+    return ComposableSingletons$CertificationKt_instance;
+  }
+  function certificationPage$lambda($$changed) {
+    return function ($composer, $force) {
+      certificationPage($composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function certification$lambda($$changed) {
+    return function ($composer, $force) {
+      certification($composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function certificationContent$lambda($$changed) {
+    return function ($composer, $force) {
+      certificationContent($composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function certificationItem$lambda($title, $organization, $date) {
+    return function ($this$Column, $composer, $changed) {
+      var $composer_0 = $composer;
+      var tmp;
+      if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
+        certificationItemTitle($title, $composer_0, 0);
+        certificationItemOrganization($organization, $composer_0, 0);
+        certificationItemOrganization($date, $composer_0, 0);
+        var tmp_0 = fillMaxWidth(Companion_getInstance_1());
+        HorizontalDivider(tmp_0, null, $composer_0, 8, 2);
+        tmp = Unit_getInstance();
+      } else {
+        $composer_0.skipToGroupEnd_lh3zi2_k$();
+        tmp = Unit_getInstance();
+      }
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_15($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function certificationItem$lambda_0($title, $organization, $date, $$changed) {
+    return function ($composer, $force) {
+      certificationItem($title, $organization, $date, $composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function certificationItemTitle$lambda($title) {
+    return function ($this$H3, $composer, $changed) {
+      var $composer_0 = $composer;
+      var tmp = fontSize(fontWeight(Companion_getInstance_1(), Companion_getInstance_3().get_Bold_wnz5ke_k$()), get_px(24));
+      SpanText($title, tmp, null, null, $composer_0, 64, 12);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_16($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function certificationItemTitle$lambda_0($title, $$changed) {
+    return function ($composer, $force) {
+      certificationItemTitle($title, $composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function certificationItemOrganization$lambda($text, $$changed) {
+    return function ($composer, $force) {
+      certificationItemOrganization($text, $composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
   }
   function HomePage($composer, $changed) {
     var $composer_0 = $composer;
@@ -1139,7 +1438,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(ProfileInfoItem$lambda(modifier_0, text, fontSize_0, fontWeight_0, $changed, $default));
     }
   }
-  function ComposableLambda$invoke$ref_12($boundThis) {
+  function ComposableLambda$invoke$ref_17($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -1153,7 +1452,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_13($boundThis) {
+  function ComposableLambda$invoke$ref_18($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -1170,7 +1469,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_14($boundThis) {
+  function ComposableLambda$invoke$ref_19($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -1185,7 +1484,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_15($boundThis) {
+  function ComposableLambda$invoke$ref_20($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -1204,13 +1503,13 @@
   function ComposableSingletons$IndexKt() {
     ComposableSingletons$IndexKt_instance = this;
     var tmp = this;
-    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_12(composableLambdaInstance(-180475392, false, ComposableSingletons$IndexKt$lambda_1$lambda_5yb608));
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_17(composableLambdaInstance(-180475392, false, ComposableSingletons$IndexKt$lambda_1$lambda_5yb608));
     var tmp_0 = this;
-    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_13(composableLambdaInstance(-2055888569, false, ComposableSingletons$IndexKt$lambda_2$lambda_yrxn2f));
+    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_18(composableLambdaInstance(-2055888569, false, ComposableSingletons$IndexKt$lambda_2$lambda_yrxn2f));
     var tmp_1 = this;
-    tmp_1.lambda_3_r8sbbn_1 = ComposableLambda$invoke$ref_14(composableLambdaInstance(13904810, false, ComposableSingletons$IndexKt$lambda_3$lambda_7fjxui));
+    tmp_1.lambda_3_r8sbbn_1 = ComposableLambda$invoke$ref_19(composableLambdaInstance(13904810, false, ComposableSingletons$IndexKt$lambda_3$lambda_7fjxui));
     var tmp_2 = this;
-    tmp_2.lambda_4_r8sbbm_1 = ComposableLambda$invoke$ref_15(composableLambdaInstance(158174863, false, ComposableSingletons$IndexKt$lambda_4$lambda_le2j7p));
+    tmp_2.lambda_4_r8sbbm_1 = ComposableLambda$invoke$ref_20(composableLambdaInstance(158174863, false, ComposableSingletons$IndexKt$lambda_4$lambda_le2j7p));
   }
   protoOf(ComposableSingletons$IndexKt).get_lambda_1_lx0epu_k$ = function () {
     return this.lambda_1_r8sbbp_1;
@@ -1354,7 +1653,7 @@
       var tmp_0;
       if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
         // Inline function 'com.my.profile.pages.introductionItemTitle.<anonymous>.<anonymous>' call
-        var value = ComposableLambda$invoke$ref_18(dispatchReceiver);
+        var value = ComposableLambda$invoke$ref_23(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value);
         tmp_0 = value;
       } else {
@@ -1393,7 +1692,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(introductionItemDescription$lambda(description, $changed));
     }
   }
-  function ComposableLambda$invoke$ref_16($boundThis) {
+  function ComposableLambda$invoke$ref_21($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -1407,7 +1706,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_17($boundThis) {
+  function ComposableLambda$invoke$ref_22($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -1428,9 +1727,9 @@
   function ComposableSingletons$IntroductionKt() {
     ComposableSingletons$IntroductionKt_instance = this;
     var tmp = this;
-    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_16(composableLambdaInstance(311903601, false, ComposableSingletons$IntroductionKt$lambda_1$lambda_x80tv2));
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_21(composableLambdaInstance(311903601, false, ComposableSingletons$IntroductionKt$lambda_1$lambda_x80tv2));
     var tmp_0 = this;
-    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_17(composableLambdaInstance(-2115740178, false, ComposableSingletons$IntroductionKt$lambda_2$lambda_8zgr1v));
+    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_22(composableLambdaInstance(-2115740178, false, ComposableSingletons$IntroductionKt$lambda_2$lambda_8zgr1v));
   }
   protoOf(ComposableSingletons$IntroductionKt).get_lambda_1_lx0epu_k$ = function () {
     return this.lambda_1_r8sbbp_1;
@@ -1476,7 +1775,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_18($boundThis) {
+  function ComposableLambda$invoke$ref_23($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -1540,7 +1839,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(Screen2Content$lambda($changed));
     }
   }
-  function ComposableLambda$invoke$ref_19($boundThis) {
+  function ComposableLambda$invoke$ref_24($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -1554,7 +1853,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_20($boundThis) {
+  function ComposableLambda$invoke$ref_25($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -1571,9 +1870,9 @@
   function ComposableSingletons$Screen2Kt() {
     ComposableSingletons$Screen2Kt_instance = this;
     var tmp = this;
-    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_19(composableLambdaInstance(-104865965, false, ComposableSingletons$Screen2Kt$lambda_1$lambda_9xj1g));
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_24(composableLambdaInstance(-104865965, false, ComposableSingletons$Screen2Kt$lambda_1$lambda_9xj1g));
     var tmp_0 = this;
-    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_20(composableLambdaInstance(432589261, false, ComposableSingletons$Screen2Kt$lambda_2$lambda_sjoy0r));
+    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_25(composableLambdaInstance(432589261, false, ComposableSingletons$Screen2Kt$lambda_2$lambda_sjoy0r));
   }
   protoOf(ComposableSingletons$Screen2Kt).get_lambda_1_lx0epu_k$ = function () {
     return this.lambda_1_r8sbbp_1;
@@ -1602,118 +1901,6 @@
   function Screen2Content$lambda($$changed) {
     return function ($composer, $force) {
       Screen2Content($composer, updateChangedFlags($$changed | 1));
-      return Unit_getInstance();
-    };
-  }
-  function Screen3Page($composer, $changed) {
-    var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(1292731839);
-    if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
-      Screen3_0($composer_0, 0);
-    } else {
-      $composer_0.skipToGroupEnd_lh3zi2_k$();
-    }
-    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
-    if (tmp0_safe_receiver == null)
-      null;
-    else {
-      tmp0_safe_receiver.updateScope_t8jcf_k$(Screen3Page$lambda($changed));
-    }
-  }
-  function Screen3_0($composer, $changed) {
-    var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-291319858);
-    if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
-      AdminPageLayout(ComposableSingletons$Screen3Kt_getInstance().lambda_1_r8sbbp_1, $composer_0, 6);
-    } else {
-      $composer_0.skipToGroupEnd_lh3zi2_k$();
-    }
-    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
-    if (tmp0_safe_receiver == null)
-      null;
-    else {
-      tmp0_safe_receiver.updateScope_t8jcf_k$(Screen3$lambda($changed));
-    }
-  }
-  function Screen3Content($composer, $changed) {
-    var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1820072857);
-    if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
-      var tmp = backgroundColor(padding(fillMaxHeight(width(Companion_getInstance_1(), get_px(700)))), get_white());
-      var tmp_0 = Center_getInstance();
-      Box(tmp, tmp_0, null, ComposableSingletons$Screen3Kt_getInstance().lambda_2_r8sbbo_1, $composer_0, 3144, 4);
-    } else {
-      $composer_0.skipToGroupEnd_lh3zi2_k$();
-    }
-    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
-    if (tmp0_safe_receiver == null)
-      null;
-    else {
-      tmp0_safe_receiver.updateScope_t8jcf_k$(Screen3Content$lambda($changed));
-    }
-  }
-  function ComposableLambda$invoke$ref_21($boundThis) {
-    return function (p0, p1) {
-      return $boundThis.invoke_z8di7s_k$(p0, p1);
-    };
-  }
-  function ComposableSingletons$Screen3Kt$lambda_1$lambda_e8phpf($composer, $changed) {
-    var $composer_0 = $composer;
-    if (!(($changed & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
-      Screen3Content($composer_0, 0);
-    } else {
-      $composer_0.skipToGroupEnd_lh3zi2_k$();
-    }
-    return Unit_getInstance();
-  }
-  function ComposableLambda$invoke$ref_22($boundThis) {
-    return function (p0, p1, p2) {
-      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
-    };
-  }
-  function ComposableSingletons$Screen3Kt$lambda_2$lambda_ekwzcs($this$Box, $composer, $changed) {
-    var $composer_0 = $composer;
-    if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
-      Text('\uC790\uACA9\uC99D Content', $composer_0, 6);
-    } else {
-      $composer_0.skipToGroupEnd_lh3zi2_k$();
-    }
-    return Unit_getInstance();
-  }
-  function ComposableSingletons$Screen3Kt() {
-    ComposableSingletons$Screen3Kt_instance = this;
-    var tmp = this;
-    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_21(composableLambdaInstance(864744849, false, ComposableSingletons$Screen3Kt$lambda_1$lambda_e8phpf));
-    var tmp_0 = this;
-    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_22(composableLambdaInstance(1126011757, false, ComposableSingletons$Screen3Kt$lambda_2$lambda_ekwzcs));
-  }
-  protoOf(ComposableSingletons$Screen3Kt).get_lambda_1_lx0epu_k$ = function () {
-    return this.lambda_1_r8sbbp_1;
-  };
-  protoOf(ComposableSingletons$Screen3Kt).get_lambda_2_mfh9r5_k$ = function () {
-    return this.lambda_2_r8sbbo_1;
-  };
-  var ComposableSingletons$Screen3Kt_instance;
-  function ComposableSingletons$Screen3Kt_getInstance() {
-    if (ComposableSingletons$Screen3Kt_instance == null)
-      new ComposableSingletons$Screen3Kt();
-    return ComposableSingletons$Screen3Kt_instance;
-  }
-  function Screen3Page$lambda($$changed) {
-    return function ($composer, $force) {
-      Screen3Page($composer, updateChangedFlags($$changed | 1));
-      return Unit_getInstance();
-    };
-  }
-  function Screen3$lambda($$changed) {
-    return function ($composer, $force) {
-      Screen3_0($composer, updateChangedFlags($$changed | 1));
-      return Unit_getInstance();
-    };
-  }
-  function Screen3Content$lambda($$changed) {
-    return function ($composer, $force) {
-      Screen3Content($composer, updateChangedFlags($$changed | 1));
       return Unit_getInstance();
     };
   }
@@ -1769,7 +1956,7 @@
   com_my_profile_navigation_Screen_Home$stable = 0;
   com_my_profile_navigation_Screen_Introduction$stable = 0;
   com_my_profile_navigation_Screen_Screen2$stable = 0;
-  com_my_profile_navigation_Screen_Screen3$stable = 0;
+  com_my_profile_navigation_Screen_Certification$stable = 0;
   com_my_profile_navigation_Screen$stable = 0;
   com_my_profile_util_Res_Image$stable = 0;
   com_my_profile_util_Res$stable = 0;

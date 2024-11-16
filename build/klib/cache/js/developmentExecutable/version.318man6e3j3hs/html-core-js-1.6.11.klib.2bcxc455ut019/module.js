@@ -7098,6 +7098,45 @@
     return Style_0;
   }
   var Style_0;
+  function H2_0(attrs, content, $composer, $changed, $default) {
+    _init_properties_Elements_kt__eyv5nt();
+    var attrs_0 = {_v: attrs};
+    var content_0 = {_v: content};
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(881063629);
+    var $dirty = $changed;
+    if (!(($default & 1) === 0))
+      $dirty = $dirty | 6;
+    else if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(attrs_0._v) ? 4 : 2);
+    if (!(($default & 2) === 0))
+      $dirty = $dirty | 48;
+    else if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(content_0._v) ? 32 : 16);
+    if (!(($dirty & 91) === 18) || !$composer_0.get_skipping_3owdve_k$()) {
+      if (!(($default & 1) === 0)) {
+        attrs_0._v = null;
+      }
+      if (!(($default & 2) === 0)) {
+        content_0._v = null;
+      }
+      if (isTraceInProgress()) {
+        traceEventStart(881063629, $dirty, -1, 'org.jetbrains.compose.web.dom.H2 (Elements.kt:539)');
+      }
+      TagElement(get_H2(), attrs_0._v, content_0._v, $composer_0, 112 & $dirty << 3 | 896 & $dirty << 3);
+      if (isTraceInProgress()) {
+        traceEventEnd();
+      }
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(H2$lambda(attrs_0, content_0, $changed, $default));
+    }
+  }
   function Text_0(value, $composer, $changed) {
     _init_properties_Elements_kt__eyv5nt();
     var $composer_0 = $composer;
@@ -7530,6 +7569,12 @@
         _this__u8e3s4.deleteRule(0);
       }
        while (inductionVariable < times);
+  }
+  function H2$lambda($attrs, $content, $$changed, $$default) {
+    return function ($composer, $force) {
+      H2_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      return Unit_getInstance();
+    };
   }
   function Text$lambda() {
     _init_properties_Elements_kt__eyv5nt();
@@ -8855,12 +8900,13 @@
   _.$_$.x4 = width_0;
   _.$_$.y4 = width;
   _.$_$.z4 = Div_0;
-  _.$_$.a5 = H3_0;
-  _.$_$.b5 = Hr_0;
-  _.$_$.c5 = Img_0;
-  _.$_$.d5 = Span_0;
-  _.$_$.e5 = Style_1;
-  _.$_$.f5 = Text_0;
+  _.$_$.a5 = H2_0;
+  _.$_$.b5 = H3_0;
+  _.$_$.c5 = Hr_0;
+  _.$_$.d5 = Img_0;
+  _.$_$.e5 = Span_0;
+  _.$_$.f5 = Style_1;
+  _.$_$.g5 = Text_0;
   //endregion
   return _;
 }));
