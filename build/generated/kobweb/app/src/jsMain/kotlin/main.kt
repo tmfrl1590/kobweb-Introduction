@@ -108,7 +108,7 @@ public fun main() {
     val root = document.getElementById("root")!!
     while (root.firstChild != null) { root.removeChild(root.firstChild!!) }
 
-    AppGlobals.initialize(mapOf("title" to "myprofile"))
+    AppGlobals.initialize(mapOf("title" to "Curriculum Vitae"))
     renderComposable(rootElementId = "root") {
         com.my.profile.AppEntry {
             router.renderActivePage { renderWithDeferred { it() } }

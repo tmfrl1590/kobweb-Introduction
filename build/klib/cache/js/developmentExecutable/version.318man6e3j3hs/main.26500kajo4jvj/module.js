@@ -179,7 +179,7 @@
     while (!(root.firstChild == null)) {
       root.removeChild(ensureNotNull(root.firstChild));
     }
-    AppGlobals_getInstance().initialize_8ufbf0_k$(mapOf(to('title', 'myprofile')));
+    AppGlobals_getInstance().initialize_8ufbf0_k$(mapOf(to('title', 'Curriculum Vitae')));
     renderComposable('root', ComposableLambda$invoke$ref_5(composableLambdaInstance(1108811911, true, main$lambda_2(router))));
   }
   function ComposableLambda$invoke$ref($boundThis) {
