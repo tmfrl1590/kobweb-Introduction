@@ -1,0 +1,1 @@
+{"appEntry":{"fqn":"com.my.profile.AppEntry"},"frontendData":{"pages":[{"fqn":"com.my.profile.pages.HomePage","route":"/home-page"},{"fqn":"com.my.profile.pages.IntroductionPage","route":"/introduction-page"},{"fqn":"com.my.profile.pages.Screen2Page","route":"/screen2"},{"fqn":"com.my.profile.pages.Screen3Page","route":"/screen3"}]}}
