@@ -2,8 +2,12 @@ package com.my.profile.pages
 
 import androidx.compose.runtime.Composable
 import com.my.profile.components.AdminPageLayout
+import com.my.profile.components.customDivider
 import com.my.profile.components.pageTitle
-import com.my.profile.ui.white
+import com.my.profile.util.WHITE
+import com.my.profile.util.HORIZONTAL_DIVIDER_TOP_BOTTOM_MARGIN
+import com.my.profile.util.RIGHT_CONTENT_PADDING
+import com.my.profile.util.RIGHT_CONTENT_WIDTH
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Modifier
@@ -33,20 +37,17 @@ fun certification(){
 fun certificationContent() {
     Column (
         modifier = Modifier
-            .width(700.px)
+            .width(RIGHT_CONTENT_WIDTH)
             .fillMaxHeight()
-            .padding(40.px)
-            .backgroundColor(white),
+            .padding(RIGHT_CONTENT_PADDING)
+            .backgroundColor(WHITE),
     ) {
-        pageTitle(
-            title = "자격증"
-        )
+        pageTitle(title = "자격증")
         certificationItem(
             title = "정보처리기사",
             organization = "한국산업인력공단",
             date = "취득일 : 2023.06"
         )
-
         certificationItem(
             title = "리눅스 마스터 2급",
             organization = "한국정보통신진흥협회",
@@ -74,35 +75,30 @@ fun certificationItem(
         certificationItemOrganization(
             text = date
         )
-        HorizontalDivider(
-            modifier = Modifier
-                .fillMaxWidth()
-        )
+        customDivider()
     }
 }
 
 @Composable
-fun certificationItemTitle(
+private fun certificationItemTitle(
     title: String,
 ){
     H3 {
         SpanText(
             text = title,
-            modifier = Modifier
-                .fontWeight(FontWeight.Bold)
-                .fontSize(24.px)
+            modifier = Modifier.fontWeight(FontWeight.Bold)
         )
     }
 }
 
 @Composable
-fun certificationItemOrganization(
+private fun certificationItemOrganization(
     text: String,
 ){
     SpanText(
         text = text,
         modifier = Modifier
             .fontSize(16.px)
-            .padding(bottom = 5.px)
+            .padding(bottom = 6.px)
     )
 }

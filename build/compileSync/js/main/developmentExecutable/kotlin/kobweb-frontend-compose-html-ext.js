@@ -228,9 +228,9 @@
   initMetadataForClass(StyleVariablePropertyProvider, 'StyleVariablePropertyProvider');
   initMetadataForClass(StyleVariableNumberProvider, 'StyleVariableNumberProvider');
   initMetadataForCompanion(Companion_15);
-  initMetadataForClass(UserSelect, 'UserSelect');
-  initMetadataForCompanion(Companion_16);
   initMetadataForClass(TextDecorationLine, 'TextDecorationLine');
+  initMetadataForCompanion(Companion_16);
+  initMetadataForClass(UserSelect, 'UserSelect');
   initMetadataForCompanion(Companion_17);
   initMetadataForClass(TextAlign, 'TextAlign');
   initMetadataForCompanion(Companion_18);
@@ -2413,9 +2413,6 @@
   function verticalAlign(_this__u8e3s4, verticalAlign) {
     _this__u8e3s4.property_npxg1h_k$('vertical-align', verticalAlign);
   }
-  function zIndex(_this__u8e3s4, value) {
-    _this__u8e3s4.property_jk9dw6_k$('z-index', value);
-  }
   function paddingInline(_this__u8e3s4, start, end) {
     start = start === VOID ? get_px(0) : start;
     end = end === VOID ? get_px(0) : end;
@@ -3149,32 +3146,29 @@
   function Companion_15() {
     Companion_instance_15 = this;
   }
+  protoOf(Companion_15).get_Underline_oo7egz_k$ = function () {
+    return new TextDecorationLine('underline');
+  };
+  protoOf(Companion_15).get_Overline_lz0ci7_k$ = function () {
+    return new TextDecorationLine('overline');
+  };
+  protoOf(Companion_15).get_LineThrough_pr9ajs_k$ = function () {
+    return new TextDecorationLine('line-through');
+  };
   protoOf(Companion_15).get_None_wo6tgh_k$ = function () {
-    return new UserSelect('none');
-  };
-  protoOf(Companion_15).get_Auto_wnyn88_k$ = function () {
-    return new UserSelect('auto');
-  };
-  protoOf(Companion_15).get_Text_woag7q_k$ = function () {
-    return new UserSelect('text');
-  };
-  protoOf(Companion_15).get_Contain_qhyalx_k$ = function () {
-    return new UserSelect('contain');
-  };
-  protoOf(Companion_15).get_All_18jx7s_k$ = function () {
-    return new UserSelect('all');
+    return new TextDecorationLine('none');
   };
   protoOf(Companion_15).get_Inherit_a1a9e6_k$ = function () {
-    return new UserSelect('inherit');
+    return new TextDecorationLine('inherit');
   };
   protoOf(Companion_15).get_Initial_a0h2v9_k$ = function () {
-    return new UserSelect('initial');
+    return new TextDecorationLine('initial');
   };
   protoOf(Companion_15).get_Revert_3t1tzh_k$ = function () {
-    return new UserSelect('revert');
+    return new TextDecorationLine('revert');
   };
   protoOf(Companion_15).get_Unset_ii4mhs_k$ = function () {
-    return new UserSelect('unset');
+    return new TextDecorationLine('unset');
   };
   var Companion_instance_15;
   function Companion_getInstance_18() {
@@ -3182,42 +3176,48 @@
       new Companion_15();
     return Companion_instance_15;
   }
-  function UserSelect(value) {
+  function TextDecorationLine(value) {
     Companion_getInstance_18();
     this.value_1 = value;
   }
-  protoOf(UserSelect).toString = function () {
+  protoOf(TextDecorationLine).toString = function () {
     return this.value_1;
   };
+  function textDecorationLine(_this__u8e3s4, textDecorationLines) {
+    _this__u8e3s4.property_wcrait_k$('text-decoration-line', joinToString_0(textDecorationLines, ' '));
+  }
   function _get_value__a43j40_15($this) {
     return $this.value_1;
   }
   function Companion_16() {
     Companion_instance_16 = this;
   }
-  protoOf(Companion_16).get_Underline_oo7egz_k$ = function () {
-    return new TextDecorationLine('underline');
-  };
-  protoOf(Companion_16).get_Overline_lz0ci7_k$ = function () {
-    return new TextDecorationLine('overline');
-  };
-  protoOf(Companion_16).get_LineThrough_pr9ajs_k$ = function () {
-    return new TextDecorationLine('line-through');
-  };
   protoOf(Companion_16).get_None_wo6tgh_k$ = function () {
-    return new TextDecorationLine('none');
+    return new UserSelect('none');
+  };
+  protoOf(Companion_16).get_Auto_wnyn88_k$ = function () {
+    return new UserSelect('auto');
+  };
+  protoOf(Companion_16).get_Text_woag7q_k$ = function () {
+    return new UserSelect('text');
+  };
+  protoOf(Companion_16).get_Contain_qhyalx_k$ = function () {
+    return new UserSelect('contain');
+  };
+  protoOf(Companion_16).get_All_18jx7s_k$ = function () {
+    return new UserSelect('all');
   };
   protoOf(Companion_16).get_Inherit_a1a9e6_k$ = function () {
-    return new TextDecorationLine('inherit');
+    return new UserSelect('inherit');
   };
   protoOf(Companion_16).get_Initial_a0h2v9_k$ = function () {
-    return new TextDecorationLine('initial');
+    return new UserSelect('initial');
   };
   protoOf(Companion_16).get_Revert_3t1tzh_k$ = function () {
-    return new TextDecorationLine('revert');
+    return new UserSelect('revert');
   };
   protoOf(Companion_16).get_Unset_ii4mhs_k$ = function () {
-    return new TextDecorationLine('unset');
+    return new UserSelect('unset');
   };
   var Companion_instance_16;
   function Companion_getInstance_19() {
@@ -3225,11 +3225,11 @@
       new Companion_16();
     return Companion_instance_16;
   }
-  function TextDecorationLine(value) {
+  function UserSelect(value) {
     Companion_getInstance_19();
     this.value_1 = value;
   }
-  protoOf(TextDecorationLine).toString = function () {
+  protoOf(UserSelect).toString = function () {
     return this.value_1;
   };
   function userSelect(_this__u8e3s4, userSelect) {
@@ -3290,9 +3290,6 @@
   protoOf(TextAlign).toString = function () {
     return this.value_1;
   };
-  function textDecorationLine(_this__u8e3s4, textDecorationLines) {
-    _this__u8e3s4.property_wcrait_k$('text-decoration-line', joinToString_0(textDecorationLines, ' '));
-  }
   function _get_value__a43j40_17($this) {
     return $this.value_1;
   }
@@ -4586,27 +4583,26 @@
   _.$_$.t1 = userSelect;
   _.$_$.u1 = verticalAlign;
   _.$_$.v1 = whiteSpace;
-  _.$_$.w1 = zIndex;
-  _.$_$.x1 = registerRefScope;
-  _.$_$.y1 = registerRefScope_0;
-  _.$_$.z1 = ComparableAttrsScope_init_$Create$;
-  _.$_$.a2 = Companion_getInstance_4;
-  _.$_$.b2 = Companion_getInstance_9;
-  _.$_$.c2 = Companion_getInstance_7;
-  _.$_$.d2 = Companion_getInstance_6;
-  _.$_$.e2 = Companion_getInstance_8;
-  _.$_$.f2 = Companion_getInstance_10;
-  _.$_$.g2 = Companion_getInstance_2;
-  _.$_$.h2 = Companion_getInstance_3;
-  _.$_$.i2 = Companion_getInstance_14;
-  _.$_$.j2 = Companion_getInstance_16;
-  _.$_$.k2 = Companion_getInstance_17;
-  _.$_$.l2 = Companion_getInstance_20;
-  _.$_$.m2 = Companion_getInstance_19;
-  _.$_$.n2 = Companion_getInstance_22;
-  _.$_$.o2 = Companion_getInstance_18;
-  _.$_$.p2 = Companion_getInstance_13;
-  _.$_$.q2 = Companion_getInstance_21;
+  _.$_$.w1 = registerRefScope;
+  _.$_$.x1 = registerRefScope_0;
+  _.$_$.y1 = ComparableAttrsScope_init_$Create$;
+  _.$_$.z1 = Companion_getInstance_4;
+  _.$_$.a2 = Companion_getInstance_9;
+  _.$_$.b2 = Companion_getInstance_7;
+  _.$_$.c2 = Companion_getInstance_6;
+  _.$_$.d2 = Companion_getInstance_8;
+  _.$_$.e2 = Companion_getInstance_10;
+  _.$_$.f2 = Companion_getInstance_2;
+  _.$_$.g2 = Companion_getInstance_3;
+  _.$_$.h2 = Companion_getInstance_14;
+  _.$_$.i2 = Companion_getInstance_16;
+  _.$_$.j2 = Companion_getInstance_17;
+  _.$_$.k2 = Companion_getInstance_20;
+  _.$_$.l2 = Companion_getInstance_18;
+  _.$_$.m2 = Companion_getInstance_22;
+  _.$_$.n2 = Companion_getInstance_19;
+  _.$_$.o2 = Companion_getInstance_13;
+  _.$_$.p2 = Companion_getInstance_21;
   //endregion
   return _;
 }));

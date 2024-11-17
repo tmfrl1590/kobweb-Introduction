@@ -3,20 +3,18 @@ package com.my.profile.components.career
 import androidx.compose.runtime.Composable
 import com.my.profile.components.descriptionRow
 import com.varabyte.kobweb.compose.foundation.layout.Column
-import com.varabyte.kobweb.compose.foundation.layout.Row
 import com.varabyte.kobweb.compose.ui.Modifier
-import com.varabyte.kobweb.compose.ui.modifiers.padding
 import com.varabyte.kobweb.silk.components.text.SpanText
-import org.jetbrains.compose.web.css.px
 
 @Composable
 fun careerArea(
+    modifier: Modifier = Modifier,
     projectDescription: String,
     roleDescription: String,
     content: @Composable () -> Unit,
 ){
     Column(
-        modifier = Modifier
+        modifier = modifier
     ) {
         descriptionRow(
             title = "프로젝트",

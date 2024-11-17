@@ -1,7 +1,9 @@
 package com.my.profile.components.project
 
 import androidx.compose.runtime.Composable
+import com.my.profile.components.customDivider
 import com.my.profile.components.descriptionRow
+import com.my.profile.util.HORIZONTAL_DIVIDER_TOP_BOTTOM_MARGIN
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Modifier
@@ -35,11 +37,7 @@ fun projectDescriptionArea(
             title = "프로젝트 배경",
             description = projectDescription2,
         )
-        HorizontalDivider(
-            modifier = Modifier
-                .fillMaxWidth()
-                .margin(topBottom = 20.px)
-        )
+        customDivider()
     }
 }
 
@@ -63,8 +61,9 @@ private fun companyName(
     SpanText(
         text = companyName,
         modifier = Modifier
-            .color(Color.lightgray)
+            .color(Color.gray)
             .fontSize(12.px)
+            .margin(bottom = 4.px)
     )
 }
 
@@ -75,7 +74,7 @@ private fun projectDuration(
     SpanText(
         text = projectDuration,
         modifier = Modifier
-            .color(Color.lightgray)
+            .color(Color.gray)
             .fontSize(12.px)
             .padding(bottom = 10.px)
     )

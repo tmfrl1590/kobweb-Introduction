@@ -83,7 +83,7 @@ public fun main() {
     RoutePrefix.set("")
     val router = Router()
     com.varabyte.kobweb.core.init.initKobweb(router) { ctx ->
-        ctx.router.register("/") { com.my.profile.pages.HomePage() }
+        ctx.router.register("/") { com.my.profile.pages.homePage() }
         ctx.router.register("/career") { com.my.profile.pages.careerPage() }
         ctx.router.register("/certification") { com.my.profile.pages.certificationPage() }
         ctx.router.register("/introduction") { com.my.profile.pages.introductionPage() }
@@ -109,7 +109,7 @@ public fun main() {
     val root = document.getElementById("root")!!
     while (root.firstChild != null) { root.removeChild(root.firstChild!!) }
 
-    AppGlobals.initialize(mapOf("title" to "Curriculum Vitae"))
+    AppGlobals.initialize(mapOf("title" to "이력서"))
     renderComposable(rootElementId = "root") {
         com.my.profile.AppEntry {
             router.renderActivePage { renderWithDeferred { it() } }

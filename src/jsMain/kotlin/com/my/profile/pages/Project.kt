@@ -7,7 +7,9 @@ import com.my.profile.components.project.aproWorkingArea
 import com.my.profile.components.project.onderWorkingArea
 import com.my.profile.components.project.ontableWorkingArea
 import com.my.profile.components.project.projectDescriptionArea
-import com.my.profile.ui.white
+import com.my.profile.util.WHITE
+import com.my.profile.util.RIGHT_CONTENT_PADDING
+import com.my.profile.util.RIGHT_CONTENT_WIDTH
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.backgroundColor
@@ -15,7 +17,6 @@ import com.varabyte.kobweb.compose.ui.modifiers.fillMaxHeight
 import com.varabyte.kobweb.compose.ui.modifiers.padding
 import com.varabyte.kobweb.compose.ui.modifiers.width
 import com.varabyte.kobweb.core.Page
-import org.jetbrains.compose.web.css.px
 
 @Page
 @Composable
@@ -36,10 +37,10 @@ fun project() {
 fun projectContent() {
     Column(
         modifier = Modifier
-            .width(700.px)
+            .width(RIGHT_CONTENT_WIDTH)
             .fillMaxHeight()
-            .padding(40.px)
-            .backgroundColor(white),
+            .padding(RIGHT_CONTENT_PADDING)
+            .backgroundColor(WHITE),
     ) {
         pageTitle(title = "프로젝트")
 

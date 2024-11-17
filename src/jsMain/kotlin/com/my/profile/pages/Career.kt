@@ -4,7 +4,11 @@ import androidx.compose.runtime.Composable
 import com.my.profile.components.AdminPageLayout
 import com.my.profile.components.pageTitle
 import com.my.profile.components.career.*
-import com.my.profile.ui.white
+import com.my.profile.components.customDivider
+import com.my.profile.util.WHITE
+import com.my.profile.util.HORIZONTAL_DIVIDER_TOP_BOTTOM_MARGIN
+import com.my.profile.util.RIGHT_CONTENT_PADDING
+import com.my.profile.util.RIGHT_CONTENT_WIDTH
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.*
@@ -31,10 +35,10 @@ fun career(){
 fun careerContent() {
     Column (
         modifier = Modifier
-            .width(700.px)
+            .width(RIGHT_CONTENT_WIDTH)
             .fillMaxHeight()
-            .padding(40.px)
-            .backgroundColor(white),
+            .padding(RIGHT_CONTENT_PADDING)
+            .backgroundColor(WHITE),
     ) {
         pageTitle(title = "경력")
         theDreamakers()
@@ -50,13 +54,14 @@ fun theDreamakers(){
         date = "2023.09 ~ 2024.09",
     )
     careerArea(
+        modifier = Modifier
+            .margin(bottom = 32.px),
         projectDescription = " : 온누리 상품권 기반의 전통시장 이커머스 플랫폼 온누리오더 (온더) ",
         roleDescription = " : Kotlin 기반 Android 및 백엔드 개발",
         content = {
             OnderDescription()
         }
     )
-    HorizontalDivider(modifier = Modifier.fillMaxWidth().margin(topBottom = 28.px))
     careerArea(
         projectDescription = " : 온테이블 (테이블오더)",
         roleDescription = " : Kotlin 기반 Android 및 백엔드 개발",
@@ -64,7 +69,7 @@ fun theDreamakers(){
             OntableDescription()
         }
     )
-    HorizontalDivider(modifier = Modifier.fillMaxWidth().margin(topBottom = 28.px))
+    customDivider()
 }
 
 @Composable

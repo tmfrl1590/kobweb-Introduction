@@ -1,7 +1,9 @@
 package com.my.profile.components.project
 
 import androidx.compose.runtime.Composable
+import com.my.profile.components.customDivider
 import com.my.profile.components.descriptionRow
+import com.my.profile.util.HORIZONTAL_DIVIDER_TOP_BOTTOM_MARGIN
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Modifier
@@ -63,11 +65,7 @@ fun onderWorkingArea() {
         SpanText(
             text = " - Coroutine 기반의 비동기 네트워크 통신으로 결제 API 요청 속도를 개선하고, 결제 실패 시 오류 처리 로직을 추가하여 결제 안정성 향상",
         )
-        HorizontalDivider(
-            modifier = Modifier
-                .fillMaxWidth()
-                .margin(topBottom = 12.px)
-        )
+        customDivider()
     }
 }
 

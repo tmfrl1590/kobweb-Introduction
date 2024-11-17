@@ -2,15 +2,19 @@ package com.my.profile.pages
 
 import androidx.compose.runtime.Composable
 import com.my.profile.components.AdminPageLayout
-import com.my.profile.ui.white
+import com.my.profile.components.customDivider
+import com.my.profile.util.WHITE
+import com.my.profile.util.HORIZONTAL_DIVIDER_TOP_BOTTOM_MARGIN
+import com.my.profile.util.RIGHT_CONTENT_PADDING
+import com.my.profile.util.RIGHT_CONTENT_WIDTH
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.foundation.layout.Column
+import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.core.Page
 import com.varabyte.kobweb.silk.components.layout.HorizontalDivider
 import com.varabyte.kobweb.silk.components.text.SpanText
-import org.jetbrains.compose.web.css.px
 import org.jetbrains.compose.web.dom.H3
 
 @Page
@@ -32,15 +36,14 @@ fun introduction(){
 fun introductionContent() {
     Column (
         modifier = Modifier
-            .width(700.px)
+            .width(RIGHT_CONTENT_WIDTH)
             .fillMaxHeight()
-            .padding(40.px)
-            .backgroundColor(white),
+            .padding(RIGHT_CONTENT_PADDING)
+            .backgroundColor(WHITE),
     ) {
         introductionItem(
             title = "사용자 입장에서 문제를 해결하기 위해 여러 방향에서 고민합니다.",
             description = "개발자는 문제를 해결하는 사람이라고 생각하며, 이를 위해 프로젝트를 전체적으로 이해하는 것이 중요하다고 생각합니다. 이전 회사에서 Android와 백엔드 개발을 모두 담당하며 요구사항 분석, DB 설계, 개발, 배포까지 프로젝트 전 과정을 경험했습니다. 이를 통해 프로젝트의 전반적인 흐름을 이해하게 되었고, 다양한 관점에서 문제를 해결하는 역량을 키울 수 있었습니다.\n" +
-                    "\n" +
                     "프로젝트 진행 중에 앱에서 서버와 통신하는 과정에서 서버에서 내려오는 데이터의 null 처리가 되지 않아 앱이 크래시되는 문제가 있었습니다. 이럴 때마다 앱을 업데이트하기에는 사용자에게 번거로움이 생길 것 같아서, 서버에서 null 처리를 하도록 요청하여 앱의 불필요한 업데이트 없이 문제를 해결할 수 있었습니다.\n" +
                     "\n" +
                     "이처럼 Android에만 국한되지 않고, 사용자 입장에서 최선의 해결책을 찾기 위해 여러 방면에서 고민하고 있습니다."
@@ -77,11 +80,7 @@ fun introductionItem(
     introductionItemDescription(
         description = description
     )
-    HorizontalDivider(
-        modifier = Modifier
-            .fillMaxWidth()
-            .margin(topBottom = 20.px)
-    )
+    customDivider()
 }
 
 @Composable
@@ -104,6 +103,6 @@ fun introductionItemDescription(
     SpanText(
         text = description,
         modifier = Modifier
-            .lineHeight(1.5)
+            .lineHeight(1.6)
     )
 }

@@ -1,13 +1,11 @@
 package com.my.profile.components.project
 
 import androidx.compose.runtime.Composable
+import com.my.profile.components.customDivider
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.fillMaxWidth
-import com.varabyte.kobweb.compose.ui.modifiers.margin
-import com.varabyte.kobweb.silk.components.layout.HorizontalDivider
 import com.varabyte.kobweb.silk.components.text.SpanText
-import org.jetbrains.compose.web.css.px
 
 @Composable
 fun aproWorkingArea() {
@@ -27,10 +25,6 @@ fun aproWorkingArea() {
         SpanText(
             text = " - 고객층 연령대를 고려한 UI/UX 개선",
         )
-        HorizontalDivider(
-            modifier = Modifier
-                .fillMaxWidth()
-                .margin(topBottom = 12.px)
-        )
+        customDivider()
     }
 }

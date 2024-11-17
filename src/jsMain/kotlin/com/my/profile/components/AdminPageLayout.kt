@@ -1,6 +1,6 @@
 package com.my.profile.components
 
-import SidePanel
+import sidePanel
 import androidx.compose.runtime.Composable
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Row
@@ -18,7 +18,7 @@ fun AdminPageLayout(content: @Composable () -> Unit) {
             .fillMaxHeight(),
         horizontalArrangement = Arrangement.Center
     ) {
-        SidePanel()
+        sidePanel()
         content()
     }
 }

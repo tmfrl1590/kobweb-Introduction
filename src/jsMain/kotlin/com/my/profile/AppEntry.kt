@@ -1,7 +1,7 @@
 package com.my.profile
 
 import androidx.compose.runtime.Composable
-import com.my.profile.ui.backgroundColor
+import com.my.profile.util.BACKGROUND_COLOR
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.modifiers.backgroundColor
@@ -24,7 +24,7 @@ fun AppEntry(content: @Composable () -> Unit) {
                 .toModifier()
                 .minHeight(100.vh)
                 .padding(topBottom = 100.px)
-                .backgroundColor(backgroundColor),
+                .backgroundColor(BACKGROUND_COLOR),
             contentAlignment = Alignment.Center
         ) {
             content()
