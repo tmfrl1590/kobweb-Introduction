@@ -18,13 +18,13 @@ fun ontableWorkingArea() {
             .fillMaxWidth()
     ) {
         SpanText(
-            text = " - 약 5개 매장, 30대의 태블릿에서 운영되는 테이블 오더 시스템 개발 및 유지보수",
+            text = "· 약 5개 매장, 30대의 태블릿에서 운영되는 테이블 오더 시스템 개발 및 유지보수",
         )
         SpanText(
-            text = " - WebSocket을 활용한 실시간 주문 처리 시스템 개발",
+            text = "· WebSocket을 활용한 실시간 주문 처리 시스템 개발",
         )
         SpanText(
-            text = " - 매장별 주문 현황을 실시간 모니터링 할 수 있는 통합 관리 시스템 구축",
+            text = "· 매장별 주문 현황을 실시간 모니터링 할 수 있는 통합 관리 시스템 구축",
         )
         customDivider()
     }

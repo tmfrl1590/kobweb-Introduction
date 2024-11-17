@@ -14,16 +14,16 @@ fun aproWorkingArea() {
             .fillMaxWidth()
     ) {
         SpanText(
-            text = " - 축사의 CCTV, 환기 시스템, 천장 개폐 등 다양한 IoT 기기를 통합 관리하는 스마트팜 솔루션 개발",
+            text = "· 축사의 CCTV, 환기 시스템, 천장 개폐 등 다양한 IoT 기기를 통합 관리하는 스마트팜 솔루션 개발",
         )
         SpanText(
-            text = " - Onvif 프로토콜을 활용하여 하이크비전, 다후아, 한화 등 다양한 제조사의 CCTV를 연동하는 CCTV 통합 시스템 구축",
+            text = "· Onvif 프로토콜을 활용하여 하이크비전, 다후아, 한화 등 다양한 제조사의 CCTV를 연동하는 CCTV 통합 시스템 구축",
         )
         SpanText(
-            text = " - 코드리뷰 프로세스 도입을 통해 코드 품질 개선 및 유지보수성 향상",
+            text = "· 코드리뷰 프로세스 도입을 통해 코드 품질 개선 및 유지보수성 향상",
         )
         SpanText(
-            text = " - 고객층 연령대를 고려한 UI/UX 개선",
+            text = "· 고객층 연령대를 고려한 UI/UX 개선",
         )
         customDivider()
     }

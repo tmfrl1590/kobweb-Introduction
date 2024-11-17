@@ -1217,11 +1217,11 @@
     var $composer_0 = $composer;
     $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(1524899707);
     if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
-      SpanText(' - Java\uC5D0\uC11C Kotlin + Compose \uB9C8\uC774\uADF8\uB808\uC774\uC158\uD558\uC5EC \uCF54\uB4DC \uAC04\uACB0\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
-      SpanText(' - MVVM \uD328\uD134\uACFC \uBA40\uD2F0\uBAA8\uB4C8 \uC544\uD0A4\uD14D\uCC98 \uB3C4\uC785\uC73C\uB85C \uD504\uB85C\uC81D\uD2B8 \uAD6C\uC870 \uAC1C\uC120 \uBC0F \uC720\uC9C0\uBCF4\uC218\uC131 \uAC1C\uC120', null, null, null, $composer_0, 6, 14);
-      SpanText(' - \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uB3C4\uC785\uC73C\uB85C \uC571 \uC548\uC815\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
-      SpanText(' - \uC2A4\uB9C8\uD2B8\uB85C PG \uC5F0\uB3D9\uC744 \uD1B5\uD55C \uCE74\uB4DC\uD615 \uC628\uB204\uB9AC \uC0C1\uD488\uAD8C \uACB0\uC81C \uAD6C\uD604\n', null, null, null, $composer_0, 6, 14);
-      SpanText(' - Coroutine \uAE30\uBC18 \uBE44\uB3D9\uAE30 \uCC98\uB9AC\uB85C \uACB0\uC81C API \uC694\uCCAD \uC18D\uB3C4 \uAC1C\uC120 \uBC0F \uACB0\uC81C \uC548\uC815\uC131 \uD5A5\uC0C1\n', null, null, null, $composer_0, 6, 14);
+      SpanText(' \xB7 Java\uC5D0\uC11C Kotlin + Compose \uB9C8\uC774\uADF8\uB808\uC774\uC158\uD558\uC5EC \uCF54\uB4DC \uAC04\uACB0\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
+      SpanText(' \xB7 MVVM \uD328\uD134\uACFC \uBA40\uD2F0\uBAA8\uB4C8 \uC544\uD0A4\uD14D\uCC98 \uB3C4\uC785\uC73C\uB85C \uD504\uB85C\uC81D\uD2B8 \uAD6C\uC870 \uAC1C\uC120 \uBC0F \uC720\uC9C0\uBCF4\uC218\uC131 \uAC1C\uC120', null, null, null, $composer_0, 6, 14);
+      SpanText(' \xB7 \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uB3C4\uC785\uC73C\uB85C \uC571 \uC548\uC815\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
+      SpanText(' \xB7 \uC2A4\uB9C8\uD2B8\uB85C PG \uC5F0\uB3D9\uC744 \uD1B5\uD55C \uCE74\uB4DC\uD615 \uC628\uB204\uB9AC \uC0C1\uD488\uAD8C \uACB0\uC81C \uAD6C\uD604\n', null, null, null, $composer_0, 6, 14);
+      SpanText(' \xB7 Coroutine \uAE30\uBC18 \uBE44\uB3D9\uAE30 \uCC98\uB9AC\uB85C \uACB0\uC81C API \uC694\uCCAD \uC18D\uB3C4 \uAC1C\uC120 \uBC0F \uACB0\uC81C \uC548\uC815\uC131 \uD5A5\uC0C1\n', null, null, null, $composer_0, 6, 14);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -1236,8 +1236,8 @@
     var $composer_0 = $composer;
     $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-81918690);
     if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
-      SpanText(' - \uD14C\uC774\uBE14 \uC624\uB354 \uC571 \uBC0F \uB9C8\uC2A4\uD130 \uD0DC\uBE14\uB9BF \uC571 \uAC1C\uBC1C, \uC6B4\uC601, \uC720\uC9C0\uBCF4\uC218', null, null, null, $composer_0, 6, 14);
-      SpanText(' - WebSocket\uC744 \uD65C\uC6A9\uD55C \uC2E4\uC2DC\uAC04 \uC8FC\uBB38 \uCC98\uB9AC \uC2DC\uC2A4\uD15C \uAD6C\uCD95', null, null, null, $composer_0, 6, 14);
+      SpanText(' \xB7 \uD14C\uC774\uBE14 \uC624\uB354 \uC571 \uBC0F \uB9C8\uC2A4\uD130 \uD0DC\uBE14\uB9BF \uC571 \uAC1C\uBC1C, \uC6B4\uC601, \uC720\uC9C0\uBCF4\uC218', null, null, null, $composer_0, 6, 14);
+      SpanText(' \xB7 WebSocket\uC744 \uD65C\uC6A9\uD55C \uC2E4\uC2DC\uAC04 \uC8FC\uBB38 \uCC98\uB9AC \uC2DC\uC2A4\uD15C \uAD6C\uCD95', null, null, null, $composer_0, 6, 14);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -1252,9 +1252,9 @@
     var $composer_0 = $composer;
     $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1995233819);
     if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
-      SpanText(' - Onvif \uD504\uB85C\uD1A0\uCF5C\uC744 \uD65C\uC6A9\uD55C CCTV \uD1B5\uC2E0 \uC2DC\uC2A4\uD15C \uAC1C\uBC1C', null, null, null, $composer_0, 6, 14);
-      SpanText(' - \uCF54\uB4DC \uB9AC\uBDF0 \uB3C4\uC785\uC73C\uB85C \uCF54\uB4DC \uD488\uC9C8 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
-      SpanText(' - \uC544\uD504\uB85C\uC81C\uC5B4 \uC571 \uAC1C\uBC1C \uBC0F \uC720\uC9C0\uBCF4\uC218', null, null, null, $composer_0, 6, 14);
+      SpanText(' \xB7 Onvif \uD504\uB85C\uD1A0\uCF5C\uC744 \uD65C\uC6A9\uD55C CCTV \uD1B5\uC2E0 \uC2DC\uC2A4\uD15C \uAC1C\uBC1C', null, null, null, $composer_0, 6, 14);
+      SpanText(' \xB7 \uCF54\uB4DC \uB9AC\uBDF0 \uB3C4\uC785\uC73C\uB85C \uCF54\uB4DC \uD488\uC9C8 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
+      SpanText(' \xB7 \uC544\uD504\uB85C\uC81C\uC5B4 \uC571 \uAC1C\uBC1C \uBC0F \uC720\uC9C0\uBCF4\uC218', null, null, null, $composer_0, 6, 14);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -1456,10 +1456,10 @@
   function ComposableSingletons$AproWorkingAreaKt$lambda_1$lambda_iya33c($this$Column, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
-      SpanText(' - \uCD95\uC0AC\uC758 CCTV, \uD658\uAE30 \uC2DC\uC2A4\uD15C, \uCC9C\uC7A5 \uAC1C\uD3D0 \uB4F1 \uB2E4\uC591\uD55C IoT \uAE30\uAE30\uB97C \uD1B5\uD569 \uAD00\uB9AC\uD558\uB294 \uC2A4\uB9C8\uD2B8\uD31C \uC194\uB8E8\uC158 \uAC1C\uBC1C', null, null, null, $composer_0, 6, 14);
-      SpanText(' - Onvif \uD504\uB85C\uD1A0\uCF5C\uC744 \uD65C\uC6A9\uD558\uC5EC \uD558\uC774\uD06C\uBE44\uC804, \uB2E4\uD6C4\uC544, \uD55C\uD654 \uB4F1 \uB2E4\uC591\uD55C \uC81C\uC870\uC0AC\uC758 CCTV\uB97C \uC5F0\uB3D9\uD558\uB294 CCTV \uD1B5\uD569 \uC2DC\uC2A4\uD15C \uAD6C\uCD95', null, null, null, $composer_0, 6, 14);
-      SpanText(' - \uCF54\uB4DC\uB9AC\uBDF0 \uD504\uB85C\uC138\uC2A4 \uB3C4\uC785\uC744 \uD1B5\uD574 \uCF54\uB4DC \uD488\uC9C8 \uAC1C\uC120 \uBC0F \uC720\uC9C0\uBCF4\uC218\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
-      SpanText(' - \uACE0\uAC1D\uCE35 \uC5F0\uB839\uB300\uB97C \uACE0\uB824\uD55C UI/UX \uAC1C\uC120', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 \uCD95\uC0AC\uC758 CCTV, \uD658\uAE30 \uC2DC\uC2A4\uD15C, \uCC9C\uC7A5 \uAC1C\uD3D0 \uB4F1 \uB2E4\uC591\uD55C IoT \uAE30\uAE30\uB97C \uD1B5\uD569 \uAD00\uB9AC\uD558\uB294 \uC2A4\uB9C8\uD2B8\uD31C \uC194\uB8E8\uC158 \uAC1C\uBC1C', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 Onvif \uD504\uB85C\uD1A0\uCF5C\uC744 \uD65C\uC6A9\uD558\uC5EC \uD558\uC774\uD06C\uBE44\uC804, \uB2E4\uD6C4\uC544, \uD55C\uD654 \uB4F1 \uB2E4\uC591\uD55C \uC81C\uC870\uC0AC\uC758 CCTV\uB97C \uC5F0\uB3D9\uD558\uB294 CCTV \uD1B5\uD569 \uC2DC\uC2A4\uD15C \uAD6C\uCD95', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 \uCF54\uB4DC\uB9AC\uBDF0 \uD504\uB85C\uC138\uC2A4 \uB3C4\uC785\uC744 \uD1B5\uD574 \uCF54\uB4DC \uD488\uC9C8 \uAC1C\uC120 \uBC0F \uC720\uC9C0\uBCF4\uC218\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 \uACE0\uAC1D\uCE35 \uC5F0\uB839\uB300\uB97C \uACE0\uB824\uD55C UI/UX \uAC1C\uC120', null, null, null, $composer_0, 6, 14);
       customDivider($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
@@ -1556,18 +1556,18 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
       onderWorkingAreaTitle('\uBB38\uC81C', $composer_0, 6);
-      descriptionRow('\uBCF5\uC7A1\uD55C \uCF54\uB4DC \uAD6C\uC870', ' : \uB2E8\uC77C \uC561\uD2F0\uBE44\uD2F0\uC5D0 \uBE44\uC988\uB2C8\uC2A4 \uB85C\uC9C1\uC774 \uC9D1\uC911\uB418\uC5B4 \uCF54\uB4DC \uBCF5\uC7A1\uB3C4\uAC00 \uB192\uC74C', $composer_0, 54, 0);
-      descriptionRow('\uC720\uC9C0\uBCF4\uC218 \uC5B4\uB824\uC6C0', ' : \uC11C\uBC84 \uC751\uB2F5 \uCF54\uB4DC\uC640 \uCEEC\uB7FC\uBA85\uC774 \uD558\uB4DC\uCF54\uB529\uB418\uC5B4 \uC788\uACE0, \uAC1C\uBC1C \uBB38\uC11C\uAC00 \uC5C6\uC5B4 \uC720\uC9C0\uBCF4\uC218\uC5D0 \uC81C\uC57D', $composer_0, 54, 0);
-      descriptionRow('\uCFE0\uD3F0 \uBC1C\uAE09 \uC81C\uD55C', ' : \uCFE0\uD3F0 \uBC1C\uAE09\uC774 \uB9E4\uC7A5\uC5D0 \uD55C\uC815\uB418\uC5B4, \uD1B5\uD569\uAD00\uB9AC\uC790\uAC00 \uC720\uC5F0\uD558\uAC8C \uC6B4\uC601\uD560 \uC218 \uC5C6\uB294 \uAD6C\uC870', $composer_0, 54, 0);
-      descriptionRow('API \uC911\uB2E8', ' : \uC81C\uB85C\uD398\uC774 \uAE30\uBC18 \uBAA8\uBC14\uC77C \uC628\uB204\uB9AC \uC0C1\uD488\uAD8C API\uAC00 \uAC11\uC790\uAE30 \uC911\uB2E8\uB418\uC5B4 \uACB0\uC81C \uAE30\uB2A5\uC774 \uC911\uB2E8\uB428', $composer_0, 54, 0);
+      descriptionRow('\xB7 \uBCF5\uC7A1\uD55C \uCF54\uB4DC \uAD6C\uC870', ' : \uB2E8\uC77C \uC561\uD2F0\uBE44\uD2F0\uC5D0 \uBE44\uC988\uB2C8\uC2A4 \uB85C\uC9C1\uC774 \uC9D1\uC911\uB418\uC5B4 \uCF54\uB4DC \uBCF5\uC7A1\uB3C4\uAC00 \uB192\uC74C', $composer_0, 54, 0);
+      descriptionRow('\xB7 \uC720\uC9C0\uBCF4\uC218 \uC5B4\uB824\uC6C0', ' : \uC11C\uBC84 \uC751\uB2F5 \uCF54\uB4DC\uC640 \uCEEC\uB7FC\uBA85\uC774 \uD558\uB4DC\uCF54\uB529\uB418\uC5B4 \uC788\uACE0, \uAC1C\uBC1C \uBB38\uC11C\uAC00 \uC5C6\uC5B4 \uC720\uC9C0\uBCF4\uC218\uC5D0 \uC81C\uC57D', $composer_0, 54, 0);
+      descriptionRow('\xB7 \uCFE0\uD3F0 \uBC1C\uAE09 \uC81C\uD55C', ' : \uCFE0\uD3F0 \uBC1C\uAE09\uC774 \uB9E4\uC7A5\uC5D0 \uD55C\uC815\uB418\uC5B4, \uD1B5\uD569\uAD00\uB9AC\uC790\uAC00 \uC720\uC5F0\uD558\uAC8C \uC6B4\uC601\uD560 \uC218 \uC5C6\uB294 \uAD6C\uC870', $composer_0, 54, 0);
+      descriptionRow('\xB7 API \uC911\uB2E8', ' : \uC81C\uB85C\uD398\uC774 \uAE30\uBC18 \uBAA8\uBC14\uC77C \uC628\uB204\uB9AC \uC0C1\uD488\uAD8C API\uAC00 \uAC11\uC790\uAE30 \uC911\uB2E8\uB418\uC5B4 \uACB0\uC81C \uAE30\uB2A5\uC774 \uC911\uB2E8\uB428', $composer_0, 54, 0);
       onderWorkingAreaTitle('\uD574\uACB0', $composer_0, 6);
-      SpanText(' - Java \uAE30\uBC18 \uD504\uB85C\uC81D\uD2B8\uB97C Kotlin \uBC0F Jetpack Compose\uB85C 100% \uB9C8\uC774\uADF8\uB808\uC774\uC158\uD558\uC5EC \uCF54\uB4DC \uAC04\uACB0\uC131\uACFC \uC720\uC9C0\uBCF4\uC218\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
-      SpanText(' - MVVM \uD328\uD134\uACFC \uBA40\uD2F0\uBAA8\uB4C8 \uC544\uD0A4\uD14D\uCC98\uB97C \uB3C4\uC785\uD558\uC5EC \uD504\uB85C\uC81D\uD2B8 \uAD6C\uC870 \uBAA8\uB4C8\uD654 \uBC0F \uC720\uC9C0\uBCF4\uC218\uC131 \uAC1C\uC120', null, null, null, $composer_0, 6, 14);
-      SpanText(' - \uD558\uB4DC\uCF54\uB529\uB41C \uC11C\uBC84 \uC751\uB2F5 \uCF54\uB4DC\uB97C Enum \uD074\uB798\uC2A4\uB85C \uB9AC\uD329\uD1A0\uB9C1\uD558\uC5EC \uCF54\uB4DC \uAC00\uB3C5\uC131\uACFC \uC720\uC9C0\uBCF4\uC218\uC131 \uAC1C\uC120', null, null, null, $composer_0, 6, 14);
-      SpanText(' - \uD14C\uC2A4\uD2B8 \uCF54\uB4DC\uB97C \uB3C4\uC785\uD558\uC5EC \uC571\uC758 \uC548\uC815\uC131\uC744 \uB192\uC774\uACE0, \uBC30\uD3EC \uC2DC \uBC1C\uC0DD\uD560 \uC218 \uC788\uB294 \uBB38\uC81C\uB97C \uCD5C\uC18C\uD654', null, null, null, $composer_0, 6, 14);
-      SpanText(' - \uCFE0\uD3F0 \uBC1C\uAE09 \uC8FC\uCCB4\uB97C \uD1B5\uD569\uAD00\uB9AC\uC790\uC640 \uB9E4\uC7A5 \uBAA8\uB450 \uBC1C\uAE09 \uAC00\uB2A5\uD558\uB3C4\uB85D \uC7AC\uC124\uACC4', null, null, null, $composer_0, 6, 14);
-      SpanText(' - \uC2A4\uB9C8\uD2B8\uB85C PG \uC5F0\uB3D9\uC744 \uD1B5\uD55C \uCE74\uB4DC\uD615 \uC628\uB204\uB9AC \uC0C1\uD488\uAD8C \uACB0\uC81C \uC2DC\uC2A4\uD15C \uAD6C\uD604', null, null, null, $composer_0, 6, 14);
-      SpanText(' - Coroutine \uAE30\uBC18\uC758 \uBE44\uB3D9\uAE30 \uB124\uD2B8\uC6CC\uD06C \uD1B5\uC2E0\uC73C\uB85C \uACB0\uC81C API \uC694\uCCAD \uC18D\uB3C4\uB97C \uAC1C\uC120\uD558\uACE0, \uACB0\uC81C \uC2E4\uD328 \uC2DC \uC624\uB958 \uCC98\uB9AC \uB85C\uC9C1\uC744 \uCD94\uAC00\uD558\uC5EC \uACB0\uC81C \uC548\uC815\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 Java \uAE30\uBC18 \uD504\uB85C\uC81D\uD2B8\uB97C Kotlin \uBC0F Jetpack Compose\uB85C 100% \uB9C8\uC774\uADF8\uB808\uC774\uC158\uD558\uC5EC \uCF54\uB4DC \uAC04\uACB0\uC131\uACFC \uC720\uC9C0\uBCF4\uC218\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 MVVM \uD328\uD134\uACFC \uBA40\uD2F0\uBAA8\uB4C8 \uC544\uD0A4\uD14D\uCC98\uB97C \uB3C4\uC785\uD558\uC5EC \uD504\uB85C\uC81D\uD2B8 \uAD6C\uC870 \uBAA8\uB4C8\uD654 \uBC0F \uC720\uC9C0\uBCF4\uC218\uC131 \uAC1C\uC120', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 \uD558\uB4DC\uCF54\uB529\uB41C \uC11C\uBC84 \uC751\uB2F5 \uCF54\uB4DC\uB97C Enum \uD074\uB798\uC2A4\uB85C \uB9AC\uD329\uD1A0\uB9C1\uD558\uC5EC \uCF54\uB4DC \uAC00\uB3C5\uC131\uACFC \uC720\uC9C0\uBCF4\uC218\uC131 \uAC1C\uC120', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 \uD14C\uC2A4\uD2B8 \uCF54\uB4DC\uB97C \uB3C4\uC785\uD558\uC5EC \uC571\uC758 \uC548\uC815\uC131\uC744 \uB192\uC774\uACE0, \uBC30\uD3EC \uC2DC \uBC1C\uC0DD\uD560 \uC218 \uC788\uB294 \uBB38\uC81C\uB97C \uCD5C\uC18C\uD654', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 \uCFE0\uD3F0 \uBC1C\uAE09 \uC8FC\uCCB4\uB97C \uD1B5\uD569\uAD00\uB9AC\uC790\uC640 \uB9E4\uC7A5 \uBAA8\uB450 \uBC1C\uAE09 \uAC00\uB2A5\uD558\uB3C4\uB85D \uC7AC\uC124\uACC4', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 \uC2A4\uB9C8\uD2B8\uB85C PG \uC5F0\uB3D9\uC744 \uD1B5\uD55C \uCE74\uB4DC\uD615 \uC628\uB204\uB9AC \uC0C1\uD488\uAD8C \uACB0\uC81C \uC2DC\uC2A4\uD15C \uAD6C\uD604', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 Coroutine \uAE30\uBC18\uC758 \uBE44\uB3D9\uAE30 \uB124\uD2B8\uC6CC\uD06C \uD1B5\uC2E0\uC73C\uB85C \uACB0\uC81C API \uC694\uCCAD \uC18D\uB3C4\uB97C \uAC1C\uC120\uD558\uACE0, \uACB0\uC81C \uC2E4\uD328 \uC2DC \uC624\uB958 \uCC98\uB9AC \uB85C\uC9C1\uC744 \uCD94\uAC00\uD558\uC5EC \uACB0\uC81C \uC548\uC815\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
       customDivider($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
@@ -1637,9 +1637,9 @@
   function ComposableSingletons$OntableWorkingAreaKt$lambda_1$lambda_y4u4o3($this$Column, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
-      SpanText(' - \uC57D 5\uAC1C \uB9E4\uC7A5, 30\uB300\uC758 \uD0DC\uBE14\uB9BF\uC5D0\uC11C \uC6B4\uC601\uB418\uB294 \uD14C\uC774\uBE14 \uC624\uB354 \uC2DC\uC2A4\uD15C \uAC1C\uBC1C \uBC0F \uC720\uC9C0\uBCF4\uC218', null, null, null, $composer_0, 6, 14);
-      SpanText(' - WebSocket\uC744 \uD65C\uC6A9\uD55C \uC2E4\uC2DC\uAC04 \uC8FC\uBB38 \uCC98\uB9AC \uC2DC\uC2A4\uD15C \uAC1C\uBC1C', null, null, null, $composer_0, 6, 14);
-      SpanText(' - \uB9E4\uC7A5\uBCC4 \uC8FC\uBB38 \uD604\uD669\uC744 \uC2E4\uC2DC\uAC04 \uBAA8\uB2C8\uD130\uB9C1 \uD560 \uC218 \uC788\uB294 \uD1B5\uD569 \uAD00\uB9AC \uC2DC\uC2A4\uD15C \uAD6C\uCD95', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 \uC57D 5\uAC1C \uB9E4\uC7A5, 30\uB300\uC758 \uD0DC\uBE14\uB9BF\uC5D0\uC11C \uC6B4\uC601\uB418\uB294 \uD14C\uC774\uBE14 \uC624\uB354 \uC2DC\uC2A4\uD15C \uAC1C\uBC1C \uBC0F \uC720\uC9C0\uBCF4\uC218', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 WebSocket\uC744 \uD65C\uC6A9\uD55C \uC2E4\uC2DC\uAC04 \uC8FC\uBB38 \uCC98\uB9AC \uC2DC\uC2A4\uD15C \uAC1C\uBC1C', null, null, null, $composer_0, 6, 14);
+      SpanText('\xB7 \uB9E4\uC7A5\uBCC4 \uC8FC\uBB38 \uD604\uD669\uC744 \uC2E4\uC2DC\uAC04 \uBAA8\uB2C8\uD130\uB9C1 \uD560 \uC218 \uC788\uB294 \uD1B5\uD569 \uAD00\uB9AC \uC2DC\uC2A4\uD15C \uAD6C\uCD95', null, null, null, $composer_0, 6, 14);
       customDivider($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
