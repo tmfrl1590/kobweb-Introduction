@@ -124,7 +124,7 @@
   var ariaHidden = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i;
   var toModifier = kotlin_com_varabyte_kobweb_silk_foundation.$_$.y;
   var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p2;
-  var Hr = kotlin_org_jetbrains_compose_html_html_core.$_$.c5;
+  var Hr = kotlin_org_jetbrains_compose_html_html_core.$_$.d5;
   var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.o4;
   var borderTop = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n;
   var borderLeft = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l;

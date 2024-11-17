@@ -33,7 +33,6 @@ fun careerContent() {
         modifier = Modifier
             .width(700.px)
             .fillMaxHeight()
-            .padding()
             .padding(40.px)
             .backgroundColor(white),
     ) {
@@ -51,7 +50,7 @@ fun theDreamakers(){
         date = "2023.09 ~ 2024.09",
     )
     careerArea(
-        projectDescription = " : 온누리 상품권 기반의 전통시장 이커머스 플랫폼 온누리오더 (온더)",
+        projectDescription = " : 온누리 상품권 기반의 전통시장 이커머스 플랫폼 온누리오더 (온더) ",
         roleDescription = " : Kotlin 기반 Android 및 백엔드 개발",
         content = {
             OnderDescription()

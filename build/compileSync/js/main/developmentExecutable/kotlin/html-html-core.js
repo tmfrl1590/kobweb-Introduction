@@ -739,7 +739,7 @@
   initMetadataForClass(RGBA, 'RGBA');
   initMetadataForClass(HSL, 'HSL');
   initMetadataForClass(HSLA, 'HSLA');
-  initMetadataForObject(Color, 'Color');
+  initMetadataForObject(Color_0, 'Color');
   initMetadataForInterface(CSSVariable, 'CSSVariable');
   initMetadataForClass(CSSStyleVariable, 'CSSStyleVariable', VOID, VOID, [CSSVariable]);
   initMetadataForClass(StylePropertyDeclaration, 'StylePropertyDeclaration');
@@ -3873,6 +3873,11 @@
     // Inline function 'kotlin.js.asDynamic' call
     return new CSSUnitValueTyped(tmp, 'deg');
   }
+  function Color(name) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return name;
+  }
   function get_$stableprop_36() {
     return 0;
   }
@@ -4148,437 +4153,432 @@
   function get_$stableprop_40() {
     return 0;
   }
-  function Color() {
+  function Color_0() {
     Color_instance = this;
     this.$stable_1 = 0;
   }
-  protoOf(Color).get_aliceblue_zbd233_k$ = function () {
-    return Color_0('aliceblue');
+  protoOf(Color_0).get_aliceblue_zbd233_k$ = function () {
+    return Color('aliceblue');
   };
-  protoOf(Color).get_antiquewhite_dljfeb_k$ = function () {
-    return Color_0('antiquewhite');
+  protoOf(Color_0).get_antiquewhite_dljfeb_k$ = function () {
+    return Color('antiquewhite');
   };
-  protoOf(Color).get_aquamarine_jqard_k$ = function () {
-    return Color_0('aquamarine');
+  protoOf(Color_0).get_aquamarine_jqard_k$ = function () {
+    return Color('aquamarine');
   };
-  protoOf(Color).get_azure_ioxv8m_k$ = function () {
-    return Color_0('azure');
+  protoOf(Color_0).get_azure_ioxv8m_k$ = function () {
+    return Color('azure');
   };
-  protoOf(Color).get_beige_ip3zy3_k$ = function () {
-    return Color_0('beige');
+  protoOf(Color_0).get_beige_ip3zy3_k$ = function () {
+    return Color('beige');
   };
-  protoOf(Color).get_bisque_bfxany_k$ = function () {
-    return Color_0('bisque');
+  protoOf(Color_0).get_bisque_bfxany_k$ = function () {
+    return Color('bisque');
   };
-  protoOf(Color).get_black_ip8aty_k$ = function () {
-    return Color_0('black');
+  protoOf(Color_0).get_black_ip8aty_k$ = function () {
+    return Color('black');
   };
-  protoOf(Color).get_blanchedalmond_xh00hz_k$ = function () {
-    return Color_0('blanchedalmond');
+  protoOf(Color_0).get_blanchedalmond_xh00hz_k$ = function () {
+    return Color('blanchedalmond');
   };
-  protoOf(Color).get_blue_wojj4z_k$ = function () {
-    return Color_0('blue');
+  protoOf(Color_0).get_blue_wojj4z_k$ = function () {
+    return Color('blue');
   };
-  protoOf(Color).get_blueviolet_4c63a6_k$ = function () {
-    return Color_0('blueviolet');
+  protoOf(Color_0).get_blueviolet_4c63a6_k$ = function () {
+    return Color('blueviolet');
   };
-  protoOf(Color).get_brown_ipcfm5_k$ = function () {
-    return Color_0('brown');
+  protoOf(Color_0).get_brown_ipcfm5_k$ = function () {
+    return Color('brown');
   };
-  protoOf(Color).get_burlywood_oa2kz4_k$ = function () {
-    return Color_0('burlywood');
+  protoOf(Color_0).get_burlywood_oa2kz4_k$ = function () {
+    return Color('burlywood');
   };
-  protoOf(Color).get_cadetblue_cuot2e_k$ = function () {
-    return Color_0('cadetblue');
+  protoOf(Color_0).get_cadetblue_cuot2e_k$ = function () {
+    return Color('cadetblue');
   };
-  protoOf(Color).get_chartreuse_9n36cf_k$ = function () {
-    return Color_0('chartreuse');
+  protoOf(Color_0).get_chartreuse_9n36cf_k$ = function () {
+    return Color('chartreuse');
   };
-  protoOf(Color).get_chocolate_jw6x03_k$ = function () {
-    return Color_0('chocolate');
+  protoOf(Color_0).get_chocolate_jw6x03_k$ = function () {
+    return Color('chocolate');
   };
-  protoOf(Color).get_cornflowerblue_alq49m_k$ = function () {
-    return Color_0('cornflowerblue');
+  protoOf(Color_0).get_cornflowerblue_alq49m_k$ = function () {
+    return Color('cornflowerblue');
   };
-  protoOf(Color).get_cornsilk_vnj6x2_k$ = function () {
-    return Color_0('cornsilk');
+  protoOf(Color_0).get_cornsilk_vnj6x2_k$ = function () {
+    return Color('cornsilk');
   };
-  protoOf(Color).get_crimson_icc9h2_k$ = function () {
-    return Color_0('crimson');
+  protoOf(Color_0).get_crimson_icc9h2_k$ = function () {
+    return Color('crimson');
   };
-  protoOf(Color).get_cyan_wokfak_k$ = function () {
-    return Color_0('cyan');
+  protoOf(Color_0).get_cyan_wokfak_k$ = function () {
+    return Color('cyan');
   };
-  protoOf(Color).get_darkblue_304dbb_k$ = function () {
-    return Color_0('darkblue');
+  protoOf(Color_0).get_darkblue_304dbb_k$ = function () {
+    return Color('darkblue');
   };
-  protoOf(Color).get_darkcyan_303h5q_k$ = function () {
-    return Color_0('darkcyan');
+  protoOf(Color_0).get_darkcyan_303h5q_k$ = function () {
+    return Color('darkcyan');
   };
-  protoOf(Color).get_darkgoldenrod_cl11rz_k$ = function () {
-    return Color_0('darkgoldenrod');
+  protoOf(Color_0).get_darkgoldenrod_cl11rz_k$ = function () {
+    return Color('darkgoldenrod');
   };
-  protoOf(Color).get_darkgray_3012e6_k$ = function () {
-    return Color_0('darkgray');
+  protoOf(Color_0).get_darkgray_3012e6_k$ = function () {
+    return Color('darkgray');
   };
-  protoOf(Color).get_darkgreen_lzsxng_k$ = function () {
-    return Color_0('darkgreen');
+  protoOf(Color_0).get_darkgreen_lzsxng_k$ = function () {
+    return Color('darkgreen');
   };
-  protoOf(Color).get_darkkhaki_lxs7z1_k$ = function () {
-    return Color_0('darkkhaki');
+  protoOf(Color_0).get_darkkhaki_lxs7z1_k$ = function () {
+    return Color('darkkhaki');
   };
-  protoOf(Color).get_darkmagenta_vkc9h2_k$ = function () {
-    return Color_0('darkmagenta');
+  protoOf(Color_0).get_darkmagenta_vkc9h2_k$ = function () {
+    return Color('darkmagenta');
   };
-  protoOf(Color).get_darkolivegreen_7vcpa1_k$ = function () {
-    return Color_0('darkolivegreen');
+  protoOf(Color_0).get_darkolivegreen_7vcpa1_k$ = function () {
+    return Color('darkolivegreen');
   };
-  protoOf(Color).get_darkorange_w9i6ct_k$ = function () {
-    return Color_0('darkorange');
+  protoOf(Color_0).get_darkorange_w9i6ct_k$ = function () {
+    return Color('darkorange');
   };
-  protoOf(Color).get_darkorchid_w9jbxe_k$ = function () {
-    return Color_0('darkorchid');
+  protoOf(Color_0).get_darkorchid_w9jbxe_k$ = function () {
+    return Color('darkorchid');
   };
-  protoOf(Color).get_darkred_p3vtde_k$ = function () {
-    return Color_0('darkred');
+  protoOf(Color_0).get_darkred_p3vtde_k$ = function () {
+    return Color('darkred');
   };
-  protoOf(Color).get_darksalmon_xwj65p_k$ = function () {
-    return Color_0('darksalmon');
+  protoOf(Color_0).get_darksalmon_xwj65p_k$ = function () {
+    return Color('darksalmon');
   };
-  protoOf(Color).get_darkslateblue_i855d8_k$ = function () {
-    return Color_0('darkslateblue');
+  protoOf(Color_0).get_darkslateblue_i855d8_k$ = function () {
+    return Color('darkslateblue');
   };
-  protoOf(Color).get_darkslategray_i81ug3_k$ = function () {
-    return Color_0('darkslategray');
+  protoOf(Color_0).get_darkslategray_i81ug3_k$ = function () {
+    return Color('darkslategray');
   };
-  protoOf(Color).get_darkturquoise_xgbo76_k$ = function () {
-    return Color_0('darkturquoise');
+  protoOf(Color_0).get_darkturquoise_xgbo76_k$ = function () {
+    return Color('darkturquoise');
   };
-  protoOf(Color).get_darkviolet_zg4a2m_k$ = function () {
-    return Color_0('darkviolet');
+  protoOf(Color_0).get_darkviolet_zg4a2m_k$ = function () {
+    return Color('darkviolet');
   };
-  protoOf(Color).get_deeppink_le8j4l_k$ = function () {
-    return Color_0('deeppink');
+  protoOf(Color_0).get_deeppink_le8j4l_k$ = function () {
+    return Color('deeppink');
   };
-  protoOf(Color).get_deepskyblue_cz0co6_k$ = function () {
-    return Color_0('deepskyblue');
+  protoOf(Color_0).get_deepskyblue_cz0co6_k$ = function () {
+    return Color('deepskyblue');
   };
-  protoOf(Color).get_dimgray_stf9j6_k$ = function () {
-    return Color_0('dimgray');
+  protoOf(Color_0).get_dimgray_stf9j6_k$ = function () {
+    return Color('dimgray');
   };
-  protoOf(Color).get_dodgerblue_tguua_k$ = function () {
-    return Color_0('dodgerblue');
+  protoOf(Color_0).get_dodgerblue_tguua_k$ = function () {
+    return Color('dodgerblue');
   };
-  protoOf(Color).get_firebrick_3tq2w2_k$ = function () {
-    return Color_0('firebrick');
+  protoOf(Color_0).get_firebrick_3tq2w2_k$ = function () {
+    return Color('firebrick');
   };
-  protoOf(Color).get_floralwhite_5zrd1w_k$ = function () {
-    return Color_0('floralwhite');
+  protoOf(Color_0).get_floralwhite_5zrd1w_k$ = function () {
+    return Color('floralwhite');
   };
-  protoOf(Color).get_forestgreen_q0ckd_k$ = function () {
-    return Color_0('forestgreen');
+  protoOf(Color_0).get_forestgreen_q0ckd_k$ = function () {
+    return Color('forestgreen');
   };
-  protoOf(Color).get_fuchsia_7bu1aq_k$ = function () {
-    return Color_0('fuchsia');
+  protoOf(Color_0).get_fuchsia_7bu1aq_k$ = function () {
+    return Color('fuchsia');
   };
-  protoOf(Color).get_gainsboro_t2wzuz_k$ = function () {
-    return Color_0('gainsboro');
+  protoOf(Color_0).get_gainsboro_t2wzuz_k$ = function () {
+    return Color('gainsboro');
   };
-  protoOf(Color).get_ghostwhite_b9ngjh_k$ = function () {
-    return Color_0('ghostwhite');
+  protoOf(Color_0).get_ghostwhite_b9ngjh_k$ = function () {
+    return Color('ghostwhite');
   };
-  protoOf(Color).get_goldenrod_cnlggb_k$ = function () {
-    return Color_0('goldenrod');
+  protoOf(Color_0).get_goldenrod_cnlggb_k$ = function () {
+    return Color('goldenrod');
   };
-  protoOf(Color).get_gold_woms2x_k$ = function () {
-    return Color_0('gold');
+  protoOf(Color_0).get_gold_woms2x_k$ = function () {
+    return Color('gold');
   };
-  protoOf(Color).get_gray_womu24_k$ = function () {
-    return Color_0('gray');
+  protoOf(Color_0).get_gray_womu24_k$ = function () {
+    return Color('gray');
   };
-  protoOf(Color).get_green_is36qi_k$ = function () {
-    return Color_0('green');
+  protoOf(Color_0).get_green_is36qi_k$ = function () {
+    return Color('green');
   };
-  protoOf(Color).get_greenyellow_5bsysy_k$ = function () {
-    return Color_0('greenyellow');
+  protoOf(Color_0).get_greenyellow_5bsysy_k$ = function () {
+    return Color('greenyellow');
   };
-  protoOf(Color).get_honeydew_voejes_k$ = function () {
-    return Color_0('honeydew');
+  protoOf(Color_0).get_honeydew_voejes_k$ = function () {
+    return Color('honeydew');
   };
-  protoOf(Color).get_hotpink_jg67h6_k$ = function () {
-    return Color_0('hotpink');
+  protoOf(Color_0).get_hotpink_jg67h6_k$ = function () {
+    return Color('hotpink');
   };
-  protoOf(Color).get_indianred_3a95lb_k$ = function () {
-    return Color_0('indianred');
+  protoOf(Color_0).get_indianred_3a95lb_k$ = function () {
+    return Color('indianred');
   };
-  protoOf(Color).get_indigo_etpvbv_k$ = function () {
-    return Color_0('indigo');
+  protoOf(Color_0).get_indigo_etpvbv_k$ = function () {
+    return Color('indigo');
   };
-  protoOf(Color).get_ivory_it9jls_k$ = function () {
-    return Color_0('ivory');
+  protoOf(Color_0).get_ivory_it9jls_k$ = function () {
+    return Color('ivory');
   };
-  protoOf(Color).get_khaki_iu3wex_k$ = function () {
-    return Color_0('khaki');
+  protoOf(Color_0).get_khaki_iu3wex_k$ = function () {
+    return Color('khaki');
   };
-  protoOf(Color).get_lavenderblush_x9vfqo_k$ = function () {
-    return Color_0('lavenderblush');
+  protoOf(Color_0).get_lavenderblush_x9vfqo_k$ = function () {
+    return Color('lavenderblush');
   };
-  protoOf(Color).get_lavender_gamgsw_k$ = function () {
-    return Color_0('lavender');
+  protoOf(Color_0).get_lavender_gamgsw_k$ = function () {
+    return Color('lavender');
   };
-  protoOf(Color).get_lawngreen_qrrc9a_k$ = function () {
-    return Color_0('lawngreen');
+  protoOf(Color_0).get_lawngreen_qrrc9a_k$ = function () {
+    return Color('lawngreen');
   };
-  protoOf(Color).get_lemonchiffon_bkotvd_k$ = function () {
-    return Color_0('lemonchiffon');
+  protoOf(Color_0).get_lemonchiffon_bkotvd_k$ = function () {
+    return Color('lemonchiffon');
   };
-  protoOf(Color).get_lightblue_jv04av_k$ = function () {
-    return Color_0('lightblue');
+  protoOf(Color_0).get_lightblue_jv04av_k$ = function () {
+    return Color('lightblue');
   };
-  protoOf(Color).get_lightcoral_nkb53w_k$ = function () {
-    return Color_0('lightcoral');
+  protoOf(Color_0).get_lightcoral_nkb53w_k$ = function () {
+    return Color('lightcoral');
   };
-  protoOf(Color).get_lightcyan_jv10gg_k$ = function () {
-    return Color_0('lightcyan');
+  protoOf(Color_0).get_lightcyan_jv10gg_k$ = function () {
+    return Color('lightcyan');
   };
-  protoOf(Color).get_lightgoldenrodyellow_u5ont1_k$ = function () {
-    return Color_0('lightgoldenrodyellow');
+  protoOf(Color_0).get_lightgoldenrodyellow_u5ont1_k$ = function () {
+    return Color('lightgoldenrodyellow');
   };
-  protoOf(Color).get_lightgray_jv3f80_k$ = function () {
-    return Color_0('lightgray');
+  protoOf(Color_0).get_lightgray_jv3f80_k$ = function () {
+    return Color('lightgray');
   };
-  protoOf(Color).get_lightgreen_ni2bbe_k$ = function () {
-    return Color_0('lightgreen');
+  protoOf(Color_0).get_lightgreen_ni2bbe_k$ = function () {
+    return Color('lightgreen');
   };
-  protoOf(Color).get_lightpink_jv8zqb_k$ = function () {
-    return Color_0('lightpink');
+  protoOf(Color_0).get_lightpink_jv8zqb_k$ = function () {
+    return Color('lightpink');
   };
-  protoOf(Color).get_lightsalmon_ctjlgl_k$ = function () {
-    return Color_0('lightsalmon');
+  protoOf(Color_0).get_lightsalmon_ctjlgl_k$ = function () {
+    return Color('lightsalmon');
   };
-  protoOf(Color).get_lightseagreen_l37xtt_k$ = function () {
-    return Color_0('lightseagreen');
+  protoOf(Color_0).get_lightseagreen_l37xtt_k$ = function () {
+    return Color('lightseagreen');
   };
-  protoOf(Color).get_lightskyblue_xo7be6_k$ = function () {
-    return Color_0('lightskyblue');
+  protoOf(Color_0).get_lightskyblue_xo7be6_k$ = function () {
+    return Color('lightskyblue');
   };
-  protoOf(Color).get_lightslategray_94c373_k$ = function () {
-    return Color_0('lightslategray');
+  protoOf(Color_0).get_lightslategray_94c373_k$ = function () {
+    return Color('lightslategray');
   };
-  protoOf(Color).get_lightsteelblue_7ajpzs_k$ = function () {
-    return Color_0('lightsteelblue');
+  protoOf(Color_0).get_lightsteelblue_7ajpzs_k$ = function () {
+    return Color('lightsteelblue');
   };
-  protoOf(Color).get_lightyellow_9x2pgf_k$ = function () {
-    return Color_0('lightyellow');
+  protoOf(Color_0).get_lightyellow_9x2pgf_k$ = function () {
+    return Color('lightyellow');
   };
-  protoOf(Color).get_limegreen_za9mzp_k$ = function () {
-    return Color_0('limegreen');
+  protoOf(Color_0).get_limegreen_za9mzp_k$ = function () {
+    return Color('limegreen');
   };
-  protoOf(Color).get_lime_wopula_k$ = function () {
-    return Color_0('lime');
+  protoOf(Color_0).get_lime_wopula_k$ = function () {
+    return Color('lime');
   };
-  protoOf(Color).get_linen_iuolht_k$ = function () {
-    return Color_0('linen');
+  protoOf(Color_0).get_linen_iuolht_k$ = function () {
+    return Color('linen');
   };
-  protoOf(Color).get_magenta_ez2mdc_k$ = function () {
-    return Color_0('magenta');
+  protoOf(Color_0).get_magenta_ez2mdc_k$ = function () {
+    return Color('magenta');
   };
-  protoOf(Color).get_maroon_gj03nd_k$ = function () {
-    return Color_0('maroon');
+  protoOf(Color_0).get_maroon_gj03nd_k$ = function () {
+    return Color('maroon');
   };
-  protoOf(Color).get_mediumaquamarine_5rzm9o_k$ = function () {
-    return Color_0('mediumaquamarine');
+  protoOf(Color_0).get_mediumaquamarine_5rzm9o_k$ = function () {
+    return Color('mediumaquamarine');
   };
-  protoOf(Color).get_mediumblue_lkyztk_k$ = function () {
-    return Color_0('mediumblue');
+  protoOf(Color_0).get_mediumblue_lkyztk_k$ = function () {
+    return Color('mediumblue');
   };
-  protoOf(Color).get_mediumorchid_61uowx_k$ = function () {
-    return Color_0('mediumorchid');
+  protoOf(Color_0).get_mediumorchid_61uowx_k$ = function () {
+    return Color('mediumorchid');
   };
-  protoOf(Color).get_mediumpurple_6ktfwa_k$ = function () {
-    return Color_0('mediumpurple');
+  protoOf(Color_0).get_mediumpurple_6ktfwa_k$ = function () {
+    return Color('mediumpurple');
   };
-  protoOf(Color).get_mediumseagreen_eiyd7y_k$ = function () {
-    return Color_0('mediumseagreen');
+  protoOf(Color_0).get_mediumseagreen_eiyd7y_k$ = function () {
+    return Color('mediumseagreen');
   };
-  protoOf(Color).get_mediumslateblue_tihwln_k$ = function () {
-    return Color_0('mediumslateblue');
+  protoOf(Color_0).get_mediumslateblue_tihwln_k$ = function () {
+    return Color('mediumslateblue');
   };
-  protoOf(Color).get_mediumspringgreen_eyoffs_k$ = function () {
-    return Color_0('mediumspringgreen');
+  protoOf(Color_0).get_mediumspringgreen_eyoffs_k$ = function () {
+    return Color('mediumspringgreen');
   };
-  protoOf(Color).get_mediumturquoise_m5ywyr_k$ = function () {
-    return Color_0('mediumturquoise');
+  protoOf(Color_0).get_mediumturquoise_m5ywyr_k$ = function () {
+    return Color('mediumturquoise');
   };
-  protoOf(Color).get_mediumvioletred_3y6scs_k$ = function () {
-    return Color_0('mediumvioletred');
+  protoOf(Color_0).get_mediumvioletred_3y6scs_k$ = function () {
+    return Color('mediumvioletred');
   };
-  protoOf(Color).get_midnightblue_asvt6b_k$ = function () {
-    return Color_0('midnightblue');
+  protoOf(Color_0).get_midnightblue_asvt6b_k$ = function () {
+    return Color('midnightblue');
   };
-  protoOf(Color).get_mintcream_r411vb_k$ = function () {
-    return Color_0('mintcream');
+  protoOf(Color_0).get_mintcream_r411vb_k$ = function () {
+    return Color('mintcream');
   };
-  protoOf(Color).get_mistyrose_tt03wi_k$ = function () {
-    return Color_0('mistyrose');
+  protoOf(Color_0).get_mistyrose_tt03wi_k$ = function () {
+    return Color('mistyrose');
   };
-  protoOf(Color).get_moccasin_shacrm_k$ = function () {
-    return Color_0('moccasin');
+  protoOf(Color_0).get_moccasin_shacrm_k$ = function () {
+    return Color('moccasin');
   };
-  protoOf(Color).get_navajowhite_7mwunx_k$ = function () {
-    return Color_0('navajowhite');
+  protoOf(Color_0).get_navajowhite_7mwunx_k$ = function () {
+    return Color('navajowhite');
   };
-  protoOf(Color).get_navi_woqyun_k$ = function () {
-    return Color_0('navi');
+  protoOf(Color_0).get_navi_woqyun_k$ = function () {
+    return Color('navi');
   };
-  protoOf(Color).get_oldlace_lja7qj_k$ = function () {
-    return Color_0('oldlace');
+  protoOf(Color_0).get_oldlace_lja7qj_k$ = function () {
+    return Color('oldlace');
   };
-  protoOf(Color).get_olivedrab_imctun_k$ = function () {
-    return Color_0('olivedrab');
+  protoOf(Color_0).get_olivedrab_imctun_k$ = function () {
+    return Color('olivedrab');
   };
-  protoOf(Color).get_olive_iwdsxe_k$ = function () {
-    return Color_0('olive');
+  protoOf(Color_0).get_olive_iwdsxe_k$ = function () {
+    return Color('olive');
   };
-  protoOf(Color).get_orange_hq4yt3_k$ = function () {
-    return Color_0('orange');
+  protoOf(Color_0).get_orange_hq4yt3_k$ = function () {
+    return Color('orange');
   };
-  protoOf(Color).get_orangered_x4yzui_k$ = function () {
-    return Color_0('orangered');
+  protoOf(Color_0).get_orangered_x4yzui_k$ = function () {
+    return Color('orangered');
   };
-  protoOf(Color).get_orchid_hq64do_k$ = function () {
-    return Color_0('orchid');
+  protoOf(Color_0).get_orchid_hq64do_k$ = function () {
+    return Color('orchid');
   };
-  protoOf(Color).get_palegoldenrod_a3qfbf_k$ = function () {
-    return Color_0('palegoldenrod');
+  protoOf(Color_0).get_palegoldenrod_a3qfbf_k$ = function () {
+    return Color('palegoldenrod');
   };
-  protoOf(Color).get_palegreen_plzr00_k$ = function () {
-    return Color_0('palegreen');
+  protoOf(Color_0).get_palegreen_plzr00_k$ = function () {
+    return Color('palegreen');
   };
-  protoOf(Color).get_paleturquoise_uz11qm_k$ = function () {
-    return Color_0('paleturquoise');
+  protoOf(Color_0).get_paleturquoise_uz11qm_k$ = function () {
+    return Color('paleturquoise');
   };
-  protoOf(Color).get_palevioletred_4uvcf3_k$ = function () {
-    return Color_0('palevioletred');
+  protoOf(Color_0).get_palevioletred_4uvcf3_k$ = function () {
+    return Color('palevioletred');
   };
-  protoOf(Color).get_papayawhip_6f4lm3_k$ = function () {
-    return Color_0('papayawhip');
+  protoOf(Color_0).get_papayawhip_6f4lm3_k$ = function () {
+    return Color('papayawhip');
   };
-  protoOf(Color).get_peachpuff_lhfvhv_k$ = function () {
-    return Color_0('peachpuff');
+  protoOf(Color_0).get_peachpuff_lhfvhv_k$ = function () {
+    return Color('peachpuff');
   };
-  protoOf(Color).get_peru_wosbpd_k$ = function () {
-    return Color_0('peru');
+  protoOf(Color_0).get_peru_wosbpd_k$ = function () {
+    return Color('peru');
   };
-  protoOf(Color).get_pink_wosekf_k$ = function () {
-    return Color_0('pink');
+  protoOf(Color_0).get_pink_wosekf_k$ = function () {
+    return Color('pink');
   };
-  protoOf(Color).get_plum_wosgyl_k$ = function () {
-    return Color_0('plum');
+  protoOf(Color_0).get_plum_wosgyl_k$ = function () {
+    return Color('plum');
   };
-  protoOf(Color).get_powderblue_xfkoo4_k$ = function () {
-    return Color_0('powderblue');
+  protoOf(Color_0).get_powderblue_xfkoo4_k$ = function () {
+    return Color('powderblue');
   };
-  protoOf(Color).get_purple_i94vd1_k$ = function () {
-    return Color_0('purple');
+  protoOf(Color_0).get_purple_i94vd1_k$ = function () {
+    return Color('purple');
   };
-  protoOf(Color).get_rebeccapurple_4oj1nm_k$ = function () {
-    return Color_0('rebeccapurple');
+  protoOf(Color_0).get_rebeccapurple_4oj1nm_k$ = function () {
+    return Color('rebeccapurple');
   };
-  protoOf(Color).get_red_18ix20_k$ = function () {
-    return Color_0('red');
+  protoOf(Color_0).get_red_18ix20_k$ = function () {
+    return Color('red');
   };
-  protoOf(Color).get_rosybrown_fqcd86_k$ = function () {
-    return Color_0('rosybrown');
+  protoOf(Color_0).get_rosybrown_fqcd86_k$ = function () {
+    return Color('rosybrown');
   };
-  protoOf(Color).get_royalblue_9wxzgo_k$ = function () {
-    return Color_0('royalblue');
+  protoOf(Color_0).get_royalblue_9wxzgo_k$ = function () {
+    return Color('royalblue');
   };
-  protoOf(Color).get_saddlebrown_anoxye_k$ = function () {
-    return Color_0('saddlebrown');
+  protoOf(Color_0).get_saddlebrown_anoxye_k$ = function () {
+    return Color('saddlebrown');
   };
-  protoOf(Color).get_salmon_jd5ylz_k$ = function () {
-    return Color_0('salmon');
+  protoOf(Color_0).get_salmon_jd5ylz_k$ = function () {
+    return Color('salmon');
   };
-  protoOf(Color).get_sandybrown_gxgn12_k$ = function () {
-    return Color_0('sandybrown');
+  protoOf(Color_0).get_sandybrown_gxgn12_k$ = function () {
+    return Color('sandybrown');
   };
-  protoOf(Color).get_seagreen_h9n76r_k$ = function () {
-    return Color_0('seagreen');
+  protoOf(Color_0).get_seagreen_h9n76r_k$ = function () {
+    return Color('seagreen');
   };
-  protoOf(Color).get_seashell_h381rq_k$ = function () {
-    return Color_0('seashell');
+  protoOf(Color_0).get_seashell_h381rq_k$ = function () {
+    return Color('seashell');
   };
-  protoOf(Color).get_sienna_jhfv5n_k$ = function () {
-    return Color_0('sienna');
+  protoOf(Color_0).get_sienna_jhfv5n_k$ = function () {
+    return Color('sienna');
   };
-  protoOf(Color).get_silver_jhkhsm_k$ = function () {
-    return Color_0('silver');
+  protoOf(Color_0).get_silver_jhkhsm_k$ = function () {
+    return Color('silver');
   };
-  protoOf(Color).get_skyblue_y0h81a_k$ = function () {
-    return Color_0('skyblue');
+  protoOf(Color_0).get_skyblue_y0h81a_k$ = function () {
+    return Color('skyblue');
   };
-  protoOf(Color).get_slateblue_rkcedm_k$ = function () {
-    return Color_0('slateblue');
+  protoOf(Color_0).get_slateblue_rkcedm_k$ = function () {
+    return Color('slateblue');
   };
-  protoOf(Color).get_slategray_rkfpar_k$ = function () {
-    return Color_0('slategray');
+  protoOf(Color_0).get_slategray_rkfpar_k$ = function () {
+    return Color('slategray');
   };
-  protoOf(Color).get_snow_wouf9o_k$ = function () {
-    return Color_0('snow');
+  protoOf(Color_0).get_snow_wouf9o_k$ = function () {
+    return Color('snow');
   };
-  protoOf(Color).get_springgreen_21calp_k$ = function () {
-    return Color_0('springgreen');
+  protoOf(Color_0).get_springgreen_21calp_k$ = function () {
+    return Color('springgreen');
   };
-  protoOf(Color).get_steelblue_pqnc3g_k$ = function () {
-    return Color_0('steelblue');
+  protoOf(Color_0).get_steelblue_pqnc3g_k$ = function () {
+    return Color('steelblue');
   };
-  protoOf(Color).get_teal_wouv8l_k$ = function () {
-    return Color_0('teal');
+  protoOf(Color_0).get_teal_wouv8l_k$ = function () {
+    return Color('teal');
   };
-  protoOf(Color).get_thistle_kzphzu_k$ = function () {
-    return Color_0('thistle');
+  protoOf(Color_0).get_thistle_kzphzu_k$ = function () {
+    return Color('thistle');
   };
-  protoOf(Color).get_tomato_k1x3ir_k$ = function () {
-    return Color_0('tomato');
+  protoOf(Color_0).get_tomato_k1x3ir_k$ = function () {
+    return Color('tomato');
   };
-  protoOf(Color).get_turquoise_87p5yw_k$ = function () {
-    return Color_0('turquoise');
+  protoOf(Color_0).get_turquoise_87p5yw_k$ = function () {
+    return Color('turquoise');
   };
-  protoOf(Color).get_violet_kwr2iw_k$ = function () {
-    return Color_0('violet');
+  protoOf(Color_0).get_violet_kwr2iw_k$ = function () {
+    return Color('violet');
   };
-  protoOf(Color).get_wheat_j0pi9q_k$ = function () {
-    return Color_0('wheat');
+  protoOf(Color_0).get_wheat_j0pi9q_k$ = function () {
+    return Color('wheat');
   };
-  protoOf(Color).get_white_j0plog_k$ = function () {
-    return Color_0('white');
+  protoOf(Color_0).get_white_j0plog_k$ = function () {
+    return Color('white');
   };
-  protoOf(Color).get_whitesmoke_flfij5_k$ = function () {
-    return Color_0('whitesmoke');
+  protoOf(Color_0).get_whitesmoke_flfij5_k$ = function () {
+    return Color('whitesmoke');
   };
-  protoOf(Color).get_yellowgreen_5hm6jq_k$ = function () {
-    return Color_0('yellowgreen');
+  protoOf(Color_0).get_yellowgreen_5hm6jq_k$ = function () {
+    return Color('yellowgreen');
   };
-  protoOf(Color).get_yellow_m9mum5_k$ = function () {
-    return Color_0('yellow');
+  protoOf(Color_0).get_yellow_m9mum5_k$ = function () {
+    return Color('yellow');
   };
-  protoOf(Color).get_transparent_enj387_k$ = function () {
-    return Color_0('transparent');
+  protoOf(Color_0).get_transparent_enj387_k$ = function () {
+    return Color('transparent');
   };
-  protoOf(Color).get_currentColor_semt9v_k$ = function () {
-    return Color_0('currentColor');
+  protoOf(Color_0).get_currentColor_semt9v_k$ = function () {
+    return Color('currentColor');
   };
   var Color_instance;
   function Color_getInstance() {
     if (Color_instance == null)
-      new Color();
+      new Color_0();
     return Color_instance;
-  }
-  function Color_0(name) {
-    // Inline function 'kotlin.js.unsafeCast' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return name;
   }
   function StylePropertyValue(value) {
     // Inline function 'kotlin.js.unsafeCast' call
@@ -7239,6 +7239,45 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(Span$lambda(attrs_0, content_0, $changed, $default));
     }
   }
+  function H6_0(attrs, content, $composer, $changed, $default) {
+    _init_properties_Elements_kt__eyv5nt();
+    var attrs_0 = {_v: attrs};
+    var content_0 = {_v: content};
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(935194833);
+    var $dirty = $changed;
+    if (!(($default & 1) === 0))
+      $dirty = $dirty | 6;
+    else if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(attrs_0._v) ? 4 : 2);
+    if (!(($default & 2) === 0))
+      $dirty = $dirty | 48;
+    else if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(content_0._v) ? 32 : 16);
+    if (!(($dirty & 91) === 18) || !$composer_0.get_skipping_3owdve_k$()) {
+      if (!(($default & 1) === 0)) {
+        attrs_0._v = null;
+      }
+      if (!(($default & 2) === 0)) {
+        content_0._v = null;
+      }
+      if (isTraceInProgress()) {
+        traceEventStart(935194833, $dirty, -1, 'org.jetbrains.compose.web.dom.H6 (Elements.kt:563)');
+      }
+      TagElement(get_H6(), attrs_0._v, content_0._v, $composer_0, 112 & $dirty << 3 | 896 & $dirty << 3);
+      if (isTraceInProgress()) {
+        traceEventEnd();
+      }
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(H6$lambda(attrs_0, content_0, $changed, $default));
+    }
+  }
   function Div_0(attrs, content, $composer, $changed, $default) {
     _init_properties_Elements_kt__eyv5nt();
     var attrs_0 = {_v: attrs};
@@ -7600,6 +7639,12 @@
   function Span$lambda($attrs, $content, $$changed, $$default) {
     return function ($composer, $force) {
       Span_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      return Unit_getInstance();
+    };
+  }
+  function H6$lambda($attrs, $content, $$changed, $$default) {
+    return function ($composer, $force) {
+      H6_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
       return Unit_getInstance();
     };
   }
@@ -8841,7 +8886,7 @@
   _.$_$.q2 = MediaFeature;
   _.$_$.r2 = Raw;
   _.$_$.s2 = CSSVariable;
-  _.$_$.t2 = Color_0;
+  _.$_$.t2 = Color;
   _.$_$.u2 = invoke_1;
   _.$_$.v2 = invoke_0;
   _.$_$.w2 = invoke;
@@ -8902,11 +8947,12 @@
   _.$_$.z4 = Div_0;
   _.$_$.a5 = H2_0;
   _.$_$.b5 = H3_0;
-  _.$_$.c5 = Hr_0;
-  _.$_$.d5 = Img_0;
-  _.$_$.e5 = Span_0;
-  _.$_$.f5 = Style_1;
-  _.$_$.g5 = Text_0;
+  _.$_$.c5 = H6_0;
+  _.$_$.d5 = Hr_0;
+  _.$_$.e5 = Img_0;
+  _.$_$.f5 = Span_0;
+  _.$_$.g5 = Style_1;
+  _.$_$.h5 = Text_0;
   //endregion
   return _;
 }));

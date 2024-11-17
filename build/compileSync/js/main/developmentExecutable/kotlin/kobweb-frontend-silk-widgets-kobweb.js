@@ -67,7 +67,7 @@
   var Companion_getInstance_6 = kotlin_com_varabyte_kobweb_kobweb_core.$_$.i;
   var prependIf = kotlin_com_varabyte_kobweb_kobweb_core.$_$.f;
   var toModifier = kotlin_com_varabyte_kobweb_silk_foundation.$_$.y;
-  var Img = kotlin_org_jetbrains_compose_html_html_core.$_$.d5;
+  var Img = kotlin_org_jetbrains_compose_html_html_core.$_$.e5;
   var Unit_getInstance = kotlin_kotlin.$_$.m4;
   var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.o4;
   var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m2;

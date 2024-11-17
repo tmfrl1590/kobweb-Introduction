@@ -32,7 +32,7 @@
   var THROW_CCE = kotlin_kotlin.$_$.bf;
   var Unit_getInstance = kotlin_kotlin.$_$.m4;
   var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.t2;
-  var Style = kotlin_org_jetbrains_compose_html_html_core.$_$.f5;
+  var Style = kotlin_org_jetbrains_compose_html_html_core.$_$.g5;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
   var StyleSheet = kotlin_org_jetbrains_compose_html_html_core.$_$.d3;
   var VOID = kotlin_kotlin.$_$.f;
@@ -61,10 +61,10 @@
   var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p2;
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
-  var Span = kotlin_org_jetbrains_compose_html_html_core.$_$.e5;
+  var Span = kotlin_org_jetbrains_compose_html_html_core.$_$.f5;
   var initMetadataForInterface = kotlin_kotlin.$_$.ab;
   var registerRefScope = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.y1;
-  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.g5;
+  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.h5;
   var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.l;
   var mutableStateListOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.r;
   var CompositionLocalProvider = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d;

@@ -1,6 +1,7 @@
 package com.my.profile.components.career
 
 import androidx.compose.runtime.Composable
+import com.my.profile.components.descriptionRow
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.foundation.layout.Row
 import com.varabyte.kobweb.compose.ui.Modifier
@@ -12,11 +13,10 @@ import org.jetbrains.compose.web.css.px
 fun careerArea(
     projectDescription: String,
     roleDescription: String,
-    modifier: Modifier = Modifier,
     content: @Composable () -> Unit,
 ){
     Column(
-        modifier = modifier
+        modifier = Modifier
     ) {
         descriptionRow(
             title = "프로젝트",
@@ -33,26 +33,7 @@ fun careerArea(
     }
 }
 
-@Composable
-fun descriptionRow(
-    title: String,
-    description: String = "",
-    modifier: Modifier = Modifier,
-){
-    Row(
-        modifier = modifier
-            .padding(bottom = 8.px)
-    ) {
-        boldText(
-            text = title,
-            fontSize = 16.px,
-        )
-        notBoldText(
-            text = description,
-            fontSize = 16.px,
-        )
-    }
-}
+
 
 @Composable
 fun OnderDescription(){

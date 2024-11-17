@@ -107,24 +107,27 @@
   var color = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u;
   var SpanText = kotlin_com_varabyte_kobweb_silk_foundation.$_$.a;
   var H2 = kotlin_org_jetbrains_compose_html_html_core.$_$.a5;
+  var fillMaxWidth = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y;
+  var padding_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w1;
   var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.f2;
   var fontWeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b1;
-  var padding_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w1;
-  var initMetadataForClass = kotlin_kotlin.$_$.xa;
-  var padding_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v1;
-  var fillMaxWidth = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y;
   var margin_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k1;
   var HorizontalDivider = kotlin_com_varabyte_kobweb_silk_widgets.$_$.a;
+  var H6 = kotlin_org_jetbrains_compose_html_html_core.$_$.c5;
   var H3 = kotlin_org_jetbrains_compose_html_html_core.$_$.b5;
+  var initMetadataForClass = kotlin_kotlin.$_$.xa;
+  var padding_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v1;
   var size = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b2;
   var Image = kotlin_com_varabyte_kobweb_silk_widgets_kobweb.$_$.a;
   var SpaceBetween_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s2;
   var lineHeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g1;
-  var Text = kotlin_org_jetbrains_compose_html_html_core.$_$.g5;
   //endregion
   //region block: pre-declaration
   initMetadataForObject(ComposableSingletons$MainKt, 'ComposableSingletons$MainKt');
   initMetadataForObject(ComposableSingletons$SIdePanelKt, 'ComposableSingletons$SIdePanelKt');
+  initMetadataForObject(ComposableSingletons$AproWorkingAreaKt, 'ComposableSingletons$AproWorkingAreaKt');
+  initMetadataForObject(ComposableSingletons$OnderWorkingAreaKt, 'ComposableSingletons$OnderWorkingAreaKt');
+  initMetadataForObject(ComposableSingletons$OntableWorkingAreaKt, 'ComposableSingletons$OntableWorkingAreaKt');
   initMetadataForClass(Screen, 'Screen');
   initMetadataForObject(Home, 'Home', VOID, Screen);
   initMetadataForObject(Introduction, 'Introduction', VOID, Screen);
@@ -1016,6 +1019,62 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(pageTitle$lambda_0(title, $changed));
     }
   }
+  function descriptionRow(title, description, $composer, $changed, $default) {
+    var description_0 = {_v: description};
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-333493377);
+    var $dirty = $changed;
+    if (!(($default & 1) === 0))
+      $dirty = $dirty | 6;
+    else if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(title) ? 4 : 2);
+    if (!(($default & 2) === 0))
+      $dirty = $dirty | 48;
+    else if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(description_0._v) ? 32 : 16);
+    if (!(($dirty & 91) === 18) || !$composer_0.get_skipping_3owdve_k$()) {
+      if (!(($default & 2) === 0)) {
+        description_0._v = '';
+      }
+      var tmp = padding_0(fillMaxWidth(Companion_getInstance_1()), VOID, VOID, get_px(6));
+      // Inline function 'kotlin.run' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'com.my.profile.components.descriptionRow.<anonymous>' call
+      var tmp_0 = $composer_0;
+      var dispatchReceiver = composableLambda(tmp_0, 712561884, true, descriptionRow$lambda(title, description_0));
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      $composer_1.startReplaceableGroup_ip860b_k$(1157296644);
+      sourceInformation($composer_1, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+      var it = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_1;
+      if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        // Inline function 'com.my.profile.components.descriptionRow.<anonymous>.<anonymous>' call
+        var value = ComposableLambda$invoke$ref_14(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value);
+        tmp_1 = value;
+      } else {
+        tmp_1 = it;
+      }
+      var tmp_2 = tmp_1;
+      var tmp0 = (tmp_2 == null ? true : !(tmp_2 == null)) ? tmp_2 : THROW_CCE();
+      $composer_1.endReplaceableGroup_ern0ak_k$();
+      Row(tmp, null, null, null, tmp0, $composer_0, 24584, 14);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(descriptionRow$lambda_0(title, description_0, $changed, $default));
+    }
+  }
   function pageTitle$lambda($title) {
     return function ($this$H2, $composer, $changed) {
       var $composer_0 = $composer;
@@ -1035,35 +1094,52 @@
       return Unit_getInstance();
     };
   }
-  function careerArea(projectDescription, roleDescription, modifier, content, $composer, $changed, $default) {
-    var modifier_0 = {_v: modifier};
-    var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(889378022);
-    var $dirty = $changed;
-    if (!(($default & 1) === 0))
-      $dirty = $dirty | 6;
-    else if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(projectDescription) ? 4 : 2);
-    if (!(($default & 2) === 0))
-      $dirty = $dirty | 48;
-    else if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(roleDescription) ? 32 : 16);
-    if (!(($default & 4) === 0))
-      $dirty = $dirty | 128;
-    if (!(($default & 8) === 0))
-      $dirty = $dirty | 3072;
-    else if (($changed & 7168) === 0)
-      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(content) ? 2048 : 1024);
-    if (!(($default & 4) === 4) || (!(($dirty & 5851) === 1170) || !$composer_0.get_skipping_3owdve_k$())) {
-      if (!(($default & 4) === 0)) {
-        modifier_0._v = Companion_getInstance_1();
+  function descriptionRow$lambda($title, $description) {
+    return function ($this$Row, $composer, $changed) {
+      var $composer_0 = $composer;
+      var tmp;
+      if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
+        var tmp_0 = get_px(16);
+        boldText($title, tmp_0, null, $composer_0, 64, 4);
+        var tmp_1 = $description._v;
+        var tmp_2 = get_px(16);
+        notBoldText(tmp_1, tmp_2, null, $composer_0, 64, 4);
+        tmp = Unit_getInstance();
+      } else {
+        $composer_0.skipToGroupEnd_lh3zi2_k$();
+        tmp = Unit_getInstance();
       }
-      var tmp = modifier_0._v;
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_14($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function descriptionRow$lambda_0($title, $description, $$changed, $$default) {
+    return function ($composer, $force) {
+      descriptionRow($title, $description._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      return Unit_getInstance();
+    };
+  }
+  function careerArea(projectDescription, roleDescription, content, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-657325361);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(projectDescription) ? 4 : 2);
+    if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(roleDescription) ? 32 : 16);
+    if (($changed & 896) === 0)
+      $dirty = $dirty | ($composer_0.changedInstance_s1wkiy_k$(content) ? 256 : 128);
+    if (!(($dirty & 731) === 146) || !$composer_0.get_skipping_3owdve_k$()) {
+      var tmp = Companion_getInstance_1();
       // Inline function 'kotlin.run' call
       // Inline function 'kotlin.contracts.contract' call
       // Inline function 'com.my.profile.components.career.careerArea.<anonymous>' call
       var tmp_0 = $composer_0;
-      var dispatchReceiver = composableLambda(tmp_0, 1363184527, true, careerArea$lambda(projectDescription, roleDescription, content));
+      var dispatchReceiver = composableLambda(tmp_0, 718371334, true, careerArea$lambda(projectDescription, roleDescription, content));
       // Inline function 'androidx.compose.runtime.remember' call
       var $composer_1 = $composer_0;
       $composer_1.startReplaceableGroup_ip860b_k$(1157296644);
@@ -1077,7 +1153,7 @@
       var tmp_1;
       if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
         // Inline function 'com.my.profile.components.career.careerArea.<anonymous>.<anonymous>' call
-        var value = ComposableLambda$invoke$ref_14(dispatchReceiver);
+        var value = ComposableLambda$invoke$ref_15(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value);
         tmp_1 = value;
       } else {
@@ -1094,69 +1170,7 @@
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_t8jcf_k$(careerArea$lambda_0(projectDescription, roleDescription, modifier_0, content, $changed, $default));
-    }
-  }
-  function descriptionRow(title, description, modifier, $composer, $changed, $default) {
-    var description_0 = {_v: description};
-    var modifier_0 = {_v: modifier};
-    var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1406403816);
-    var $dirty = $changed;
-    if (!(($default & 1) === 0))
-      $dirty = $dirty | 6;
-    else if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(title) ? 4 : 2);
-    if (!(($default & 2) === 0))
-      $dirty = $dirty | 48;
-    else if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(description_0._v) ? 32 : 16);
-    if (!(($default & 4) === 0))
-      $dirty = $dirty | 128;
-    if (!(($default & 4) === 4) || (!(($dirty & 731) === 146) || !$composer_0.get_skipping_3owdve_k$())) {
-      if (!(($default & 2) === 0)) {
-        description_0._v = '';
-      }
-      if (!(($default & 4) === 0)) {
-        modifier_0._v = Companion_getInstance_1();
-      }
-      var tmp = padding_0(modifier_0._v, VOID, VOID, get_px(8));
-      // Inline function 'kotlin.run' call
-      // Inline function 'kotlin.contracts.contract' call
-      // Inline function 'com.my.profile.components.career.descriptionRow.<anonymous>' call
-      var tmp_0 = $composer_0;
-      var dispatchReceiver = composableLambda(tmp_0, 1266337589, true, descriptionRow$lambda(title, description_0));
-      // Inline function 'androidx.compose.runtime.remember' call
-      var $composer_1 = $composer_0;
-      $composer_1.startReplaceableGroup_ip860b_k$(1157296644);
-      sourceInformation($composer_1, 'CC(remember)P(1):Composables.kt#9igjgp');
-      // Inline function 'androidx.compose.runtime.cache' call
-      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
-      // Inline function 'kotlin.let' call
-      // Inline function 'kotlin.contracts.contract' call
-      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
-      var it = $composer_1.rememberedValue_4dg93v_k$();
-      var tmp_1;
-      if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
-        // Inline function 'com.my.profile.components.career.descriptionRow.<anonymous>.<anonymous>' call
-        var value = ComposableLambda$invoke$ref_15(dispatchReceiver);
-        $composer_1.updateRememberedValue_l1wh71_k$(value);
-        tmp_1 = value;
-      } else {
-        tmp_1 = it;
-      }
-      var tmp_2 = tmp_1;
-      var tmp0 = (tmp_2 == null ? true : !(tmp_2 == null)) ? tmp_2 : THROW_CCE();
-      $composer_1.endReplaceableGroup_ern0ak_k$();
-      Row(tmp, null, null, null, tmp0, $composer_0, 24584, 14);
-    } else {
-      $composer_0.skipToGroupEnd_lh3zi2_k$();
-    }
-    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
-    if (tmp0_safe_receiver == null)
-      null;
-    else {
-      tmp0_safe_receiver.updateScope_t8jcf_k$(descriptionRow$lambda_0(title, description_0, modifier_0, $changed, $default));
+      tmp0_safe_receiver.updateScope_t8jcf_k$(careerArea$lambda_0(projectDescription, roleDescription, content, $changed));
     }
   }
   function OnderDescription($composer, $changed) {
@@ -1216,39 +1230,10 @@
       var $composer_0 = $composer;
       var tmp;
       if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
-        descriptionRow('\uD504\uB85C\uC81D\uD2B8', $projectDescription, null, $composer_0, 6, 4);
-        descriptionRow('\uC5ED\uD560', $roleDescription, null, $composer_0, 6, 4);
-        descriptionRow('\uC8FC\uC694 \uC5C5\uBB34 : ', null, null, $composer_0, 6, 6);
+        descriptionRow('\uD504\uB85C\uC81D\uD2B8', $projectDescription, $composer_0, 6, 0);
+        descriptionRow('\uC5ED\uD560', $roleDescription, $composer_0, 6, 0);
+        descriptionRow('\uC8FC\uC694 \uC5C5\uBB34 : ', null, $composer_0, 6, 2);
         tmp = $content($composer_0, 0);
-      } else {
-        $composer_0.skipToGroupEnd_lh3zi2_k$();
-        tmp = Unit_getInstance();
-      }
-      return Unit_getInstance();
-    };
-  }
-  function ComposableLambda$invoke$ref_14($boundThis) {
-    return function (p0, p1, p2) {
-      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
-    };
-  }
-  function careerArea$lambda_0($projectDescription, $roleDescription, $modifier, $content, $$changed, $$default) {
-    return function ($composer, $force) {
-      careerArea($projectDescription, $roleDescription, $modifier._v, $content, $composer, updateChangedFlags($$changed | 1), $$default);
-      return Unit_getInstance();
-    };
-  }
-  function descriptionRow$lambda($title, $description) {
-    return function ($this$Row, $composer, $changed) {
-      var $composer_0 = $composer;
-      var tmp;
-      if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
-        var tmp_0 = get_px(16);
-        boldText($title, tmp_0, null, $composer_0, 64, 4);
-        var tmp_1 = $description._v;
-        var tmp_2 = get_px(16);
-        notBoldText(tmp_1, tmp_2, null, $composer_0, 64, 4);
-        tmp = Unit_getInstance();
       } else {
         $composer_0.skipToGroupEnd_lh3zi2_k$();
         tmp = Unit_getInstance();
@@ -1261,9 +1246,9 @@
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
   }
-  function descriptionRow$lambda_0($title, $description, $modifier, $$changed, $$default) {
+  function careerArea$lambda_0($projectDescription, $roleDescription, $content, $$changed) {
     return function ($composer, $force) {
-      descriptionRow($title, $description._v, $modifier._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      careerArea($projectDescription, $roleDescription, $content, $composer, updateChangedFlags($$changed | 1));
       return Unit_getInstance();
     };
   }
@@ -1404,6 +1389,450 @@
   function companyInfoArea$lambda_0($companyName, $position, $date, $$changed) {
     return function ($composer, $force) {
       companyInfoArea($companyName, $position, $date, $composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function aproWorkingArea($composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-802878501);
+    if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
+      var tmp = fillMaxWidth(Companion_getInstance_1());
+      Column(tmp, null, null, null, ComposableSingletons$AproWorkingAreaKt_getInstance().lambda_1_r8sbbp_1, $composer_0, 24584, 14);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(aproWorkingArea$lambda($changed));
+    }
+  }
+  function ComposableLambda$invoke$ref_17($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function ComposableSingletons$AproWorkingAreaKt$lambda_1$lambda_iya33c($this$Column, $composer, $changed) {
+    var $composer_0 = $composer;
+    if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
+      SpanText(' - \uCD95\uC0AC\uC758 CCTV, \uD658\uAE30 \uC2DC\uC2A4\uD15C, \uCC9C\uC7A5 \uAC1C\uD3D0 \uB4F1 \uB2E4\uC591\uD55C IoT \uAE30\uAE30\uB97C \uD1B5\uD569 \uAD00\uB9AC\uD558\uB294 \uC2A4\uB9C8\uD2B8\uD31C \uC194\uB8E8\uC158 \uAC1C\uBC1C', null, null, null, $composer_0, 6, 14);
+      SpanText(' - Onvif \uD504\uB85C\uD1A0\uCF5C\uC744 \uD65C\uC6A9\uD558\uC5EC \uD558\uC774\uD06C\uBE44\uC804, \uB2E4\uD6C4\uC544, \uD55C\uD654 \uB4F1 \uB2E4\uC591\uD55C \uC81C\uC870\uC0AC\uC758 CCTV\uB97C \uC5F0\uB3D9\uD558\uB294 CCTV \uD1B5\uD569 \uC2DC\uC2A4\uD15C \uAD6C\uCD95', null, null, null, $composer_0, 6, 14);
+      SpanText(' - \uCF54\uB4DC\uB9AC\uBDF0 \uD504\uB85C\uC138\uC2A4 \uB3C4\uC785\uC744 \uD1B5\uD574 \uCF54\uB4DC \uD488\uC9C8 \uAC1C\uC120 \uBC0F \uC720\uC9C0\uBCF4\uC218\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
+      SpanText(' - \uACE0\uAC1D\uCE35 \uC5F0\uB839\uB300\uB97C \uACE0\uB824\uD55C UI/UX \uAC1C\uC120', null, null, null, $composer_0, 6, 14);
+      var tmp = margin_0(fillMaxWidth(Companion_getInstance_1()), get_px(12));
+      HorizontalDivider(tmp, null, $composer_0, 8, 2);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    return Unit_getInstance();
+  }
+  function ComposableSingletons$AproWorkingAreaKt() {
+    ComposableSingletons$AproWorkingAreaKt_instance = this;
+    var tmp = this;
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_17(composableLambdaInstance(1572718162, false, ComposableSingletons$AproWorkingAreaKt$lambda_1$lambda_iya33c));
+  }
+  protoOf(ComposableSingletons$AproWorkingAreaKt).get_lambda_1_lx0epu_k$ = function () {
+    return this.lambda_1_r8sbbp_1;
+  };
+  var ComposableSingletons$AproWorkingAreaKt_instance;
+  function ComposableSingletons$AproWorkingAreaKt_getInstance() {
+    if (ComposableSingletons$AproWorkingAreaKt_instance == null)
+      new ComposableSingletons$AproWorkingAreaKt();
+    return ComposableSingletons$AproWorkingAreaKt_instance;
+  }
+  function aproWorkingArea$lambda($$changed) {
+    return function ($composer, $force) {
+      aproWorkingArea($composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function onderWorkingArea($composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1581381409);
+    if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
+      var tmp = fillMaxWidth(Companion_getInstance_1());
+      Column(tmp, null, null, null, ComposableSingletons$OnderWorkingAreaKt_getInstance().lambda_1_r8sbbp_1, $composer_0, 24584, 14);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(onderWorkingArea$lambda($changed));
+    }
+  }
+  function onderWorkingAreaTitle(text, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-219336052);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(text) ? 4 : 2);
+    if (!(($dirty & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
+      // Inline function 'kotlin.run' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'com.my.profile.components.project.onderWorkingAreaTitle.<anonymous>' call
+      var tmp = $composer_0;
+      var dispatchReceiver = composableLambda(tmp, 265830058, true, onderWorkingAreaTitle$lambda(text));
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      $composer_1.startReplaceableGroup_ip860b_k$(1157296644);
+      sourceInformation($composer_1, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+      var it = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_0;
+      if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        // Inline function 'com.my.profile.components.project.onderWorkingAreaTitle.<anonymous>.<anonymous>' call
+        var value = ComposableLambda$invoke$ref_19(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value);
+        tmp_0 = value;
+      } else {
+        tmp_0 = it;
+      }
+      var tmp_1 = tmp_0;
+      var tmp0 = (tmp_1 == null ? true : !(tmp_1 == null)) ? tmp_1 : THROW_CCE();
+      $composer_1.endReplaceableGroup_ern0ak_k$();
+      H6(null, tmp0, $composer_0, 48, 1);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(onderWorkingAreaTitle$lambda_0(text, $changed));
+    }
+  }
+  function ComposableLambda$invoke$ref_18($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function ComposableSingletons$OnderWorkingAreaKt$lambda_1$lambda_6oh8hs($this$Column, $composer, $changed) {
+    var $composer_0 = $composer;
+    if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
+      onderWorkingAreaTitle('\uBB38\uC81C', $composer_0, 6);
+      descriptionRow('\uBCF5\uC7A1\uD55C \uCF54\uB4DC \uAD6C\uC870', ' : \uB2E8\uC77C \uC561\uD2F0\uBE44\uD2F0\uC5D0 \uBE44\uC988\uB2C8\uC2A4 \uB85C\uC9C1\uC774 \uC9D1\uC911\uB418\uC5B4 \uCF54\uB4DC \uBCF5\uC7A1\uB3C4\uAC00 \uB192\uC74C', $composer_0, 54, 0);
+      descriptionRow('\uC720\uC9C0\uBCF4\uC218 \uC5B4\uB824\uC6C0', ' : \uC11C\uBC84 \uC751\uB2F5 \uCF54\uB4DC\uC640 \uCEEC\uB7FC\uBA85\uC774 \uD558\uB4DC\uCF54\uB529\uB418\uC5B4 \uC788\uACE0, \uAC1C\uBC1C \uBB38\uC11C\uAC00 \uC5C6\uC5B4 \uC720\uC9C0\uBCF4\uC218\uC5D0 \uC81C\uC57D', $composer_0, 54, 0);
+      descriptionRow('\uCFE0\uD3F0 \uBC1C\uAE09 \uC81C\uD55C', ' : \uCFE0\uD3F0 \uBC1C\uAE09\uC774 \uB9E4\uC7A5\uC5D0 \uD55C\uC815\uB418\uC5B4, \uD1B5\uD569\uAD00\uB9AC\uC790\uAC00 \uC720\uC5F0\uD558\uAC8C \uC6B4\uC601\uD560 \uC218 \uC5C6\uB294 \uAD6C\uC870', $composer_0, 54, 0);
+      descriptionRow('API \uC911\uB2E8', ' : \uC81C\uB85C\uD398\uC774 \uAE30\uBC18 \uBAA8\uBC14\uC77C \uC628\uB204\uB9AC \uC0C1\uD488\uAD8C API\uAC00 \uAC11\uC790\uAE30 \uC911\uB2E8\uB418\uC5B4 \uACB0\uC81C \uAE30\uB2A5\uC774 \uC911\uB2E8\uB428', $composer_0, 54, 0);
+      onderWorkingAreaTitle('\uD574\uACB0', $composer_0, 6);
+      SpanText(' - Java \uAE30\uBC18 \uD504\uB85C\uC81D\uD2B8\uB97C Kotlin \uBC0F Jetpack Compose\uB85C 100% \uB9C8\uC774\uADF8\uB808\uC774\uC158\uD558\uC5EC \uCF54\uB4DC \uAC04\uACB0\uC131\uACFC \uC720\uC9C0\uBCF4\uC218\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
+      SpanText(' - MVVM \uD328\uD134\uACFC \uBA40\uD2F0\uBAA8\uB4C8 \uC544\uD0A4\uD14D\uCC98\uB97C \uB3C4\uC785\uD558\uC5EC \uD504\uB85C\uC81D\uD2B8 \uAD6C\uC870 \uBAA8\uB4C8\uD654 \uBC0F \uC720\uC9C0\uBCF4\uC218\uC131 \uAC1C\uC120', null, null, null, $composer_0, 6, 14);
+      SpanText(' - \uD558\uB4DC\uCF54\uB529\uB41C \uC11C\uBC84 \uC751\uB2F5 \uCF54\uB4DC\uB97C Enum \uD074\uB798\uC2A4\uB85C \uB9AC\uD329\uD1A0\uB9C1\uD558\uC5EC \uCF54\uB4DC \uAC00\uB3C5\uC131\uACFC \uC720\uC9C0\uBCF4\uC218\uC131 \uAC1C\uC120', null, null, null, $composer_0, 6, 14);
+      SpanText(' - \uD14C\uC2A4\uD2B8 \uCF54\uB4DC\uB97C \uB3C4\uC785\uD558\uC5EC \uC571\uC758 \uC548\uC815\uC131\uC744 \uB192\uC774\uACE0, \uBC30\uD3EC \uC2DC \uBC1C\uC0DD\uD560 \uC218 \uC788\uB294 \uBB38\uC81C\uB97C \uCD5C\uC18C\uD654', null, null, null, $composer_0, 6, 14);
+      SpanText(' - \uCFE0\uD3F0 \uBC1C\uAE09 \uC8FC\uCCB4\uB97C \uD1B5\uD569\uAD00\uB9AC\uC790\uC640 \uB9E4\uC7A5 \uBAA8\uB450 \uBC1C\uAE09 \uAC00\uB2A5\uD558\uB3C4\uB85D \uC7AC\uC124\uACC4', null, null, null, $composer_0, 6, 14);
+      SpanText(' - \uC2A4\uB9C8\uD2B8\uB85C PG \uC5F0\uB3D9\uC744 \uD1B5\uD55C \uCE74\uB4DC\uD615 \uC628\uB204\uB9AC \uC0C1\uD488\uAD8C \uACB0\uC81C \uC2DC\uC2A4\uD15C \uAD6C\uD604', null, null, null, $composer_0, 6, 14);
+      SpanText(' - Coroutine \uAE30\uBC18\uC758 \uBE44\uB3D9\uAE30 \uB124\uD2B8\uC6CC\uD06C \uD1B5\uC2E0\uC73C\uB85C \uACB0\uC81C API \uC694\uCCAD \uC18D\uB3C4\uB97C \uAC1C\uC120\uD558\uACE0, \uACB0\uC81C \uC2E4\uD328 \uC2DC \uC624\uB958 \uCC98\uB9AC \uB85C\uC9C1\uC744 \uCD94\uAC00\uD558\uC5EC \uACB0\uC81C \uC548\uC815\uC131 \uD5A5\uC0C1', null, null, null, $composer_0, 6, 14);
+      var tmp = margin_0(fillMaxWidth(Companion_getInstance_1()), get_px(12));
+      HorizontalDivider(tmp, null, $composer_0, 8, 2);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    return Unit_getInstance();
+  }
+  function ComposableSingletons$OnderWorkingAreaKt() {
+    ComposableSingletons$OnderWorkingAreaKt_instance = this;
+    var tmp = this;
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_18(composableLambdaInstance(739377558, false, ComposableSingletons$OnderWorkingAreaKt$lambda_1$lambda_6oh8hs));
+  }
+  protoOf(ComposableSingletons$OnderWorkingAreaKt).get_lambda_1_lx0epu_k$ = function () {
+    return this.lambda_1_r8sbbp_1;
+  };
+  var ComposableSingletons$OnderWorkingAreaKt_instance;
+  function ComposableSingletons$OnderWorkingAreaKt_getInstance() {
+    if (ComposableSingletons$OnderWorkingAreaKt_instance == null)
+      new ComposableSingletons$OnderWorkingAreaKt();
+    return ComposableSingletons$OnderWorkingAreaKt_instance;
+  }
+  function onderWorkingArea$lambda($$changed) {
+    return function ($composer, $force) {
+      onderWorkingArea($composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function onderWorkingAreaTitle$lambda($text) {
+    return function ($this$H6, $composer, $changed) {
+      var $composer_0 = $composer;
+      var tmp = fontSize(fontWeight(Companion_getInstance_1(), Companion_getInstance_3().get_Bold_wnz5ke_k$()), get_px(20));
+      SpanText($text, tmp, null, null, $composer_0, 64, 12);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_19($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function onderWorkingAreaTitle$lambda_0($text, $$changed) {
+    return function ($composer, $force) {
+      onderWorkingAreaTitle($text, $composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function ontableWorkingArea($composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1556094375);
+    if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
+      var tmp = fillMaxWidth(Companion_getInstance_1());
+      Column(tmp, null, null, null, ComposableSingletons$OntableWorkingAreaKt_getInstance().lambda_1_r8sbbp_1, $composer_0, 24584, 14);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(ontableWorkingArea$lambda($changed));
+    }
+  }
+  function ComposableLambda$invoke$ref_20($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function ComposableSingletons$OntableWorkingAreaKt$lambda_1$lambda_y4u4o3($this$Column, $composer, $changed) {
+    var $composer_0 = $composer;
+    if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
+      SpanText(' - \uC57D 5\uAC1C \uB9E4\uC7A5, 30\uB300\uC758 \uD0DC\uBE14\uB9BF\uC5D0\uC11C \uC6B4\uC601\uB418\uB294 \uD14C\uC774\uBE14 \uC624\uB354 \uC2DC\uC2A4\uD15C \uAC1C\uBC1C \uBC0F \uC720\uC9C0\uBCF4\uC218', null, null, null, $composer_0, 6, 14);
+      SpanText(' - WebSocket\uC744 \uD65C\uC6A9\uD55C \uC2E4\uC2DC\uAC04 \uC8FC\uBB38 \uCC98\uB9AC \uC2DC\uC2A4\uD15C \uAC1C\uBC1C', null, null, null, $composer_0, 6, 14);
+      SpanText(' - \uB9E4\uC7A5\uBCC4 \uC8FC\uBB38 \uD604\uD669\uC744 \uC2E4\uC2DC\uAC04 \uBAA8\uB2C8\uD130\uB9C1 \uD560 \uC218 \uC788\uB294 \uD1B5\uD569 \uAD00\uB9AC \uC2DC\uC2A4\uD15C \uAD6C\uCD95', null, null, null, $composer_0, 6, 14);
+      var tmp = margin_0(fillMaxWidth(Companion_getInstance_1()), get_px(12));
+      HorizontalDivider(tmp, null, $composer_0, 8, 2);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    return Unit_getInstance();
+  }
+  function ComposableSingletons$OntableWorkingAreaKt() {
+    ComposableSingletons$OntableWorkingAreaKt_instance = this;
+    var tmp = this;
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_20(composableLambdaInstance(2095753104, false, ComposableSingletons$OntableWorkingAreaKt$lambda_1$lambda_y4u4o3));
+  }
+  protoOf(ComposableSingletons$OntableWorkingAreaKt).get_lambda_1_lx0epu_k$ = function () {
+    return this.lambda_1_r8sbbp_1;
+  };
+  var ComposableSingletons$OntableWorkingAreaKt_instance;
+  function ComposableSingletons$OntableWorkingAreaKt_getInstance() {
+    if (ComposableSingletons$OntableWorkingAreaKt_instance == null)
+      new ComposableSingletons$OntableWorkingAreaKt();
+    return ComposableSingletons$OntableWorkingAreaKt_instance;
+  }
+  function ontableWorkingArea$lambda($$changed) {
+    return function ($composer, $force) {
+      ontableWorkingArea($composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function projectDescriptionArea(projectTile, companyName, projectDuration, projectDescription1, projectDescription2, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(333429448);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(projectTile) ? 4 : 2);
+    if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(companyName) ? 32 : 16);
+    if (($changed & 896) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(projectDuration) ? 256 : 128);
+    if (($changed & 7168) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(projectDescription1) ? 2048 : 1024);
+    if (($changed & 57344) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(projectDescription2) ? 16384 : 8192);
+    if (!(($dirty & 46811) === 9362) || !$composer_0.get_skipping_3owdve_k$()) {
+      var tmp = fillMaxWidth(Companion_getInstance_1());
+      // Inline function 'kotlin.run' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'com.my.profile.components.project.projectDescriptionArea.<anonymous>' call
+      var tmp_0 = $composer_0;
+      var dispatchReceiver = composableLambda(tmp_0, -732755137, true, projectDescriptionArea$lambda(projectTile, companyName, projectDuration, projectDescription1, projectDescription2));
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      $composer_1.startReplaceableGroup_ip860b_k$(1157296644);
+      sourceInformation($composer_1, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+      var it = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_1;
+      if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        // Inline function 'com.my.profile.components.project.projectDescriptionArea.<anonymous>.<anonymous>' call
+        var value = ComposableLambda$invoke$ref_21(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value);
+        tmp_1 = value;
+      } else {
+        tmp_1 = it;
+      }
+      var tmp_2 = tmp_1;
+      var tmp0 = (tmp_2 == null ? true : !(tmp_2 == null)) ? tmp_2 : THROW_CCE();
+      $composer_1.endReplaceableGroup_ern0ak_k$();
+      Column(tmp, null, null, null, tmp0, $composer_0, 24584, 14);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(projectDescriptionArea$lambda_0(projectTile, companyName, projectDuration, projectDescription1, projectDescription2, $changed));
+    }
+  }
+  function projectTitle(projectTile, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(215301241);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(projectTile) ? 4 : 2);
+    if (!(($dirty & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
+      // Inline function 'kotlin.run' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'com.my.profile.components.project.projectTitle.<anonymous>' call
+      var tmp = $composer_0;
+      var dispatchReceiver = composableLambda(tmp, 767438296, true, projectTitle$lambda(projectTile));
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      $composer_1.startReplaceableGroup_ip860b_k$(1157296644);
+      sourceInformation($composer_1, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid = $composer_1.changed_ga7h3f_k$(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+      var it = $composer_1.rememberedValue_4dg93v_k$();
+      var tmp_0;
+      if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
+        // Inline function 'com.my.profile.components.project.projectTitle.<anonymous>.<anonymous>' call
+        var value = ComposableLambda$invoke$ref_22(dispatchReceiver);
+        $composer_1.updateRememberedValue_l1wh71_k$(value);
+        tmp_0 = value;
+      } else {
+        tmp_0 = it;
+      }
+      var tmp_1 = tmp_0;
+      var tmp0 = (tmp_1 == null ? true : !(tmp_1 == null)) ? tmp_1 : THROW_CCE();
+      $composer_1.endReplaceableGroup_ern0ak_k$();
+      H3(null, tmp0, $composer_0, 48, 1);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(projectTitle$lambda_0(projectTile, $changed));
+    }
+  }
+  function companyName(companyName, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-167284980);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(companyName) ? 4 : 2);
+    if (!(($dirty & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
+      var tmp = Companion_getInstance_1();
+      // Inline function 'org.jetbrains.compose.web.css.Color.lightgray' call
+      Color_getInstance();
+      var tmp$ret$0 = Color('lightgray');
+      var tmp_0 = fontSize(color(tmp, tmp$ret$0), get_px(12));
+      SpanText(companyName, tmp_0, null, null, $composer_0, 64 | 14 & $dirty, 12);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(companyName$lambda(companyName, $changed));
+    }
+  }
+  function projectDuration(projectDuration, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-377159801);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.changed_ga7h3f_k$(projectDuration) ? 4 : 2);
+    if (!(($dirty & 11) === 2) || !$composer_0.get_skipping_3owdve_k$()) {
+      var tmp = Companion_getInstance_1();
+      // Inline function 'org.jetbrains.compose.web.css.Color.lightgray' call
+      Color_getInstance();
+      var tmp$ret$0 = Color('lightgray');
+      var tmp_0 = padding_0(fontSize(color(tmp, tmp$ret$0), get_px(12)), VOID, VOID, get_px(10));
+      SpanText(projectDuration, tmp_0, null, null, $composer_0, 64 | 14 & $dirty, 12);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(projectDuration$lambda(projectDuration, $changed));
+    }
+  }
+  function projectDescriptionArea$lambda($projectTile, $companyName, $projectDuration, $projectDescription1, $projectDescription2) {
+    return function ($this$Column, $composer, $changed) {
+      var $composer_0 = $composer;
+      var tmp;
+      if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
+        projectTitle($projectTile, $composer_0, 0);
+        companyName($companyName, $composer_0, 0);
+        projectDuration($projectDuration, $composer_0, 0);
+        descriptionRow('\uD504\uB85C\uC81D\uD2B8 \uC124\uBA85', $projectDescription1, $composer_0, 6, 0);
+        descriptionRow('\uD504\uB85C\uC81D\uD2B8 \uBC30\uACBD', $projectDescription2, $composer_0, 6, 0);
+        var tmp_0 = margin_0(fillMaxWidth(Companion_getInstance_1()), get_px(20));
+        HorizontalDivider(tmp_0, null, $composer_0, 8, 2);
+        tmp = Unit_getInstance();
+      } else {
+        $composer_0.skipToGroupEnd_lh3zi2_k$();
+        tmp = Unit_getInstance();
+      }
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_21($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function projectDescriptionArea$lambda_0($projectTile, $companyName, $projectDuration, $projectDescription1, $projectDescription2, $$changed) {
+    return function ($composer, $force) {
+      projectDescriptionArea($projectTile, $companyName, $projectDuration, $projectDescription1, $projectDescription2, $composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function projectTitle$lambda($projectTile) {
+    return function ($this$H3, $composer, $changed) {
+      var $composer_0 = $composer;
+      var tmp = fontWeight(Companion_getInstance_1(), Companion_getInstance_3().get_Bold_wnz5ke_k$());
+      SpanText($projectTile, tmp, null, null, $composer_0, 64, 12);
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_22($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
+    };
+  }
+  function projectTitle$lambda_0($projectTile, $$changed) {
+    return function ($composer, $force) {
+      projectTitle($projectTile, $composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function companyName$lambda($companyName, $$changed) {
+    return function ($composer, $force) {
+      companyName($companyName, $composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function projectDuration$lambda($projectDuration, $$changed) {
+    return function ($composer, $force) {
+      projectDuration($projectDuration, $composer, updateChangedFlags($$changed | 1));
       return Unit_getInstance();
     };
   }
@@ -1591,7 +2020,7 @@
     var $composer_0 = $composer;
     $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(1740912431);
     if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
-      var tmp = backgroundColor(padding_1(padding(fillMaxHeight(width(Companion_getInstance_1(), get_px(700)))), get_px(40)), get_white());
+      var tmp = backgroundColor(padding_1(fillMaxHeight(width(Companion_getInstance_1(), get_px(700))), get_px(40)), get_white());
       Column(tmp, null, null, null, ComposableSingletons$CareerKt_getInstance().lambda_2_r8sbbo_1, $composer_0, 24584, 14);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
@@ -1608,10 +2037,10 @@
     $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-913779714);
     if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
       companyInfoArea('(\uC8FC)\uB354\uB4DC\uB9BC\uBA54\uC774\uCEE4\uC2A4', '\uC5F0\uAD6C\uC6D0 | R&D \uC5F0\uAD6C \uAC1C\uBC1C\uBD80\uC11C', '2023.09 ~ 2024.09', $composer_0, 438);
-      careerArea(' : \uC628\uB204\uB9AC \uC0C1\uD488\uAD8C \uAE30\uBC18\uC758 \uC804\uD1B5\uC2DC\uC7A5 \uC774\uCEE4\uBA38\uC2A4 \uD50C\uB7AB\uD3FC \uC628\uB204\uB9AC\uC624\uB354 (\uC628\uB354)', ' : Kotlin \uAE30\uBC18 Android \uBC0F \uBC31\uC5D4\uB4DC \uAC1C\uBC1C', null, ComposableSingletons$CareerKt_getInstance().lambda_3_r8sbbn_1, $composer_0, 3126, 4);
+      careerArea(' : \uC628\uB204\uB9AC \uC0C1\uD488\uAD8C \uAE30\uBC18\uC758 \uC804\uD1B5\uC2DC\uC7A5 \uC774\uCEE4\uBA38\uC2A4 \uD50C\uB7AB\uD3FC \uC628\uB204\uB9AC\uC624\uB354 (\uC628\uB354) ', ' : Kotlin \uAE30\uBC18 Android \uBC0F \uBC31\uC5D4\uB4DC \uAC1C\uBC1C', ComposableSingletons$CareerKt_getInstance().lambda_3_r8sbbn_1, $composer_0, 438);
       var tmp = margin_0(fillMaxWidth(Companion_getInstance_1()), get_px(28));
       HorizontalDivider(tmp, null, $composer_0, 8, 2);
-      careerArea(' : \uC628\uD14C\uC774\uBE14 (\uD14C\uC774\uBE14\uC624\uB354)', ' : Kotlin \uAE30\uBC18 Android \uBC0F \uBC31\uC5D4\uB4DC \uAC1C\uBC1C', null, ComposableSingletons$CareerKt_getInstance().lambda_4_r8sbbm_1, $composer_0, 3126, 4);
+      careerArea(' : \uC628\uD14C\uC774\uBE14 (\uD14C\uC774\uBE14\uC624\uB354)', ' : Kotlin \uAE30\uBC18 Android \uBC0F \uBC31\uC5D4\uB4DC \uAC1C\uBC1C', ComposableSingletons$CareerKt_getInstance().lambda_4_r8sbbm_1, $composer_0, 438);
       var tmp_0 = margin_0(fillMaxWidth(Companion_getInstance_1()), get_px(28));
       HorizontalDivider(tmp_0, null, $composer_0, 8, 2);
     } else {
@@ -1629,7 +2058,7 @@
     $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-350888914);
     if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
       companyInfoArea('\uBBF8\uB798\uC528\uC5D4\uC528', '\uB300\uB9AC | \uAC1C\uBC1C\uD300', '2020.11 ~ 2023.07', $composer_0, 438);
-      careerArea(' : Onvif \uAE30\uBC18 CCTV \uD1B5\uC2E0 \uAC1C\uBC1C (\uC544\uD504\uB85C\uC81C\uC5B4)', ' : Java \uAE30\uBC18 Android \uAC1C\uBC1C \uB2F4\uB2F9', null, ComposableSingletons$CareerKt_getInstance().lambda_5_r8sbbl_1, $composer_0, 3126, 4);
+      careerArea(' : Onvif \uAE30\uBC18 CCTV \uD1B5\uC2E0 \uAC1C\uBC1C (\uC544\uD504\uB85C\uC81C\uC5B4)', ' : Java \uAE30\uBC18 Android \uAC1C\uBC1C \uB2F4\uB2F9', ComposableSingletons$CareerKt_getInstance().lambda_5_r8sbbl_1, $composer_0, 438);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -1640,7 +2069,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(miraeCNC$lambda($changed));
     }
   }
-  function ComposableLambda$invoke$ref_17($boundThis) {
+  function ComposableLambda$invoke$ref_23($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -1654,7 +2083,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_18($boundThis) {
+  function ComposableLambda$invoke$ref_24($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -1670,7 +2099,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_19($boundThis) {
+  function ComposableLambda$invoke$ref_25($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -1684,7 +2113,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_20($boundThis) {
+  function ComposableLambda$invoke$ref_26($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -1698,7 +2127,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_21($boundThis) {
+  function ComposableLambda$invoke$ref_27($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -1715,15 +2144,15 @@
   function ComposableSingletons$CareerKt() {
     ComposableSingletons$CareerKt_instance = this;
     var tmp = this;
-    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_17(composableLambdaInstance(1414984625, false, ComposableSingletons$CareerKt$lambda_1$lambda_mfun1q));
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_23(composableLambdaInstance(1414984625, false, ComposableSingletons$CareerKt$lambda_1$lambda_mfun1q));
     var tmp_0 = this;
-    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_18(composableLambdaInstance(-570022234, false, ComposableSingletons$CareerKt$lambda_2$lambda_6dru0h));
+    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_24(composableLambdaInstance(-570022234, false, ComposableSingletons$CareerKt$lambda_2$lambda_6dru0h));
     var tmp_1 = this;
-    tmp_1.lambda_3_r8sbbn_1 = ComposableLambda$invoke$ref_19(composableLambdaInstance(369269657, false, ComposableSingletons$CareerKt$lambda_3$lambda_z7eb2o));
+    tmp_1.lambda_3_r8sbbn_1 = ComposableLambda$invoke$ref_25(composableLambdaInstance(898188696, false, ComposableSingletons$CareerKt$lambda_3$lambda_z7eb2o));
     var tmp_2 = this;
-    tmp_2.lambda_4_r8sbbm_1 = ComposableLambda$invoke$ref_20(composableLambdaInstance(-2077251504, false, ComposableSingletons$CareerKt$lambda_4$lambda_7039u9));
+    tmp_2.lambda_4_r8sbbm_1 = ComposableLambda$invoke$ref_26(composableLambdaInstance(-592195953, false, ComposableSingletons$CareerKt$lambda_4$lambda_7039u9));
     var tmp_3 = this;
-    tmp_3.lambda_5_r8sbbl_1 = ComposableLambda$invoke$ref_21(composableLambdaInstance(-931233869, false, ComposableSingletons$CareerKt$lambda_5$lambda_ltj77y));
+    tmp_3.lambda_5_r8sbbl_1 = ComposableLambda$invoke$ref_27(composableLambdaInstance(-2040049068, false, ComposableSingletons$CareerKt$lambda_5$lambda_ltj77y));
   }
   protoOf(ComposableSingletons$CareerKt).get_lambda_1_lx0epu_k$ = function () {
     return this.lambda_1_r8sbbp_1;
@@ -1852,7 +2281,7 @@
       var tmp_1;
       if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
         // Inline function 'com.my.profile.pages.certificationItem.<anonymous>.<anonymous>' call
-        var value = ComposableLambda$invoke$ref_24(dispatchReceiver);
+        var value = ComposableLambda$invoke$ref_30(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value);
         tmp_1 = value;
       } else {
@@ -1897,7 +2326,7 @@
       var tmp_0;
       if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
         // Inline function 'com.my.profile.pages.certificationItemTitle.<anonymous>.<anonymous>' call
-        var value = ComposableLambda$invoke$ref_25(dispatchReceiver);
+        var value = ComposableLambda$invoke$ref_31(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value);
         tmp_0 = value;
       } else {
@@ -1936,7 +2365,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(certificationItemOrganization$lambda(text, $changed));
     }
   }
-  function ComposableLambda$invoke$ref_22($boundThis) {
+  function ComposableLambda$invoke$ref_28($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -1950,7 +2379,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_23($boundThis) {
+  function ComposableLambda$invoke$ref_29($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -1969,9 +2398,9 @@
   function ComposableSingletons$CertificationKt() {
     ComposableSingletons$CertificationKt_instance = this;
     var tmp = this;
-    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_22(composableLambdaInstance(248434187, false, ComposableSingletons$CertificationKt$lambda_1$lambda_k52qz4));
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_28(composableLambdaInstance(248434187, false, ComposableSingletons$CertificationKt$lambda_1$lambda_k52qz4));
     var tmp_0 = this;
-    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_23(composableLambdaInstance(1115934110, false, ComposableSingletons$CertificationKt$lambda_2$lambda_m2etxt));
+    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_29(composableLambdaInstance(1115934110, false, ComposableSingletons$CertificationKt$lambda_2$lambda_m2etxt));
   }
   protoOf(ComposableSingletons$CertificationKt).get_lambda_1_lx0epu_k$ = function () {
     return this.lambda_1_r8sbbp_1;
@@ -2021,7 +2450,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_24($boundThis) {
+  function ComposableLambda$invoke$ref_30($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -2040,7 +2469,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_25($boundThis) {
+  function ComposableLambda$invoke$ref_31($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -2136,7 +2565,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(ProfileInfoItem$lambda(modifier_0, text, fontSize_0, fontWeight_0, $changed, $default));
     }
   }
-  function ComposableLambda$invoke$ref_26($boundThis) {
+  function ComposableLambda$invoke$ref_32($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -2150,7 +2579,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_27($boundThis) {
+  function ComposableLambda$invoke$ref_33($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -2167,7 +2596,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_28($boundThis) {
+  function ComposableLambda$invoke$ref_34($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -2182,7 +2611,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_29($boundThis) {
+  function ComposableLambda$invoke$ref_35($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -2201,13 +2630,13 @@
   function ComposableSingletons$IndexKt() {
     ComposableSingletons$IndexKt_instance = this;
     var tmp = this;
-    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_26(composableLambdaInstance(-180475392, false, ComposableSingletons$IndexKt$lambda_1$lambda_5yb608));
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_32(composableLambdaInstance(-180475392, false, ComposableSingletons$IndexKt$lambda_1$lambda_5yb608));
     var tmp_0 = this;
-    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_27(composableLambdaInstance(-2055888569, false, ComposableSingletons$IndexKt$lambda_2$lambda_yrxn2f));
+    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_33(composableLambdaInstance(-2055888569, false, ComposableSingletons$IndexKt$lambda_2$lambda_yrxn2f));
     var tmp_1 = this;
-    tmp_1.lambda_3_r8sbbn_1 = ComposableLambda$invoke$ref_28(composableLambdaInstance(13904810, false, ComposableSingletons$IndexKt$lambda_3$lambda_7fjxui));
+    tmp_1.lambda_3_r8sbbn_1 = ComposableLambda$invoke$ref_34(composableLambdaInstance(13904810, false, ComposableSingletons$IndexKt$lambda_3$lambda_7fjxui));
     var tmp_2 = this;
-    tmp_2.lambda_4_r8sbbm_1 = ComposableLambda$invoke$ref_29(composableLambdaInstance(158174863, false, ComposableSingletons$IndexKt$lambda_4$lambda_le2j7p));
+    tmp_2.lambda_4_r8sbbm_1 = ComposableLambda$invoke$ref_35(composableLambdaInstance(158174863, false, ComposableSingletons$IndexKt$lambda_4$lambda_le2j7p));
   }
   protoOf(ComposableSingletons$IndexKt).get_lambda_1_lx0epu_k$ = function () {
     return this.lambda_1_r8sbbp_1;
@@ -2351,7 +2780,7 @@
       var tmp_0;
       if (invalid || it === Companion_getInstance_0().get_Empty_i9b85g_k$()) {
         // Inline function 'com.my.profile.pages.introductionItemTitle.<anonymous>.<anonymous>' call
-        var value = ComposableLambda$invoke$ref_32(dispatchReceiver);
+        var value = ComposableLambda$invoke$ref_38(dispatchReceiver);
         $composer_1.updateRememberedValue_l1wh71_k$(value);
         tmp_0 = value;
       } else {
@@ -2390,7 +2819,7 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(introductionItemDescription$lambda(description, $changed));
     }
   }
-  function ComposableLambda$invoke$ref_30($boundThis) {
+  function ComposableLambda$invoke$ref_36($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -2404,7 +2833,7 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_31($boundThis) {
+  function ComposableLambda$invoke$ref_37($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -2425,9 +2854,9 @@
   function ComposableSingletons$IntroductionKt() {
     ComposableSingletons$IntroductionKt_instance = this;
     var tmp = this;
-    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_30(composableLambdaInstance(311903601, false, ComposableSingletons$IntroductionKt$lambda_1$lambda_x80tv2));
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_36(composableLambdaInstance(311903601, false, ComposableSingletons$IntroductionKt$lambda_1$lambda_x80tv2));
     var tmp_0 = this;
-    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_31(composableLambdaInstance(-2115740178, false, ComposableSingletons$IntroductionKt$lambda_2$lambda_8zgr1v));
+    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_37(composableLambdaInstance(-2115740178, false, ComposableSingletons$IntroductionKt$lambda_2$lambda_8zgr1v));
   }
   protoOf(ComposableSingletons$IntroductionKt).get_lambda_1_lx0epu_k$ = function () {
     return this.lambda_1_r8sbbp_1;
@@ -2473,7 +2902,7 @@
       return Unit_getInstance();
     };
   }
-  function ComposableLambda$invoke$ref_32($boundThis) {
+  function ComposableLambda$invoke$ref_38($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
@@ -2524,9 +2953,8 @@
     var $composer_0 = $composer;
     $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-1339524665);
     if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
-      var tmp = backgroundColor(padding(fillMaxHeight(width(Companion_getInstance_1(), get_px(700)))), get_white());
-      var tmp_0 = Center_getInstance();
-      Box(tmp, tmp_0, null, ComposableSingletons$ProjectKt_getInstance().lambda_2_r8sbbo_1, $composer_0, 3144, 4);
+      var tmp = backgroundColor(padding_1(fillMaxHeight(width(Companion_getInstance_1(), get_px(700))), get_px(40)), get_white());
+      Column(tmp, null, null, null, ComposableSingletons$ProjectKt_getInstance().lambda_2_r8sbbo_1, $composer_0, 24584, 14);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -2537,7 +2965,55 @@
       tmp0_safe_receiver.updateScope_t8jcf_k$(projectContent$lambda($changed));
     }
   }
-  function ComposableLambda$invoke$ref_33($boundThis) {
+  function onderProjectInfoArea($composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(678403781);
+    if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
+      projectDescriptionArea('\uC628\uB204\uB9AC \uC0C1\uD488\uAD8C \uAE30\uBC18\uC758 \uC804\uD1B5\uC2DC\uC7A5 \uC774\uCEE4\uBA38\uC2A4 \uD50C\uB7AB\uD3FC \uC628\uB204\uB9AC\uC624\uB354 \uC628\uB354', '(\uC8FC)\uB354\uB4DC\uB9BC\uBA54\uC774\uCEE4\uC2A4', '2024.01 ~ 2024.05', ' : \uC804\uD1B5\uC2DC\uC7A5\uACFC \uC0C1\uC810\uAC00\uC5D0\uC11C \uC0AC\uC6A9\uB418\uB294 \uC628\uB204\uB9AC \uC0C1\uD488\uAD8C \uAE30\uBC18\uC758 \uC774\uCEE4\uBA38\uC2A4 \uD50C\uB7AB\uD3FC(\uC628\uB354)\uC73C\uB85C,\n   \uC0C1\uC6A9\uD654\uB97C \uBAA9\uD45C\uB85C \uAC1C\uBC1C\uB41C \uD504\uB85C\uC81D\uD2B8\n', ' : \uC628\uB354\uB294 R&D \uC5F0\uAD6C\uAC1C\uBC1C \uACFC\uC815\uC5D0\uC11C \uAC1C\uBC1C\uB418\uC5C8\uC73C\uB098, \uCFE0\uD3F0 \uB3C4\uBA54\uC778 \uBB38\uC81C\uC640 \uBCF5\uC7A1\uD55C \uCF54\uB4DC \uAD6C\uC870\n   \uB4F1\uC73C\uB85C \uC778\uD574 \uC0C1\uC6A9\uD654\uC5D0 \uC5B4\uB824\uC6C0\uC774 \uC788\uC5C8\uACE0, \uC774\uB97C \uD574\uACB0\uD558\uAE30 \uC704\uD574 \uC7AC\uAC1C\uBC1C\uC774 \uACB0\uC815\uB428', $composer_0, 28086);
+      onderWorkingArea($composer_0, 0);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(onderProjectInfoArea$lambda($changed));
+    }
+  }
+  function ontableProjectInfoArea($composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(672094466);
+    if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
+      projectDescriptionArea('\uD14C\uC774\uBE14\uC624\uB354 \uC628\uD14C\uC774\uBE14', '(\uC8FC)\uB354\uB4DC\uB9BC\uBA54\uC774\uCEE4\uC2A4', '2024.06 ~ 2024.08', ' : \uD14C\uC774\uBE14 \uC624\uB354 \uC2DC\uC2A4\uD15C (\uC628\uD14C\uC774\uBE14)', ' : \uC628\uB354 \uC11C\uBE44\uC2A4\uB9CC\uC73C\uB85C\uB294 \uACBD\uC7C1\uB825\uC774 \uBD80\uC871\uD558\uB2E4\uB294 \uD310\uB2E8\uC5D0, \uB9E4\uC7A5\uC5D0\uC11C \uC27D\uAC8C\n  \uC0AC\uC6A9\uD560 \uC218 \uC788\uB294 \uD14C\uC774\uBE14 \uC624\uB354 \uC11C\uBE44\uC2A4\uB97C \uCD94\uAC00\uB85C \uC81C\uACF5\uD558\uAE30 \uC704\uD574 \uAC1C\uBC1C\uC744 \uACB0\uC815\uD558\uAC8C \uB428', $composer_0, 28086);
+      ontableWorkingArea($composer_0, 0);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(ontableProjectInfoArea$lambda($changed));
+    }
+  }
+  function aproProjectInfoArea($composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.startRestartGroup_lebv1i_k$(-906690949);
+    if (!($changed === 0) || !$composer_0.get_skipping_3owdve_k$()) {
+      projectDescriptionArea('CCTV \uAE30\uBC18 ONVIF \uD1B5\uC2E0 \uCCB4\uACC4 \uAD6C\uCD95', '\uBBF8\uB798\uC528\uC5D4\uC528', '2020.11 ~ 2023.07', ' : \uC2A4\uB9C8\uD2B8\uD31C IoT \uD1B5\uD569 \uAD00\uB9AC \uC194\uB8E8\uC158', ' : \uD558\uC774\uD06C\uBE44\uC804 CCTV \uC218\uAE09 \uBB38\uC81C\uB85C \uB2E4\uC591\uD55C \uC81C\uC870\uC0AC\uC758 CCTV\uB97C\n \uC5F0\uB3D9\uD560 \uD544\uC694\uC131\uC774 \uC0DD\uACA8\uC11C \uC9C4\uD589\uD558\uAC8C \uB428', $composer_0, 28086);
+      aproWorkingArea($composer_0, 0);
+    } else {
+      $composer_0.skipToGroupEnd_lh3zi2_k$();
+    }
+    var tmp0_safe_receiver = $composer_0.endRestartGroup_yxpjv9_k$();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.updateScope_t8jcf_k$(aproProjectInfoArea$lambda($changed));
+    }
+  }
+  function ComposableLambda$invoke$ref_39($boundThis) {
     return function (p0, p1) {
       return $boundThis.invoke_z8di7s_k$(p0, p1);
     };
@@ -2551,15 +3027,18 @@
     }
     return Unit_getInstance();
   }
-  function ComposableLambda$invoke$ref_34($boundThis) {
+  function ComposableLambda$invoke$ref_40($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_c9vvnb_k$(p0, p1, p2);
     };
   }
-  function ComposableSingletons$ProjectKt$lambda_2$lambda_vqujim($this$Box, $composer, $changed) {
+  function ComposableSingletons$ProjectKt$lambda_2$lambda_vqujim($this$Column, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
-      Text('\uD504\uB85C\uC81D\uD2B8 Content', $composer_0, 6);
+      pageTitle('\uD504\uB85C\uC81D\uD2B8', $composer_0, 6);
+      onderProjectInfoArea($composer_0, 0);
+      ontableProjectInfoArea($composer_0, 0);
+      aproProjectInfoArea($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -2568,9 +3047,9 @@
   function ComposableSingletons$ProjectKt() {
     ComposableSingletons$ProjectKt_instance = this;
     var tmp = this;
-    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_33(composableLambdaInstance(-1940631987, false, ComposableSingletons$ProjectKt$lambda_1$lambda_2x82gf));
+    tmp.lambda_1_r8sbbp_1 = ComposableLambda$invoke$ref_39(composableLambdaInstance(-1940631987, false, ComposableSingletons$ProjectKt$lambda_1$lambda_2x82gf));
     var tmp_0 = this;
-    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_34(composableLambdaInstance(1606559949, false, ComposableSingletons$ProjectKt$lambda_2$lambda_vqujim));
+    tmp_0.lambda_2_r8sbbo_1 = ComposableLambda$invoke$ref_40(composableLambdaInstance(-1649645698, false, ComposableSingletons$ProjectKt$lambda_2$lambda_vqujim));
   }
   protoOf(ComposableSingletons$ProjectKt).get_lambda_1_lx0epu_k$ = function () {
     return this.lambda_1_r8sbbp_1;
@@ -2599,6 +3078,24 @@
   function projectContent$lambda($$changed) {
     return function ($composer, $force) {
       projectContent($composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function onderProjectInfoArea$lambda($$changed) {
+    return function ($composer, $force) {
+      onderProjectInfoArea($composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function ontableProjectInfoArea$lambda($$changed) {
+    return function ($composer, $force) {
+      ontableProjectInfoArea($composer, updateChangedFlags($$changed | 1));
+      return Unit_getInstance();
+    };
+  }
+  function aproProjectInfoArea$lambda($$changed) {
+    return function ($composer, $force) {
+      aproProjectInfoArea($composer, updateChangedFlags($$changed | 1));
       return Unit_getInstance();
     };
   }
