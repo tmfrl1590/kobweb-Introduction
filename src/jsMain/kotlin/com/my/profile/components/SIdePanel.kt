@@ -58,10 +58,19 @@ fun NavigationItems() {
     NavigationItem(
         modifier = Modifier.margin(bottom = 24.px),
         title = "경력",
-        selected = context.route.path == Screen.Screen2.route,
+        selected = context.route.path == Screen.Career.route,
         //icon = Res.PathIcon.home,
         onClick = {
-            context.router.navigateTo(Screen.Screen2.route)
+            context.router.navigateTo(Screen.Career.route)
+        }
+    )
+    NavigationItem(
+        modifier = Modifier.margin(bottom = 24.px),
+        title = "프로젝트",
+        selected = context.route.path == Screen.Project.route,
+        //icon = Res.PathIcon.home,
+        onClick = {
+            context.router.navigateTo(Screen.Project.route)
         }
     )
     NavigationItem(

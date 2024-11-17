@@ -3,31 +3,33 @@ package com.my.profile.pages
 import androidx.compose.runtime.Composable
 import com.my.profile.components.AdminPageLayout
 import com.my.profile.ui.white
+import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.core.Page
+import com.varabyte.kobweb.silk.components.text.SpanText
 import org.jetbrains.compose.web.css.px
 import org.jetbrains.compose.web.dom.Text
 
 @Page
 @Composable
-fun Screen2Page() {
-    Screen2()
+fun projectPage() {
+    project()
 }
 
 @Composable
-fun Screen2(){
+fun project() {
     AdminPageLayout(
         content = {
-            Screen2Content()
+            projectContent()
         }
     )
 }
 
 @Composable
-fun Screen2Content() {
+fun projectContent() {
     Box(
         modifier = Modifier
             .width(700.px)
@@ -36,6 +38,6 @@ fun Screen2Content() {
             .backgroundColor(white),
         contentAlignment = Alignment.Center
     ) {
-        Text("경력 Content")
+        Text("프로젝트 Content")
     }
 }

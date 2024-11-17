@@ -2,21 +2,17 @@ package com.my.profile.pages
 
 import androidx.compose.runtime.Composable
 import com.my.profile.components.AdminPageLayout
+import com.my.profile.components.pageTitle
 import com.my.profile.ui.white
 import com.varabyte.kobweb.compose.css.FontWeight
-import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.foundation.layout.Column
-import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.core.Page
 import com.varabyte.kobweb.silk.components.layout.HorizontalDivider
 import com.varabyte.kobweb.silk.components.text.SpanText
 import org.jetbrains.compose.web.css.px
-import org.jetbrains.compose.web.dom.H1
-import org.jetbrains.compose.web.dom.H2
 import org.jetbrains.compose.web.dom.H3
-import org.jetbrains.compose.web.dom.Text
 
 @Page
 @Composable
@@ -42,14 +38,9 @@ fun certificationContent() {
             .padding(40.px)
             .backgroundColor(white),
     ) {
-        H2 {
-            SpanText(
-                text = "자격증",
-                modifier = Modifier
-                    .fontWeight(FontWeight.Bold)
-                    .fontSize(32.px)
-            )
-        }
+        pageTitle(
+            title = "자격증"
+        )
         certificationItem(
             title = "정보처리기사",
             organization = "한국산업인력공단",

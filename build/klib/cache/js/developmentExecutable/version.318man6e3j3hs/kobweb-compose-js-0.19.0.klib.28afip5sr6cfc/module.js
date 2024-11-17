@@ -1845,20 +1845,6 @@
   }
   function Alignment() {
   }
-  function thenIfNotNull(_this__u8e3s4, value, consume) {
-    // Inline function 'com.varabyte.kobweb.compose.ui.thenIf' call
-    var tmp;
-    if (!(value == null)) {
-      // Inline function 'com.varabyte.kobweb.compose.ui.thenIfNotNull.<anonymous>' call
-      tmp = consume(ensureNotNull(value));
-    } else {
-      tmp = Companion_getInstance_9();
-    }
-    return _this__u8e3s4.then_mmfvo6_k$(tmp);
-  }
-  function thenIf(_this__u8e3s4, condition, lazyProduce) {
-    return _this__u8e3s4.then_mmfvo6_k$(condition ? lazyProduce() : Companion_getInstance_9());
-  }
   function Element() {
   }
   function Companion() {
@@ -1877,6 +1863,17 @@
     return Companion_instance;
   }
   function Modifier() {
+  }
+  function thenIfNotNull(_this__u8e3s4, value, consume) {
+    // Inline function 'com.varabyte.kobweb.compose.ui.thenIf' call
+    var tmp;
+    if (!(value == null)) {
+      // Inline function 'com.varabyte.kobweb.compose.ui.thenIfNotNull.<anonymous>' call
+      tmp = consume(ensureNotNull(value));
+    } else {
+      tmp = Companion_getInstance_9();
+    }
+    return _this__u8e3s4.then_mmfvo6_k$(tmp);
   }
   function _get_current__qcrdxk($this) {
     return $this.current_1;
@@ -1909,6 +1906,9 @@
   protoOf(ChainedModifier).hashCode = function () {
     return hashCode(this.current_1) + imul(31, hashCode(this.next_1)) | 0;
   };
+  function thenIf(_this__u8e3s4, condition, lazyProduce) {
+    return _this__u8e3s4.then_mmfvo6_k$(condition ? lazyProduce() : Companion_getInstance_9());
+  }
   var com_varabyte_kobweb_compose_ui_AttrsModifier$stable;
   var com_varabyte_kobweb_compose_ui_StyleModifier$stable;
   function toStyles(_this__u8e3s4, finalHandler) {
