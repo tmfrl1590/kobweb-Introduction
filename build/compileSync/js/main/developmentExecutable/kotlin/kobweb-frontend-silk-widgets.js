@@ -147,7 +147,7 @@
   var right = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.z1;
   var bottom = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q;
   var toString = kotlin_kotlin.$_$.cc;
-  var THROW_CCE = kotlin_kotlin.$_$.bf;
+  var THROW_CCE = kotlin_kotlin.$_$.ze;
   var Companion_getInstance_13 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f1;
   var Blue_getInstance = kotlin_com_varabyte_kobweb_silk_foundation.$_$.n1;
   var Gray_getInstance = kotlin_com_varabyte_kobweb_silk_foundation.$_$.o1;
@@ -156,7 +156,7 @@
   var Companion_getInstance_14 = kotlin_com_varabyte_kobweb_silk_foundation.$_$.m1;
   var get_name = kotlin_com_varabyte_kobweb_silk_foundation.$_$.h1;
   var suffixedWith = kotlin_com_varabyte_kobweb_silk_foundation.$_$.e1;
-  var removeClass = kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.$_$.d;
+  var removeClass = kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.$_$.c;
   var addClass = kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.$_$.a;
   var toPalette = kotlin_com_varabyte_kobweb_silk_foundation.$_$.d1;
   var base_0 = kotlin_com_varabyte_kobweb_silk_foundation.$_$.w;

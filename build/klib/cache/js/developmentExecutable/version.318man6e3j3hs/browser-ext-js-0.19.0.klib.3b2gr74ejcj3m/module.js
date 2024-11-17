@@ -23,20 +23,20 @@
   var CompletableDeferred = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.k;
   var json = kotlin_kotlin.$_$.sb;
   var Unit_getInstance = kotlin_kotlin.$_$.m4;
-  var THROW_IAE = kotlin_kotlin.$_$.cf;
+  var THROW_IAE = kotlin_kotlin.$_$.af;
   var enumEntries = kotlin_kotlin.$_$.ea;
-  var Enum = kotlin_kotlin.$_$.qe;
+  var Enum = kotlin_kotlin.$_$.oe;
   var protoOf = kotlin_kotlin.$_$.ac;
   var initMetadataForClass = kotlin_kotlin.$_$.xa;
   var asCoroutineDispatcher = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.q;
   var CoroutineScope = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.m;
   var launch = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.s;
-  var Exception = kotlin_kotlin.$_$.se;
+  var Exception = kotlin_kotlin.$_$.qe;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.e1;
   var decodeToString = kotlin_kotlin.$_$.bd;
-  var THROW_CCE = kotlin_kotlin.$_$.bf;
+  var THROW_CCE = kotlin_kotlin.$_$.ze;
   var isCharSequence = kotlin_kotlin.$_$.ib;
-  var trim = kotlin_kotlin.$_$.je;
+  var trim = kotlin_kotlin.$_$.he;
   var toString = kotlin_kotlin.$_$.cc;
   var isBlank = kotlin_kotlin.$_$.jd;
   var split = kotlin_kotlin.$_$.ud;
@@ -58,7 +58,7 @@
   var SuspendFunction1 = kotlin_kotlin.$_$.ba;
   var KProperty1 = kotlin_kotlin.$_$.pc;
   var getPropertyCallableRef = kotlin_kotlin.$_$.ua;
-  var lazy = kotlin_kotlin.$_$.vf;
+  var lazy = kotlin_kotlin.$_$.tf;
   var replace = kotlin_kotlin.$_$.sd;
   var first = kotlin_kotlin.$_$.gd;
   var last = kotlin_kotlin.$_$.od;
@@ -66,7 +66,7 @@
   var charSequenceLength = kotlin_kotlin.$_$.na;
   var charSequenceGet = kotlin_kotlin.$_$.ma;
   var isUpperCase = kotlin_kotlin.$_$.ld;
-  var Char = kotlin_kotlin.$_$.oe;
+  var Char = kotlin_kotlin.$_$.me;
   var get_lastIndex = kotlin_kotlin.$_$.nd;
   var isLowerCase = kotlin_kotlin.$_$.kd;
   var toString_0 = kotlin_kotlin.$_$.j2;
@@ -74,7 +74,7 @@
   var _Duration___get_inWholeMilliseconds__impl__msfiry = kotlin_kotlin.$_$.d2;
   var Companion_getInstance_0 = kotlin_kotlin.$_$.e4;
   var DurationUnit_MILLISECONDS_getInstance = kotlin_kotlin.$_$.g;
-  var toDuration = kotlin_kotlin.$_$.me;
+  var toDuration = kotlin_kotlin.$_$.ke;
   //endregion
   //region block: pre-declaration
   initMetadataForClass(HttpMethod, 'HttpMethod', VOID, Enum);

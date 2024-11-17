@@ -30,7 +30,7 @@
   var imul = Math.imul;
   var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.g2;
   var charArrayOf = kotlin_kotlin.$_$.ka;
-  var trimStart = kotlin_kotlin.$_$.ie;
+  var trimStart = kotlin_kotlin.$_$.ge;
   var get_http = kotlin_com_varabyte_kobweb_browser_ext.$_$.a;
   var Unit_getInstance = kotlin_kotlin.$_$.m4;
   var protoOf = kotlin_kotlin.$_$.ac;
@@ -40,9 +40,9 @@
   var getPropertyCallableRef = kotlin_kotlin.$_$.ua;
   var KMutableProperty0 = kotlin_kotlin.$_$.mc;
   var KMutableProperty1 = kotlin_kotlin.$_$.nc;
-  var lazy = kotlin_kotlin.$_$.vf;
-  var THROW_CCE = kotlin_kotlin.$_$.bf;
-  var Annotation = kotlin_kotlin.$_$.ne;
+  var lazy = kotlin_kotlin.$_$.tf;
+  var THROW_CCE = kotlin_kotlin.$_$.ze;
+  var Annotation = kotlin_kotlin.$_$.le;
   var Style = kotlin_org_jetbrains_compose_html_html_core.$_$.g5;
   var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.q4;
   var padding = kotlin_org_jetbrains_compose_html_html_core.$_$.n4;
@@ -53,7 +53,7 @@
   var layer = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.f1;
   var initMetadataForObject = kotlin_kotlin.$_$.cb;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
-  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.cg;
+  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.ag;
   var toString = kotlin_kotlin.$_$.cc;
   var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.s1;
   var getValue = kotlin_kotlin.$_$.i7;
@@ -68,10 +68,10 @@
   var mutableStateOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.s;
   var staticCompositionLocalOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.w;
   var initMetadataForInterface = kotlin_kotlin.$_$.ab;
-  var THROW_IAE = kotlin_kotlin.$_$.cf;
+  var THROW_IAE = kotlin_kotlin.$_$.af;
   var enumEntries = kotlin_kotlin.$_$.ea;
-  var Enum = kotlin_kotlin.$_$.qe;
-  var noWhenBranchMatchedException = kotlin_kotlin.$_$.wf;
+  var Enum = kotlin_kotlin.$_$.oe;
+  var noWhenBranchMatchedException = kotlin_kotlin.$_$.uf;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.e1;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.k;
   var charSequenceLength = kotlin_kotlin.$_$.na;
@@ -84,10 +84,10 @@
   var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.u;
   var split = kotlin_kotlin.$_$.td;
   var getOrNull = kotlin_kotlin.$_$.h7;
-  var Exception = kotlin_kotlin.$_$.se;
+  var Exception = kotlin_kotlin.$_$.qe;
   var Exception_init_$Init$ = kotlin_kotlin.$_$.j1;
   var captureStack = kotlin_kotlin.$_$.ja;
-  var ensureNotNull = kotlin_kotlin.$_$.tf;
+  var ensureNotNull = kotlin_kotlin.$_$.rf;
   var isBlank = kotlin_kotlin.$_$.jd;
   var startsWith_0 = kotlin_kotlin.$_$.wd;
   var endsWith = kotlin_kotlin.$_$.ed;
@@ -98,7 +98,7 @@
   var DynamicNode = kotlin_com_varabyte_kobweb_client_server_internal.$_$.a;
   var toRouteString = kotlin_com_varabyte_kobweb_client_server_internal.$_$.c;
   var substringBefore = kotlin_kotlin.$_$.zd;
-  var to = kotlin_kotlin.$_$.eg;
+  var to = kotlin_kotlin.$_$.cg;
   var Collection = kotlin_kotlin.$_$.w4;
   var isInterface = kotlin_kotlin.$_$.mb;
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
@@ -115,7 +115,7 @@
   var substringAfter = kotlin_kotlin.$_$.yd;
   var Companion_getInstance_0 = kotlin_kotlin.$_$.e4;
   var DurationUnit_MILLISECONDS_getInstance = kotlin_kotlin.$_$.g;
-  var toDuration = kotlin_kotlin.$_$.me;
+  var toDuration = kotlin_kotlin.$_$.ke;
   var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_browser_ext.$_$.f;
   var setInterval = kotlin_com_varabyte_kobweb_browser_ext.$_$.c;
   var contains = kotlin_kotlin.$_$.ad;
@@ -1881,15 +1881,14 @@
   //endregion
   //region block: exports
   _.$_$ = _.$_$ || {};
-  _.$_$.a = get_api;
-  _.$_$.b = initKobweb;
-  _.$_$.c = KobwebApp;
-  _.$_$.d = rememberPageContext;
-  _.$_$.e = Router;
-  _.$_$.f = prependIf;
-  _.$_$.g = UpdateHistoryMode_REPLACE_getInstance;
-  _.$_$.h = AppGlobals_getInstance;
-  _.$_$.i = Companion_getInstance_5;
+  _.$_$.a = initKobweb;
+  _.$_$.b = KobwebApp;
+  _.$_$.c = rememberPageContext;
+  _.$_$.d = Router;
+  _.$_$.e = prependIf;
+  _.$_$.f = UpdateHistoryMode_REPLACE_getInstance;
+  _.$_$.g = AppGlobals_getInstance;
+  _.$_$.h = Companion_getInstance_5;
   //endregion
   return _;
 }));

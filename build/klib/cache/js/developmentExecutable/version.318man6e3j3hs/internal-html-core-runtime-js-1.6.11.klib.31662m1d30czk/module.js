@@ -23,11 +23,11 @@
   //region block: imports
   var protoOf = kotlin_kotlin.$_$.ac;
   var initMetadataForInterface = kotlin_kotlin.$_$.ab;
-  var THROW_CCE = kotlin_kotlin.$_$.bf;
-  var Annotation = kotlin_kotlin.$_$.ne;
+  var THROW_CCE = kotlin_kotlin.$_$.ze;
+  var Annotation = kotlin_kotlin.$_$.le;
   var initMetadataForClass = kotlin_kotlin.$_$.xa;
   var VOID = kotlin_kotlin.$_$.f;
-  var ensureNotNull = kotlin_kotlin.$_$.tf;
+  var ensureNotNull = kotlin_kotlin.$_$.rf;
   var Unit_getInstance = kotlin_kotlin.$_$.m4;
   var AbstractApplier = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c;
   var clear = kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.$_$.b;

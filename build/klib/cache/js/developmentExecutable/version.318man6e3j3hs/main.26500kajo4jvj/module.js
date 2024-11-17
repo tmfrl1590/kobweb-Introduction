@@ -1,26 +1,23 @@
 (function (root, factory) {
   if (typeof define === 'function' && define.amd)
-    define(['exports', './kotlin-kotlin-stdlib.js', './kobweb-frontend-kobweb-core.js', './kobweb-frontend-silk-foundation.js', './compose-multiplatform-core-compose-runtime-runtime.js', './html-internal-html-core-runtime.js', './kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.js', './kobweb-frontend-silk-widgets.js', './kobweb-frontend-silk-widgets-kobweb.js', './kobweb-frontend-kobweb-silk.js', './html-html-core.js', './kobweb-frontend-kobweb-compose.js', './kobweb-frontend-compose-html-ext.js'], factory);
+    define(['exports', './kobweb-frontend-kobweb-core.js', './kobweb-frontend-silk-foundation.js', './kotlin-kotlin-stdlib.js', './compose-multiplatform-core-compose-runtime-runtime.js', './html-internal-html-core-runtime.js', './kobweb-frontend-silk-widgets.js', './kobweb-frontend-silk-widgets-kobweb.js', './kobweb-frontend-kobweb-silk.js', './html-html-core.js', './kobweb-frontend-kobweb-compose.js', './kobweb-frontend-compose-html-ext.js'], factory);
   else if (typeof exports === 'object')
-    factory(module.exports, require('./kotlin-kotlin-stdlib.js'), require('./kobweb-frontend-kobweb-core.js'), require('./kobweb-frontend-silk-foundation.js'), require('./compose-multiplatform-core-compose-runtime-runtime.js'), require('./html-internal-html-core-runtime.js'), require('./kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.js'), require('./kobweb-frontend-silk-widgets.js'), require('./kobweb-frontend-silk-widgets-kobweb.js'), require('./kobweb-frontend-kobweb-silk.js'), require('./html-html-core.js'), require('./kobweb-frontend-kobweb-compose.js'), require('./kobweb-frontend-compose-html-ext.js'));
+    factory(module.exports, require('./kobweb-frontend-kobweb-core.js'), require('./kobweb-frontend-silk-foundation.js'), require('./kotlin-kotlin-stdlib.js'), require('./compose-multiplatform-core-compose-runtime-runtime.js'), require('./html-internal-html-core-runtime.js'), require('./kobweb-frontend-silk-widgets.js'), require('./kobweb-frontend-silk-widgets-kobweb.js'), require('./kobweb-frontend-kobweb-silk.js'), require('./html-html-core.js'), require('./kobweb-frontend-kobweb-compose.js'), require('./kobweb-frontend-compose-html-ext.js'));
   else {
-    if (typeof this['kotlin-kotlin-stdlib'] === 'undefined') {
-      throw new Error("Error loading module 'com.my.profile:site'. Its dependency 'kotlin-kotlin-stdlib' was not found. Please, check whether 'kotlin-kotlin-stdlib' is loaded prior to 'com.my.profile:site'.");
-    }
     if (typeof this['kobweb-frontend-kobweb-core'] === 'undefined') {
       throw new Error("Error loading module 'com.my.profile:site'. Its dependency 'kobweb-frontend-kobweb-core' was not found. Please, check whether 'kobweb-frontend-kobweb-core' is loaded prior to 'com.my.profile:site'.");
     }
     if (typeof this['kobweb-frontend-silk-foundation'] === 'undefined') {
       throw new Error("Error loading module 'com.my.profile:site'. Its dependency 'kobweb-frontend-silk-foundation' was not found. Please, check whether 'kobweb-frontend-silk-foundation' is loaded prior to 'com.my.profile:site'.");
     }
+    if (typeof this['kotlin-kotlin-stdlib'] === 'undefined') {
+      throw new Error("Error loading module 'com.my.profile:site'. Its dependency 'kotlin-kotlin-stdlib' was not found. Please, check whether 'kotlin-kotlin-stdlib' is loaded prior to 'com.my.profile:site'.");
+    }
     if (typeof this['compose-multiplatform-core-compose-runtime-runtime'] === 'undefined') {
       throw new Error("Error loading module 'com.my.profile:site'. Its dependency 'compose-multiplatform-core-compose-runtime-runtime' was not found. Please, check whether 'compose-multiplatform-core-compose-runtime-runtime' is loaded prior to 'com.my.profile:site'.");
     }
     if (typeof this['html-internal-html-core-runtime'] === 'undefined') {
       throw new Error("Error loading module 'com.my.profile:site'. Its dependency 'html-internal-html-core-runtime' was not found. Please, check whether 'html-internal-html-core-runtime' is loaded prior to 'com.my.profile:site'.");
-    }
-    if (typeof kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat === 'undefined') {
-      throw new Error("Error loading module 'com.my.profile:site'. Its dependency 'kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat' was not found. Please, check whether 'kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat' is loaded prior to 'com.my.profile:site'.");
     }
     if (typeof this['kobweb-frontend-silk-widgets'] === 'undefined') {
       throw new Error("Error loading module 'com.my.profile:site'. Its dependency 'kobweb-frontend-silk-widgets' was not found. Please, check whether 'kobweb-frontend-silk-widgets' is loaded prior to 'com.my.profile:site'.");
@@ -40,21 +37,20 @@
     if (typeof this['kobweb-frontend-compose-html-ext'] === 'undefined') {
       throw new Error("Error loading module 'com.my.profile:site'. Its dependency 'kobweb-frontend-compose-html-ext' was not found. Please, check whether 'kobweb-frontend-compose-html-ext' is loaded prior to 'com.my.profile:site'.");
     }
-    root['com.my.profile:site'] = factory(typeof this['com.my.profile:site'] === 'undefined' ? {} : this['com.my.profile:site'], this['kotlin-kotlin-stdlib'], this['kobweb-frontend-kobweb-core'], this['kobweb-frontend-silk-foundation'], this['compose-multiplatform-core-compose-runtime-runtime'], this['html-internal-html-core-runtime'], kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat, this['kobweb-frontend-silk-widgets'], this['kobweb-frontend-silk-widgets-kobweb'], this['kobweb-frontend-kobweb-silk'], this['html-html-core'], this['kobweb-frontend-kobweb-compose'], this['kobweb-frontend-compose-html-ext']);
+    root['com.my.profile:site'] = factory(typeof this['com.my.profile:site'] === 'undefined' ? {} : this['com.my.profile:site'], this['kobweb-frontend-kobweb-core'], this['kobweb-frontend-silk-foundation'], this['kotlin-kotlin-stdlib'], this['compose-multiplatform-core-compose-runtime-runtime'], this['html-internal-html-core-runtime'], this['kobweb-frontend-silk-widgets'], this['kobweb-frontend-silk-widgets-kobweb'], this['kobweb-frontend-kobweb-silk'], this['html-html-core'], this['kobweb-frontend-kobweb-compose'], this['kobweb-frontend-compose-html-ext']);
   }
-}(globalThis, function (_, kotlin_kotlin, kotlin_com_varabyte_kobweb_kobweb_core, kotlin_com_varabyte_kobweb_silk_foundation, kotlin_org_jetbrains_compose_runtime_runtime, kotlin_org_jetbrains_compose_html_internal_html_core_runtime, kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat, kotlin_com_varabyte_kobweb_silk_widgets, kotlin_com_varabyte_kobweb_silk_widgets_kobweb, kotlin_com_varabyte_kobweb_kobweb_silk, kotlin_org_jetbrains_compose_html_html_core, kotlin_com_varabyte_kobweb_kobweb_compose, kotlin_com_varabyte_kobweb_compose_html_ext) {
+}(globalThis, function (_, kotlin_com_varabyte_kobweb_kobweb_core, kotlin_com_varabyte_kobweb_silk_foundation, kotlin_kotlin, kotlin_org_jetbrains_compose_runtime_runtime, kotlin_org_jetbrains_compose_html_internal_html_core_runtime, kotlin_com_varabyte_kobweb_silk_widgets, kotlin_com_varabyte_kobweb_silk_widgets_kobweb, kotlin_com_varabyte_kobweb_kobweb_silk, kotlin_org_jetbrains_compose_html_html_core, kotlin_com_varabyte_kobweb_kobweb_compose, kotlin_com_varabyte_kobweb_compose_html_ext) {
   'use strict';
   //region block: imports
-  var ensureNotNull = kotlin_kotlin.$_$.tf;
-  var get_api = kotlin_com_varabyte_kobweb_kobweb_core.$_$.a;
-  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.i;
-  var Router = kotlin_com_varabyte_kobweb_kobweb_core.$_$.e;
-  var initKobweb = kotlin_com_varabyte_kobweb_kobweb_core.$_$.b;
+  var Companion_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.h;
+  var Router = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
+  var initKobweb = kotlin_com_varabyte_kobweb_kobweb_core.$_$.a;
   var set_additionalSilkInitialization = kotlin_com_varabyte_kobweb_silk_foundation.$_$.c;
   var removePrefix = kotlin_kotlin.$_$.pd;
-  var UpdateHistoryMode_REPLACE_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.g;
-  var AppGlobals_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.h;
-  var to = kotlin_kotlin.$_$.eg;
+  var UpdateHistoryMode_REPLACE_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.f;
+  var ensureNotNull = kotlin_kotlin.$_$.rf;
+  var AppGlobals_getInstance = kotlin_com_varabyte_kobweb_kobweb_core.$_$.g;
+  var to = kotlin_kotlin.$_$.cg;
   var mapOf = kotlin_kotlin.$_$.x7;
   var composableLambdaInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a;
   var renderComposable = kotlin_org_jetbrains_compose_html_internal_html_core_runtime.$_$.e;
@@ -62,17 +58,10 @@
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
   var Companion_getInstance_0 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f1;
-  var THROW_CCE = kotlin_kotlin.$_$.bf;
+  var THROW_CCE = kotlin_kotlin.$_$.ze;
   var renderWithDeferred = kotlin_com_varabyte_kobweb_silk_foundation.$_$.b;
   var protoOf = kotlin_kotlin.$_$.ac;
   var initMetadataForObject = kotlin_kotlin.$_$.cb;
-  var removeClass = kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.$_$.d;
-  var hasClass = kotlin_org_jetbrains_kotlin_kotlin_dom_api_compat.$_$.c;
-  var toString = kotlin_kotlin.$_$.dg;
-  var toInt = kotlin_kotlin.$_$.ce;
-  var charSequenceLength = kotlin_kotlin.$_$.na;
-  var toBoolean = kotlin_kotlin.$_$.ae;
-  var isBlank = kotlin_kotlin.$_$.jd;
   var VOID = kotlin_kotlin.$_$.f;
   var removeSuffix = kotlin_kotlin.$_$.qd;
   var initSilkWidgets = kotlin_com_varabyte_kobweb_silk_widgets.$_$.c;
@@ -96,7 +85,7 @@
   var Arrangement_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r2;
   var padding_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w1;
   var Column = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b;
-  var rememberPageContext = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
+  var rememberPageContext = kotlin_com_varabyte_kobweb_kobweb_core.$_$.c;
   var margin = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k1;
   var height = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e1;
   var Companion_getInstance_2 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.k2;
@@ -147,38 +136,7 @@
   initMetadataForObject(Image_0, 'Image');
   initMetadataForObject(Res, 'Res');
   //endregion
-  function forceReloadNow() {
-    window.stop();
-    window.location.reload();
-  }
-  function handleServerStatusEvents() {
-    var status = ensureNotNull(document.getElementById('status'));
-    var lastVersion = {_v: null};
-    var shouldReload = {_v: false};
-    // Inline function 'org.w3c.dom.get' call
-    // Inline function 'kotlin.js.asDynamic' call
-    var tmp$ret$1 = status.children[0];
-    var warningIcon = ensureNotNull(tmp$ret$1);
-    // Inline function 'org.w3c.dom.get' call
-    // Inline function 'kotlin.js.asDynamic' call
-    var tmp$ret$3 = status.children[1];
-    var spinnerIcon = ensureNotNull(tmp$ret$3);
-    // Inline function 'org.w3c.dom.get' call
-    // Inline function 'kotlin.js.asDynamic' call
-    var tmp$ret$5 = status.children[2];
-    var statusText = ensureNotNull(tmp$ret$5);
-    status.addEventListener('transitionend', handleServerStatusEvents$lambda(status, shouldReload));
-    // Inline function 'org.w3c.dom.EventSourceInit' call
-    var o = {};
-    o['withCredentials'] = true;
-    var eventSource = new EventSource('/api/kobweb-status', o);
-    eventSource.addEventListener('version', handleServerStatusEvents$lambda_0(lastVersion, status, shouldReload));
-    eventSource.addEventListener('status', handleServerStatusEvents$lambda_1(warningIcon, spinnerIcon, statusText, status));
-    eventSource.onerror = handleServerStatusEvents$lambda_2(eventSource);
-  }
   function main() {
-    handleServerStatusEvents();
-    get_api(window).set_logOnError_wi584t_k$(true);
     Companion_getInstance().set_wjk6wo_k$('');
     var router = new Router();
     initKobweb(router, main$lambda);
@@ -362,80 +320,6 @@
     if (ComposableSingletons$MainKt_instance == null)
       new ComposableSingletons$MainKt();
     return ComposableSingletons$MainKt_instance;
-  }
-  function handleServerStatusEvents$lambda($status, $shouldReload) {
-    return function (it) {
-      var tmp;
-      if (hasClass($status, 'fade-out')) {
-        removeClass($status, ['fade-out']);
-        var tmp_0;
-        if ($shouldReload._v) {
-          forceReloadNow();
-          tmp_0 = Unit_getInstance();
-        }
-        tmp = tmp_0;
-      }
-      return Unit_getInstance();
-    };
-  }
-  function handleServerStatusEvents$lambda_0($lastVersion, $status, $shouldReload) {
-    return function (evt) {
-      var version = toInt(toString((evt instanceof MessageEvent ? evt : THROW_CCE()).data));
-      var tmp;
-      if ($lastVersion._v == null) {
-        $lastVersion._v = version;
-        tmp = Unit_getInstance();
-      }
-      var tmp_0;
-      if (!($lastVersion._v === version)) {
-        $lastVersion._v = version;
-        var tmp_1;
-        // Inline function 'kotlin.text.isNotEmpty' call
-        var this_0 = $status.className;
-        if (charSequenceLength(this_0) > 0) {
-          $shouldReload._v = true;
-          tmp_1 = Unit_getInstance();
-        } else {
-          forceReloadNow();
-          tmp_1 = Unit_getInstance();
-        }
-        tmp_0 = tmp_1;
-      }
-      return Unit_getInstance();
-    };
-  }
-  function handleServerStatusEvents$lambda_1($warningIcon, $spinnerIcon, $statusText, $status) {
-    return function (evt) {
-      var tmp = JSON;
-      var values = tmp.parse(toString((evt instanceof MessageEvent ? evt : THROW_CCE()).data));
-      var tmp_0 = values.text;
-      var text = (!(tmp_0 == null) ? typeof tmp_0 === 'string' : false) ? tmp_0 : THROW_CCE();
-      var tmp_1 = values.isError;
-      var isError = toBoolean((!(tmp_1 == null) ? typeof tmp_1 === 'string' : false) ? tmp_1 : THROW_CCE());
-      var tmp_2;
-      // Inline function 'kotlin.text.isNotBlank' call
-      if (!isBlank(text)) {
-        $warningIcon.className = isError ? 'visible' : 'hidden';
-        $spinnerIcon.className = isError ? 'hidden' : 'visible';
-        $statusText.innerHTML = '<i>' + text + '<\/i>';
-        $status.className = 'fade-in';
-        tmp_2 = Unit_getInstance();
-      } else {
-        var tmp_3;
-        if ($status.className === 'fade-in') {
-          $status.className = 'fade-out';
-          tmp_3 = Unit_getInstance();
-        }
-        tmp_2 = tmp_3;
-      }
-      return Unit_getInstance();
-    };
-  }
-  function handleServerStatusEvents$lambda_2($eventSource) {
-    return function (it) {
-      $eventSource.close();
-      return Unit_getInstance();
-    };
   }
   function main$lambda(ctx) {
     ctx.get_router_j3zccy_k$().register$default_rn243d_k$('/', VOID, ComposableSingletons$MainKt_getInstance().lambda_1_r8sbbp_1);
@@ -2625,9 +2509,9 @@
   function ComposableSingletons$IndexKt$lambda_2$lambda_yrxn2f($this$Column, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
-      var tmp0_src = '/profile.png';
-      var tmp1_modifier = size(Companion_getInstance_1(), get_PROFILE_IMAGE_SIZE());
-      Image(tmp0_src, tmp1_modifier, null, null, null, 'Profile Logo', false, null, $composer_0, 196678, 220);
+      var tmp8_src = '/profile.png';
+      var tmp9_modifier = size(Companion_getInstance_1(), get_PROFILE_IMAGE_SIZE());
+      Image(tmp8_src, tmp9_modifier, null, null, null, 'Profile Logo', false, null, $composer_0, 196678, 220);
       profileInfoArea($composer_0, 0);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
@@ -2642,8 +2526,8 @@
   function ComposableSingletons$IndexKt$lambda_3$lambda_7fjxui($this$Box, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
-      var tmp8_modifier = color(fontWeight(fontSize(Companion_getInstance_1(), get_px(16)), Companion_getInstance_5().get_Bold_wnz5ke_k$()), get_WHITE());
-      SpanText('Android Developer', tmp8_modifier, null, null, $composer_0, 70, 12);
+      var tmp16_modifier = color(fontWeight(fontSize(Companion_getInstance_1(), get_px(16)), Companion_getInstance_5().get_Bold_wnz5ke_k$()), get_WHITE());
+      SpanText('Android Developer', tmp16_modifier, null, null, $composer_0, 70, 12);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }
@@ -2657,14 +2541,14 @@
   function ComposableSingletons$IndexKt$lambda_4$lambda_le2j7p($this$Column, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
-      var tmp2_fontSize = get_px(24);
-      var tmp3_fontWeight = Companion_getInstance_5().get_Bold_wnz5ke_k$();
-      var tmp4_modifier = margin_0(Companion_getInstance_1(), get_px(8));
-      profileInfoItem(tmp4_modifier, '\uAE40\uC2AC\uAE30', tmp2_fontSize, tmp3_fontWeight, $composer_0, 4664, 0);
-      var tmp5_$receiver = width(Companion_getInstance_1(), get_px(168));
-      var tmp6_bottom = get_px(8);
-      var tmp7_top = get_px(4);
-      var tmp = borderRadius(textAlign(height(margin_0(tmp5_$receiver, tmp7_top, VOID, tmp6_bottom), get_px(36)), Companion_getInstance_2().get_Center_3arb0i_k$()), get_px(100));
+      var tmp10_fontSize = get_px(24);
+      var tmp11_fontWeight = Companion_getInstance_5().get_Bold_wnz5ke_k$();
+      var tmp12_modifier = margin_0(Companion_getInstance_1(), get_px(8));
+      profileInfoItem(tmp12_modifier, '\uAE40\uC2AC\uAE30', tmp10_fontSize, tmp11_fontWeight, $composer_0, 4664, 0);
+      var tmp13_$receiver = width(Companion_getInstance_1(), get_px(168));
+      var tmp14_bottom = get_px(8);
+      var tmp15_top = get_px(4);
+      var tmp = borderRadius(textAlign(height(margin_0(tmp13_$receiver, tmp15_top, VOID, tmp14_bottom), get_px(36)), Companion_getInstance_2().get_Center_3arb0i_k$()), get_px(100));
       var tmp_0 = get_px(0.5);
       // Inline function 'org.jetbrains.compose.web.css.Companion.Solid' call
       Companion_getInstance_3();
@@ -2902,11 +2786,11 @@
   function ComposableSingletons$IntroductionKt$lambda_2$lambda_8zgr1v($this$Column, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.get_skipping_3owdve_k$()) {
-      introductionItem('\xB7 \uC0AC\uC6A9\uC790 \uC785\uC7A5\uC5D0\uC11C \uBB38\uC81C\uB97C \uD574\uACB0\uD558\uAE30 \uC704\uD574 \uC5EC\uB7EC \uBC29\uD5A5\uC5D0\uC11C \uACE0\uBBFC\uD569\uB2C8\uB2E4.', '\uAC1C\uBC1C\uC790\uB294 \uBB38\uC81C\uB97C \uD574\uACB0\uD558\uB294 \uC0AC\uB78C\uC774\uB77C\uACE0 \uC0DD\uAC01\uD558\uBA70, \uC774\uB97C \uC704\uD574 \uD504\uB85C\uC81D\uD2B8\uB97C \uC804\uCCB4\uC801\uC73C\uB85C \uC774\uD574\uD558\uB294 \uAC83\uC774 \uC911\uC694\uD558\uB2E4\uACE0 \uC0DD\uAC01\uD569\uB2C8\uB2E4. \uC774\uC804 \uD68C\uC0AC\uC5D0\uC11C Android\uC640 \uBC31\uC5D4\uB4DC \uAC1C\uBC1C\uC744 \uBAA8\uB450 \uB2F4\uB2F9\uD558\uBA70 \uC694\uAD6C\uC0AC\uD56D \uBD84\uC11D, DB \uC124\uACC4, \uAC1C\uBC1C, \uBC30\uD3EC\uAE4C\uC9C0 \uD504\uB85C\uC81D\uD2B8 \uC804 \uACFC\uC815\uC744 \uACBD\uD5D8\uD588\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uD504\uB85C\uC81D\uD2B8\uC758 \uC804\uBC18\uC801\uC778 \uD750\uB984\uC744 \uC774\uD574\uD558\uAC8C \uB418\uC5C8\uACE0, \uB2E4\uC591\uD55C \uAD00\uC810\uC5D0\uC11C \uBB38\uC81C\uB97C \uD574\uACB0\uD558\uB294 \uC5ED\uB7C9\uC744 \uD0A4\uC6B8 \uC218 \uC788\uC5C8\uC2B5\uB2C8\uB2E4.\n\uD504\uB85C\uC81D\uD2B8 \uC9C4\uD589 \uC911\uC5D0 \uC571\uC5D0\uC11C \uC11C\uBC84\uC640 \uD1B5\uC2E0\uD558\uB294 \uACFC\uC815\uC5D0\uC11C \uC11C\uBC84\uC5D0\uC11C \uB0B4\uB824\uC624\uB294 \uB370\uC774\uD130\uC758 null \uCC98\uB9AC\uAC00 \uB418\uC9C0 \uC54A\uC544 \uC571\uC774 \uD06C\uB798\uC2DC\uB418\uB294 \uBB38\uC81C\uAC00 \uC788\uC5C8\uC2B5\uB2C8\uB2E4. \uC774\uB7F4 \uB54C\uB9C8\uB2E4 \uC571\uC744 \uC5C5\uB370\uC774\uD2B8\uD558\uAE30\uC5D0\uB294 \uC0AC\uC6A9\uC790\uC5D0\uAC8C \uBC88\uAC70\uB85C\uC6C0\uC774 \uC0DD\uAE38 \uAC83 \uAC19\uC544\uC11C, \uC11C\uBC84\uC5D0\uC11C null \uCC98\uB9AC\uB97C \uD558\uB3C4\uB85D \uC694\uCCAD\uD558\uC5EC \uC571\uC758 \uBD88\uD544\uC694\uD55C \uC5C5\uB370\uC774\uD2B8 \uC5C6\uC774 \uBB38\uC81C\uB97C \uD574\uACB0\uD560 \uC218 \uC788\uC5C8\uC2B5\uB2C8\uB2E4.\n\n\uC774\uCC98\uB7FC Android\uC5D0\uB9CC \uAD6D\uD55C\uB418\uC9C0 \uC54A\uACE0, \uC0AC\uC6A9\uC790 \uC785\uC7A5\uC5D0\uC11C \uCD5C\uC120\uC758 \uD574\uACB0\uCC45\uC744 \uCC3E\uAE30 \uC704\uD574 \uC5EC\uB7EC \uBC29\uBA74\uC5D0\uC11C \uACE0\uBBFC\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4.', $composer_0, 54);
-      introductionItem('\xB7 \uCD5C\uC2E0\uAE30\uC220\uC744 \uBE60\uB974\uAC8C \uC2B5\uB4DD\uD558\uACE0 \uC2E4\uBB34\uC5D0 \uC801\uC6A9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.', '\uC774\uC804 \uD68C\uC0AC\uC5D0\uC11C \uC774\uCEE4\uBA38\uC2A4 \uC571\uC744 \uAC1C\uBC1C\uD558\uBA70 \uD654\uBA74 \uC218\uC640 UI \uBCF5\uC7A1\uC131\uC774 \uC99D\uAC00\uD558\uAC8C \uB418\uBA74\uC11C \uBC18\uBCF5 \uC791\uC5C5\uACFC \uCF54\uB4DC\uB7C9\uC774 \uB9CE\uC544\uC9C0\uB294 \uBB38\uC81C\uB97C \uACAA\uC5C8\uC2B5\uB2C8\uB2E4. \uC774 \uBB38\uC81C\uB97C \uD574\uACB0\uD558\uAE30 \uC704\uD574 JetPack Compose\uB97C \uB3C4\uC785\uD558\uC5EC \uC810\uC9C4\uC801\uC73C\uB85C \uC801\uC6A9\uD588\uACE0, UI \uCEF4\uD3EC\uB10C\uD2B8 \uC7AC\uC0AC\uC6A9\uC131\uC744 \uB192\uC5EC \uAC1C\uBC1C \uC18D\uB3C4\uC640 \uC720\uC9C0\uBCF4\uC218 \uD6A8\uC728\uC131\uC744 \uAC1C\uC120\uD55C \uACBD\uD5D8\uC774 \uC788\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uCF54\uB4DC\uB7C9\uC744 \uC904\uC774\uACE0, \uBCF5\uC7A1\uD55C UI \uC694\uAD6C\uC0AC\uD56D\uB3C4 \uD574\uACB0\uD560 \uC218 \uC788\uC5C8\uC2B5\uB2C8\uB2E4.', $composer_0, 54);
-      introductionItem('\xB7 \uC548\uC815\uC801\uC774\uACE0 \uC2E0\uB8B0\uD560 \uC218 \uC788\uB294 \uCF54\uB4DC\uB97C \uC791\uC131\uD569\uB2C8\uB2E4.', '\uC548\uC815\uC801\uC774\uACE0 \uC2E0\uB8B0\uD560 \uC218 \uC788\uB294 \uCF54\uB4DC\uB97C \uC791\uC131\uD558\uAE30 \uC704\uD574\uC11C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC744 \uC911\uC694\uD558\uAC8C \uC0DD\uAC01\uD569\uB2C8\uB2E4. Unit Test, UI Test \uC791\uC131\uC73C\uB85C \uCF54\uB4DC\uC758 \uC548\uC815\uC131\uC744 \uB192\uC774\uB824\uACE0 \uB178\uB825\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uC2E4\uC81C\uB85C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC744 \uD1B5\uD574 \uBE44\uC988\uB2C8\uC2A4 \uB85C\uC9C1\uC774 \uC218\uC815\uB420 \uB54C, \uC608\uC0C1\uD558\uC9C0 \uBABB\uD55C \uC624\uB958\uB97C \uBBF8\uB9AC \uBC1C\uACAC\uD558\uACE0 \uD574\uACB0\uD55C \uACBD\uD5D8\uC774 \uB9CE\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC758 \uC911\uC694\uC131\uC744 \uB290\uB07C\uAC8C \uB418\uC5C8\uC2B5\uB2C8\uB2E4.\n\n', $composer_0, 54);
-      introductionItem('\xB7 \uD22C\uBA85\uD55C \uC18C\uD1B5\uACFC \uD6A8\uC728\uC801\uC778 \uD611\uC5C5\uC744 \uC911\uC694\uC2DC\uD569\uB2C8\uB2E4.', '\uD504\uB85C\uC81D\uD2B8 \uC9C4\uD589 \uC911 \uBC1C\uC0DD\uD55C \uBB38\uC81C\uB098 \uC2E4\uC218\uB97C \uC194\uC9C1\uD558\uAC8C \uACF5\uC720\uD558\uB294 \uBB38\uD654\uB97C \uC911\uC694\uD558\uAC8C \uC0DD\uAC01\uD569\uB2C8\uB2E4. \uC774\uC804\uC5D0 \uD504\uB85C\uC81D\uD2B8 \uC9C4\uD589 \uC911\uC5D0, \uC678\uBD80 API \uBA85\uC138\uAC00 \uBCC0\uACBD\uB418\uC11C \uAD00\uB828 \uC791\uC5C5\uC744 \uD574\uC57C\uD588\uC9C0\uB9CC \uC774\uB97C \uBBF8\uB8E8\uB2E4 \uC78A\uC5B4\uBC84\uB9B0 \uC801\uC774 \uC788\uC5C8\uACE0, \uC774\uB97C \uAE09\uD558\uAC8C \uD574\uACB0\uD558\uB294 \uACFC\uC815\uC5D0\uC11C \uD300\uC6D0\uB4E4\uC5D0\uAC8C \uACF5\uC720\uD558\uC9C0 \uC54A\uC544 \uC77C\uC815\uC774 \uB2A6\uC5B4\uC9C4 \uC77C\uC774 \uC788\uC5C8\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uBB38\uC81C\uAC00 \uC0DD\uAE30\uBA74 \uBE60\uB974\uAC8C \uACF5\uC720\uD558\uC5EC \uD568\uAED8 \uD574\uACB0\uD558\uB294 \uAC83\uC774 \uC911\uC694\uD558\uB2E4\uB294 \uAC83\uC744 \uAE68\uB2EC\uC558\uC2B5\uB2C8\uB2E4. \uADF8 \uC774\uD6C4\uB85C\uB294 \uBB38\uC81C\uAC00 \uC0DD\uAE30\uBA74 \uD300\uC6D0\uB4E4\uACFC \uC989\uC2DC \uACF5\uC720\uD558\uC5EC \uD568\uAED8 \uD574\uACB0\uD558\uACE0 \uD504\uB85C\uC81D\uD2B8\uB97C \uC6D0\uD65C\uD558\uAC8C \uB9C8\uBB34\uB9AC \uD560 \uC218 \uC788\uC5C8\uC2B5\uB2C8\uB2E4.\n\n', $composer_0, 54);
-      introductionItem('\xB7 \uC0AC\uC6A9\uC790 \uC911\uC2EC\uC758 UI/UX \uC124\uACC4\uB97C \uD1B5\uD574 \uC9C1\uAD00\uC801\uC778 \uC778\uD130\uD398\uC774\uC2A4\uB97C \uAD6C\uD604\uD569\uB2C8\uB2E4.', '\uC0AC\uC6A9\uC790 \uC911\uC2EC\uC758 UI/UX \uC124\uACC4\uB97C \uD1B5\uD574 \uB204\uAD6C\uB098 \uC27D\uAC8C \uC0AC\uC6A9\uD560 \uC218 \uC788\uB294 \uC9C1\uAD00\uC801\uC778 \uC778\uD130\uD398\uC774\uC2A4 \uAD6C\uD604\uC5D0 \uB178\uB825\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uC2A4\uB9C8\uD2B8\uD31C IoT \uD504\uB85C\uC81D\uD2B8\uC5D0\uC11C \uACE0\uB839\uCE35 \uC0AC\uC6A9\uC790\uC758 \uBD88\uD3B8\uC744 \uD574\uACB0\uD558\uAE30 \uC704\uD574 \uBC84\uD2BC\uC758 \uC704\uCE58\uC640 \uD06C\uAE30, \uD14D\uC2A4\uD2B8 \uD06C\uAE30\uB97C \uD0A4\uC6B0\uB294 \uB4F1 UI\uB97C \uAC1C\uC120\uD55C \uACBD\uD5D8\uC774 \uC788\uC73C\uBA70, \uC774\uB97C \uD1B5\uD574 \uC0AC\uC6A9\uC790 \uC911\uC2EC\uC758 UI/UX \uC124\uACC4\uAC00 \uC911\uC694\uD558\uB2E4\uB294 \uAC83\uC744 \uB290\uB07C\uAC8C \uB418\uC5C8\uC2B5\uB2C8\uB2E4.', $composer_0, 54);
+      introductionItem('\uC0AC\uC6A9\uC790 \uC785\uC7A5\uC5D0\uC11C \uBB38\uC81C\uB97C \uD574\uACB0\uD558\uAE30 \uC704\uD574 \uC5EC\uB7EC \uBC29\uD5A5\uC5D0\uC11C \uACE0\uBBFC\uD569\uB2C8\uB2E4.', '\uAC1C\uBC1C\uC790\uB294 \uBB38\uC81C\uB97C \uD574\uACB0\uD558\uB294 \uC0AC\uB78C\uC774\uB77C\uACE0 \uC0DD\uAC01\uD558\uBA70, \uC774\uB97C \uC704\uD574 \uD504\uB85C\uC81D\uD2B8\uB97C \uC804\uCCB4\uC801\uC73C\uB85C \uC774\uD574\uD558\uB294 \uAC83\uC774 \uC911\uC694\uD558\uB2E4\uACE0 \uC0DD\uAC01\uD569\uB2C8\uB2E4. \uC774\uC804 \uD68C\uC0AC\uC5D0\uC11C Android\uC640 \uBC31\uC5D4\uB4DC \uAC1C\uBC1C\uC744 \uBAA8\uB450 \uB2F4\uB2F9\uD558\uBA70 \uC694\uAD6C\uC0AC\uD56D \uBD84\uC11D, DB \uC124\uACC4, \uAC1C\uBC1C, \uBC30\uD3EC\uAE4C\uC9C0 \uD504\uB85C\uC81D\uD2B8 \uC804 \uACFC\uC815\uC744 \uACBD\uD5D8\uD588\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uD504\uB85C\uC81D\uD2B8\uC758 \uC804\uBC18\uC801\uC778 \uD750\uB984\uC744 \uC774\uD574\uD558\uAC8C \uB418\uC5C8\uACE0, \uB2E4\uC591\uD55C \uAD00\uC810\uC5D0\uC11C \uBB38\uC81C\uB97C \uD574\uACB0\uD558\uB294 \uC5ED\uB7C9\uC744 \uD0A4\uC6B8 \uC218 \uC788\uC5C8\uC2B5\uB2C8\uB2E4.\n\uD504\uB85C\uC81D\uD2B8 \uC9C4\uD589 \uC911\uC5D0 \uC571\uC5D0\uC11C \uC11C\uBC84\uC640 \uD1B5\uC2E0\uD558\uB294 \uACFC\uC815\uC5D0\uC11C \uC11C\uBC84\uC5D0\uC11C \uB0B4\uB824\uC624\uB294 \uB370\uC774\uD130\uC758 null \uCC98\uB9AC\uAC00 \uB418\uC9C0 \uC54A\uC544 \uC571\uC774 \uD06C\uB798\uC2DC\uB418\uB294 \uBB38\uC81C\uAC00 \uC788\uC5C8\uC2B5\uB2C8\uB2E4. \uC774\uB7F4 \uB54C\uB9C8\uB2E4 \uC571\uC744 \uC5C5\uB370\uC774\uD2B8\uD558\uAE30\uC5D0\uB294 \uC0AC\uC6A9\uC790\uC5D0\uAC8C \uBC88\uAC70\uB85C\uC6C0\uC774 \uC0DD\uAE38 \uAC83 \uAC19\uC544\uC11C, \uC11C\uBC84\uC5D0\uC11C null \uCC98\uB9AC\uB97C \uD558\uB3C4\uB85D \uC694\uCCAD\uD558\uC5EC \uC571\uC758 \uBD88\uD544\uC694\uD55C \uC5C5\uB370\uC774\uD2B8 \uC5C6\uC774 \uBB38\uC81C\uB97C \uD574\uACB0\uD560 \uC218 \uC788\uC5C8\uC2B5\uB2C8\uB2E4.\n\n\uC774\uCC98\uB7FC Android\uC5D0\uB9CC \uAD6D\uD55C\uB418\uC9C0 \uC54A\uACE0, \uC0AC\uC6A9\uC790 \uC785\uC7A5\uC5D0\uC11C \uCD5C\uC120\uC758 \uD574\uACB0\uCC45\uC744 \uCC3E\uAE30 \uC704\uD574 \uC5EC\uB7EC \uBC29\uBA74\uC5D0\uC11C \uACE0\uBBFC\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4.', $composer_0, 54);
+      introductionItem('\uCD5C\uC2E0\uAE30\uC220\uC744 \uBE60\uB974\uAC8C \uC2B5\uB4DD\uD558\uACE0 \uC2E4\uBB34\uC5D0 \uC801\uC6A9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.', '\uC774\uC804 \uD68C\uC0AC\uC5D0\uC11C \uC774\uCEE4\uBA38\uC2A4 \uC571\uC744 \uAC1C\uBC1C\uD558\uBA70 \uD654\uBA74 \uC218\uC640 UI \uBCF5\uC7A1\uC131\uC774 \uC99D\uAC00\uD558\uAC8C \uB418\uBA74\uC11C \uBC18\uBCF5 \uC791\uC5C5\uACFC \uCF54\uB4DC\uB7C9\uC774 \uB9CE\uC544\uC9C0\uB294 \uBB38\uC81C\uB97C \uACAA\uC5C8\uC2B5\uB2C8\uB2E4. \uC774 \uBB38\uC81C\uB97C \uD574\uACB0\uD558\uAE30 \uC704\uD574 JetPack Compose\uB97C \uB3C4\uC785\uD558\uC5EC \uC810\uC9C4\uC801\uC73C\uB85C \uC801\uC6A9\uD588\uACE0, UI \uCEF4\uD3EC\uB10C\uD2B8 \uC7AC\uC0AC\uC6A9\uC131\uC744 \uB192\uC5EC \uAC1C\uBC1C \uC18D\uB3C4\uC640 \uC720\uC9C0\uBCF4\uC218 \uD6A8\uC728\uC131\uC744 \uAC1C\uC120\uD55C \uACBD\uD5D8\uC774 \uC788\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uCF54\uB4DC\uB7C9\uC744 \uC904\uC774\uACE0, \uBCF5\uC7A1\uD55C UI \uC694\uAD6C\uC0AC\uD56D\uB3C4 \uD574\uACB0\uD560 \uC218 \uC788\uC5C8\uC2B5\uB2C8\uB2E4.', $composer_0, 54);
+      introductionItem('\uC548\uC815\uC801\uC774\uACE0 \uC2E0\uB8B0\uD560 \uC218 \uC788\uB294 \uCF54\uB4DC\uB97C \uC791\uC131\uD569\uB2C8\uB2E4.', '\uC548\uC815\uC801\uC774\uACE0 \uC2E0\uB8B0\uD560 \uC218 \uC788\uB294 \uCF54\uB4DC\uB97C \uC791\uC131\uD558\uAE30 \uC704\uD574\uC11C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC744 \uC911\uC694\uD558\uAC8C \uC0DD\uAC01\uD569\uB2C8\uB2E4. Unit Test, UI Test \uC791\uC131\uC73C\uB85C \uCF54\uB4DC\uC758 \uC548\uC815\uC131\uC744 \uB192\uC774\uB824\uACE0 \uB178\uB825\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uC2E4\uC81C\uB85C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC744 \uD1B5\uD574 \uBE44\uC988\uB2C8\uC2A4 \uB85C\uC9C1\uC774 \uC218\uC815\uB420 \uB54C, \uC608\uC0C1\uD558\uC9C0 \uBABB\uD55C \uC624\uB958\uB97C \uBBF8\uB9AC \uBC1C\uACAC\uD558\uACE0 \uD574\uACB0\uD55C \uACBD\uD5D8\uC774 \uB9CE\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC758 \uC911\uC694\uC131\uC744 \uB290\uB07C\uAC8C \uB418\uC5C8\uC2B5\uB2C8\uB2E4.\n\n', $composer_0, 54);
+      introductionItem('\uD22C\uBA85\uD55C \uC18C\uD1B5\uACFC \uD6A8\uC728\uC801\uC778 \uD611\uC5C5\uC744 \uC911\uC694\uC2DC\uD569\uB2C8\uB2E4.', '\uD504\uB85C\uC81D\uD2B8 \uC9C4\uD589 \uC911 \uBC1C\uC0DD\uD55C \uBB38\uC81C\uB098 \uC2E4\uC218\uB97C \uC194\uC9C1\uD558\uAC8C \uACF5\uC720\uD558\uB294 \uBB38\uD654\uB97C \uC911\uC694\uD558\uAC8C \uC0DD\uAC01\uD569\uB2C8\uB2E4. \uC774\uC804\uC5D0 \uD504\uB85C\uC81D\uD2B8 \uC9C4\uD589 \uC911\uC5D0, \uC678\uBD80 API \uBA85\uC138\uAC00 \uBCC0\uACBD\uB418\uC11C \uAD00\uB828 \uC791\uC5C5\uC744 \uD574\uC57C\uD588\uC9C0\uB9CC \uC774\uB97C \uBBF8\uB8E8\uB2E4 \uC78A\uC5B4\uBC84\uB9B0 \uC801\uC774 \uC788\uC5C8\uACE0, \uC774\uB97C \uAE09\uD558\uAC8C \uD574\uACB0\uD558\uB294 \uACFC\uC815\uC5D0\uC11C \uD300\uC6D0\uB4E4\uC5D0\uAC8C \uACF5\uC720\uD558\uC9C0 \uC54A\uC544 \uC77C\uC815\uC774 \uB2A6\uC5B4\uC9C4 \uC77C\uC774 \uC788\uC5C8\uC2B5\uB2C8\uB2E4. \uC774\uB97C \uD1B5\uD574 \uBB38\uC81C\uAC00 \uC0DD\uAE30\uBA74 \uBE60\uB974\uAC8C \uACF5\uC720\uD558\uC5EC \uD568\uAED8 \uD574\uACB0\uD558\uB294 \uAC83\uC774 \uC911\uC694\uD558\uB2E4\uB294 \uAC83\uC744 \uAE68\uB2EC\uC558\uC2B5\uB2C8\uB2E4. \uADF8 \uC774\uD6C4\uB85C\uB294 \uBB38\uC81C\uAC00 \uC0DD\uAE30\uBA74 \uD300\uC6D0\uB4E4\uACFC \uC989\uC2DC \uACF5\uC720\uD558\uC5EC \uD568\uAED8 \uD574\uACB0\uD558\uACE0 \uD504\uB85C\uC81D\uD2B8\uB97C \uC6D0\uD65C\uD558\uAC8C \uB9C8\uBB34\uB9AC \uD560 \uC218 \uC788\uC5C8\uC2B5\uB2C8\uB2E4.\n\n', $composer_0, 54);
+      introductionItem('\uC0AC\uC6A9\uC790 \uC911\uC2EC\uC758 UI/UX \uC124\uACC4\uB97C \uD1B5\uD574 \uC9C1\uAD00\uC801\uC778 \uC778\uD130\uD398\uC774\uC2A4\uB97C \uAD6C\uD604\uD569\uB2C8\uB2E4.', '\uC0AC\uC6A9\uC790 \uC911\uC2EC\uC758 UI/UX \uC124\uACC4\uB97C \uD1B5\uD574 \uB204\uAD6C\uB098 \uC27D\uAC8C \uC0AC\uC6A9\uD560 \uC218 \uC788\uB294 \uC9C1\uAD00\uC801\uC778 \uC778\uD130\uD398\uC774\uC2A4 \uAD6C\uD604\uC5D0 \uB178\uB825\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uC2A4\uB9C8\uD2B8\uD31C IoT \uD504\uB85C\uC81D\uD2B8\uC5D0\uC11C \uACE0\uB839\uCE35 \uC0AC\uC6A9\uC790\uC758 \uBD88\uD3B8\uC744 \uD574\uACB0\uD558\uAE30 \uC704\uD574 \uBC84\uD2BC\uC758 \uC704\uCE58\uC640 \uD06C\uAE30, \uD14D\uC2A4\uD2B8 \uD06C\uAE30\uB97C \uD0A4\uC6B0\uB294 \uB4F1 UI\uB97C \uAC1C\uC120\uD55C \uACBD\uD5D8\uC774 \uC788\uC73C\uBA70, \uC774\uB97C \uD1B5\uD574 \uC0AC\uC6A9\uC790 \uC911\uC2EC\uC758 UI/UX \uC124\uACC4\uAC00 \uC911\uC694\uD558\uB2E4\uB294 \uAC83\uC744 \uB290\uB07C\uAC8C \uB418\uC5C8\uC2B5\uB2C8\uB2E4.', $composer_0, 54);
     } else {
       $composer_0.skipToGroupEnd_lh3zi2_k$();
     }

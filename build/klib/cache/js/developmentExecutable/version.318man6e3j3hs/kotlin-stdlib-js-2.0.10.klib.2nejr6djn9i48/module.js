@@ -12008,21 +12008,14 @@ if (typeof String.prototype.endsWith === 'undefined') {
     }
     return isLowerCaseImpl(_this__u8e3s4);
   }
-  function toString_2(_this__u8e3s4, radix) {
-    // Inline function 'kotlin.js.asDynamic' call
-    return _this__u8e3s4.toString(checkRadix(radix));
-  }
   function checkRadix(radix) {
     if (!(2 <= radix ? radix <= 36 : false)) {
       throw IllegalArgumentException_init_$Create$_0('radix ' + radix + ' was not in valid range 2..36');
     }
     return radix;
   }
-  function toString_3(_this__u8e3s4, radix) {
-    return toStringImpl(_this__u8e3s4, checkRadix(radix));
-  }
-  function toInt(_this__u8e3s4) {
-    var tmp0_elvis_lhs = toIntOrNull(_this__u8e3s4);
+  function toLong_0(_this__u8e3s4) {
+    var tmp0_elvis_lhs = toLongOrNull(_this__u8e3s4);
     var tmp;
     if (tmp0_elvis_lhs == null) {
       numberFormatError(_this__u8e3s4);
@@ -12031,16 +12024,9 @@ if (typeof String.prototype.endsWith === 'undefined') {
     }
     return tmp;
   }
-  function toBoolean(_this__u8e3s4) {
-    var tmp;
-    if (!(_this__u8e3s4 == null)) {
-      // Inline function 'kotlin.text.lowercase' call
-      // Inline function 'kotlin.js.asDynamic' call
-      tmp = _this__u8e3s4.toLowerCase() === 'true';
-    } else {
-      tmp = false;
-    }
-    return tmp;
+  function toString_2(_this__u8e3s4, radix) {
+    // Inline function 'kotlin.js.asDynamic' call
+    return _this__u8e3s4.toString(checkRadix(radix));
   }
   function digitOf(char, radix) {
     // Inline function 'kotlin.let' call
@@ -12061,8 +12047,11 @@ if (typeof String.prototype.endsWith === 'undefined') {
     }
     return this_0;
   }
-  function toLong_0(_this__u8e3s4) {
-    var tmp0_elvis_lhs = toLongOrNull(_this__u8e3s4);
+  function toString_3(_this__u8e3s4, radix) {
+    return toStringImpl(_this__u8e3s4, checkRadix(radix));
+  }
+  function toInt(_this__u8e3s4) {
+    var tmp0_elvis_lhs = toIntOrNull(_this__u8e3s4);
     var tmp;
     if (tmp0_elvis_lhs == null) {
       numberFormatError(_this__u8e3s4);
@@ -26164,65 +26153,63 @@ if (typeof String.prototype.endsWith === 'undefined') {
   _.$_$.xd = substringAfterLast;
   _.$_$.yd = substringAfter;
   _.$_$.zd = substringBefore;
-  _.$_$.ae = toBoolean;
-  _.$_$.be = toIntOrNull;
-  _.$_$.ce = toInt;
-  _.$_$.de = toLongOrNull;
-  _.$_$.ee = toString_2;
-  _.$_$.fe = toString_3;
-  _.$_$.ge = trimIndent;
-  _.$_$.he = trimMargin;
-  _.$_$.ie = trimStart;
-  _.$_$.je = trim_0;
-  _.$_$.ke = Duration;
-  _.$_$.le = toDuration;
-  _.$_$.me = toDuration_0;
-  _.$_$.ne = Annotation;
-  _.$_$.oe = Char;
-  _.$_$.pe = Comparator;
-  _.$_$.qe = Enum;
-  _.$_$.re = Error_0;
-  _.$_$.se = Exception;
-  _.$_$.te = IllegalArgumentException;
-  _.$_$.ue = IllegalStateException;
-  _.$_$.ve = Long;
-  _.$_$.we = NoSuchElementException;
-  _.$_$.xe = Number_0;
-  _.$_$.ye = Pair;
-  _.$_$.ze = Result;
-  _.$_$.af = RuntimeException;
-  _.$_$.bf = THROW_CCE;
-  _.$_$.cf = THROW_IAE;
-  _.$_$.df = Triple;
-  _.$_$.ef = UByteArray;
-  _.$_$.ff = UByte;
-  _.$_$.gf = UIntArray;
-  _.$_$.hf = UInt;
-  _.$_$.if = ULongArray;
-  _.$_$.jf = ULong;
-  _.$_$.kf = UShortArray;
-  _.$_$.lf = UShort;
-  _.$_$.mf = Unit;
-  _.$_$.nf = UnsupportedOperationException;
-  _.$_$.of = addSuppressed;
-  _.$_$.pf = countOneBits;
-  _.$_$.qf = countTrailingZeroBits_0;
-  _.$_$.rf = countTrailingZeroBits;
-  _.$_$.sf = createFailure;
-  _.$_$.tf = ensureNotNull;
-  _.$_$.uf = lazy_0;
-  _.$_$.vf = lazy;
-  _.$_$.wf = noWhenBranchMatchedException;
-  _.$_$.xf = printStackTrace;
-  _.$_$.yf = rotateLeft;
-  _.$_$.zf = rotateRight;
-  _.$_$.ag = takeLowestOneBit;
-  _.$_$.bg = throwKotlinNothingValueException;
-  _.$_$.cg = throwUninitializedPropertyAccessException;
-  _.$_$.dg = toString_0;
-  _.$_$.eg = to;
-  _.$_$.fg = ulongCompare;
-  _.$_$.gg = asList_0;
+  _.$_$.ae = toIntOrNull;
+  _.$_$.be = toLongOrNull;
+  _.$_$.ce = toString_2;
+  _.$_$.de = toString_3;
+  _.$_$.ee = trimIndent;
+  _.$_$.fe = trimMargin;
+  _.$_$.ge = trimStart;
+  _.$_$.he = trim_0;
+  _.$_$.ie = Duration;
+  _.$_$.je = toDuration;
+  _.$_$.ke = toDuration_0;
+  _.$_$.le = Annotation;
+  _.$_$.me = Char;
+  _.$_$.ne = Comparator;
+  _.$_$.oe = Enum;
+  _.$_$.pe = Error_0;
+  _.$_$.qe = Exception;
+  _.$_$.re = IllegalArgumentException;
+  _.$_$.se = IllegalStateException;
+  _.$_$.te = Long;
+  _.$_$.ue = NoSuchElementException;
+  _.$_$.ve = Number_0;
+  _.$_$.we = Pair;
+  _.$_$.xe = Result;
+  _.$_$.ye = RuntimeException;
+  _.$_$.ze = THROW_CCE;
+  _.$_$.af = THROW_IAE;
+  _.$_$.bf = Triple;
+  _.$_$.cf = UByteArray;
+  _.$_$.df = UByte;
+  _.$_$.ef = UIntArray;
+  _.$_$.ff = UInt;
+  _.$_$.gf = ULongArray;
+  _.$_$.hf = ULong;
+  _.$_$.if = UShortArray;
+  _.$_$.jf = UShort;
+  _.$_$.kf = Unit;
+  _.$_$.lf = UnsupportedOperationException;
+  _.$_$.mf = addSuppressed;
+  _.$_$.nf = countOneBits;
+  _.$_$.of = countTrailingZeroBits_0;
+  _.$_$.pf = countTrailingZeroBits;
+  _.$_$.qf = createFailure;
+  _.$_$.rf = ensureNotNull;
+  _.$_$.sf = lazy_0;
+  _.$_$.tf = lazy;
+  _.$_$.uf = noWhenBranchMatchedException;
+  _.$_$.vf = printStackTrace;
+  _.$_$.wf = rotateLeft;
+  _.$_$.xf = rotateRight;
+  _.$_$.yf = takeLowestOneBit;
+  _.$_$.zf = throwKotlinNothingValueException;
+  _.$_$.ag = throwUninitializedPropertyAccessException;
+  _.$_$.bg = toString_0;
+  _.$_$.cg = to;
+  _.$_$.dg = ulongCompare;
+  _.$_$.eg = asList_0;
   //endregion
   return _;
 }));
