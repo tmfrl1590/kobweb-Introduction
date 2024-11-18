@@ -2397,7 +2397,7 @@
     if (!(($default & 1) === 0)) {
       modifier_0._v = Companion_instance_0;
     }
-    var tmp = padding(fontWeight(fontSize(modifier_0._v, fontSize_0), fontWeight_0), get_px(8));
+    var tmp = fontWeight(fontSize(modifier_0._v, fontSize_0), fontWeight_0);
     SpanText(text, tmp, null, null, $composer_0, 64 | 14 & $dirty >> 3, 12);
     var tmp0_safe_receiver = $composer_0.e1a();
     if (tmp0_safe_receiver == null)
@@ -2428,9 +2428,9 @@
   function ComposableSingletons$IndexKt$lambda_2$lambda_yrxn2f($this$Column, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.i18()) {
-      var tmp8_src = '/profile.png';
-      var tmp9_modifier = size(Companion_instance_0, get_PROFILE_IMAGE_SIZE());
-      Image(tmp8_src, tmp9_modifier, null, null, null, 'Profile Logo', false, null, $composer_0, 196678, 220);
+      var tmp0_src = '/profile.png';
+      var tmp1_modifier = size(Companion_instance_0, get_PROFILE_IMAGE_SIZE());
+      Image(tmp0_src, tmp1_modifier, null, null, null, 'Profile Logo', false, null, $composer_0, 196678, 220);
       profileInfoArea($composer_0, 0);
     } else {
       $composer_0.z12();
@@ -2445,8 +2445,8 @@
   function ComposableSingletons$IndexKt$lambda_3$lambda_7fjxui($this$Box, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.i18()) {
-      var tmp16_modifier = color(fontWeight(fontSize(Companion_instance_0, get_px(16)), Companion_instance_4.g2d()), get_WHITE());
-      SpanText('Android Developer', tmp16_modifier, null, null, $composer_0, 70, 12);
+      var tmp8_modifier = color(fontWeight(fontSize(Companion_instance_0, get_px(16)), Companion_instance_4.g2d()), get_WHITE());
+      SpanText('Android Developer', tmp8_modifier, null, null, $composer_0, 70, 12);
     } else {
       $composer_0.z12();
     }
@@ -2460,14 +2460,14 @@
   function ComposableSingletons$IndexKt$lambda_4$lambda_le2j7p($this$Column, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) || !$composer_0.i18()) {
-      var tmp10_fontSize = get_px(24);
-      var tmp11_fontWeight = Companion_instance_4.g2d();
-      var tmp12_modifier = margin_0(Companion_instance_0, get_px(8));
-      profileInfoItem(tmp12_modifier, '\uAE40\uC2AC\uAE30', tmp10_fontSize, tmp11_fontWeight, $composer_0, 4664, 0);
-      var tmp13_$receiver = width(Companion_instance_0, get_px(168));
-      var tmp14_bottom = get_px(8);
-      var tmp15_top = get_px(4);
-      var tmp = borderRadius(textAlign(height(margin_0(tmp13_$receiver, tmp15_top, VOID, tmp14_bottom), get_px(36)), Companion_instance_1.o2c()), get_px(100));
+      var tmp2_fontSize = get_px(24);
+      var tmp3_fontWeight = Companion_instance_4.g2d();
+      var tmp4_modifier = margin_0(Companion_instance_0, get_px(8));
+      profileInfoItem(tmp4_modifier, '\uAE40\uC2AC\uAE30', tmp2_fontSize, tmp3_fontWeight, $composer_0, 4664, 0);
+      var tmp5_$receiver = width(Companion_instance_0, get_px(168));
+      var tmp6_bottom = get_px(8);
+      var tmp7_top = get_px(4);
+      var tmp = borderRadius(textAlign(height(margin_0(tmp5_$receiver, tmp7_top, VOID, tmp6_bottom), get_px(36)), Companion_instance_1.o2c()), get_px(100));
       var tmp_0 = get_px(0.5);
       // Inline function 'org.jetbrains.compose.web.css.Companion.Solid' call
       // Inline function 'org.jetbrains.compose.web.css.LineStyle' call
@@ -2482,8 +2482,18 @@
       var tmp_3 = backgroundColor(tmp_2, tmp$ret$5);
       var tmp_4 = Center_instance;
       Box(tmp_3, tmp_4, null, ComposableSingletons$IndexKt_getInstance().d34_1, $composer_0, 3144, 4);
-      profileInfoItem(null, 'Email : tmfrl1590@gmail.com', get_px(16), Companion_instance_4.f2d(), $composer_0, 4656, 1);
-      profileInfoItem(null, 'GitHub : https://github.com/tmfrl1590', get_px(16), Companion_instance_4.f2d(), $composer_0, 4656, 1);
+      var tmp9_fontSize = get_px(16);
+      var tmp10_fontWeight = Companion_instance_4.f2d();
+      var tmp11_modifier = padding(Companion_instance_0, get_px(8));
+      profileInfoItem(tmp11_modifier, 'Email : tmfrl1590@gmail.com', tmp9_fontSize, tmp10_fontWeight, $composer_0, 4664, 0);
+      var tmp12_fontSize = get_px(16);
+      var tmp13_fontWeight = Companion_instance_4.f2d();
+      var tmp14_modifier = padding(Companion_instance_0, get_px(8));
+      profileInfoItem(tmp14_modifier, 'GitHub : https://github.com/tmfrl1590', tmp12_fontSize, tmp13_fontWeight, $composer_0, 4664, 0);
+      var tmp15_fontSize = get_px(16);
+      var tmp16_fontWeight = Companion_instance_4.g2d();
+      var tmp17_modifier = padding_0(Companion_instance_0, get_px(200));
+      profileInfoItem(tmp17_modifier, '\uC774 \uD504\uB85C\uC81D\uD2B8\uB294 Jetpack Compose\uB97C \uC0AC\uC6A9\uD558\uC5EC \uC81C\uC791\uB41C \uC774\uB825\uC11C \uC6F9\uC0AC\uC774\uD2B8\uC785\uB2C8\uB2E4.', tmp15_fontSize, tmp16_fontWeight, $composer_0, 4664, 0);
     } else {
       $composer_0.z12();
     }

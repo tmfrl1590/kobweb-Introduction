@@ -4,13 +4,10 @@ import androidx.compose.runtime.Composable
 import com.my.profile.components.AdminPageLayout
 import com.my.profile.util.*
 import com.varabyte.kobweb.compose.css.CSSLengthOrPercentageNumericValue
-import com.varabyte.kobweb.compose.css.Cursor
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.css.TextAlign
-import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.foundation.layout.Column
-import com.varabyte.kobweb.compose.foundation.layout.Row
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.*
@@ -66,7 +63,7 @@ fun profileInfoArea(){
         horizontalAlignment = Alignment.CenterHorizontally,
     ){
         profileInfoItem(
-            text = "김슬기1",
+            text = "김슬기",
             fontSize = 24.px,
             fontWeight = FontWeight.Bold,
             modifier = Modifier.margin(top = 8.px)
@@ -91,20 +88,24 @@ fun profileInfoArea(){
                 text = "Android Developer"
             )
         }
-        /*profileInfoItem(
-            text = "Android Developer",
-            fontSize = 20.px,
-            fontWeight = FontWeight.SemiBold
-        )*/
         profileInfoItem(
             text = "Email : tmfrl1590@gmail.com",
             fontSize = 16.px,
-            fontWeight = FontWeight.Normal
+            fontWeight = FontWeight.Normal,
+            modifier = Modifier.padding(topBottom = 8.px)
         )
         profileInfoItem(
             text = "GitHub : https://github.com/tmfrl1590",
             fontSize = 16.px,
-            fontWeight = FontWeight.Normal
+            fontWeight = FontWeight.Normal,
+            modifier = Modifier.padding(topBottom = 8.px)
+        )
+
+        profileInfoItem(
+            text = "이 프로젝트는 Jetpack Compose를 사용하여 제작된 이력서 웹사이트입니다.",
+            fontSize = 16.px,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.padding(top = 200.px)
         )
     }
 }
@@ -121,6 +122,5 @@ fun profileInfoItem(
         modifier = modifier
             .fontSize(fontSize)
             .fontWeight(fontWeight)
-            .padding(topBottom = 8.px)
     )
 }
