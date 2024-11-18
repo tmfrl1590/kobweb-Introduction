@@ -66,7 +66,7 @@ fun profileInfoArea(){
         horizontalAlignment = Alignment.CenterHorizontally,
     ){
         profileInfoItem(
-            text = "김슬기",
+            text = "김슬기1",
             fontSize = 24.px,
             fontWeight = FontWeight.Bold,
             modifier = Modifier.margin(top = 8.px)
