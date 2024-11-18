@@ -322,10 +322,10 @@
   initMetadataForClass(ScopeMap, 'ScopeMap', ScopeMap);
   initMetadataForClass(AbstractListIterator, 'AbstractListIterator');
   initMetadataForClass(SingleElementListIterator, 'SingleElementListIterator', VOID, AbstractListIterator);
-  initMetadataForClass(AbstractPersistentList, 'AbstractPersistentList', VOID, AbstractList, [KtList, Collection, AbstractList]);
+  initMetadataForClass(AbstractPersistentList, 'AbstractPersistentList', VOID, AbstractList, [Collection, KtList, AbstractList]);
   initMetadataForClass(BufferIterator, 'BufferIterator', VOID, AbstractListIterator);
-  initMetadataForClass(PersistentVector, 'PersistentVector', VOID, AbstractPersistentList, [KtList, Collection, AbstractPersistentList]);
-  initMetadataForClass(PersistentVectorBuilder, 'PersistentVectorBuilder', VOID, AbstractMutableList, [AbstractMutableList, MutableCollection, KtList]);
+  initMetadataForClass(PersistentVector, 'PersistentVector', VOID, AbstractPersistentList, [Collection, KtList, AbstractPersistentList]);
+  initMetadataForClass(PersistentVectorBuilder, 'PersistentVectorBuilder', VOID, AbstractMutableList, [AbstractMutableList, KtList, MutableCollection]);
   initMetadataForClass(PersistentVectorIterator, 'PersistentVectorIterator', VOID, AbstractListIterator);
   initMetadataForClass(PersistentVectorMutableIterator, 'PersistentVectorMutableIterator', VOID, AbstractListIterator);
   initMetadataForCompanion(Companion_6);

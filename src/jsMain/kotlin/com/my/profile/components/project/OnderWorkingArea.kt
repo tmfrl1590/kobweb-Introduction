@@ -3,15 +3,12 @@ package com.my.profile.components.project
 import androidx.compose.runtime.Composable
 import com.my.profile.components.customDivider
 import com.my.profile.components.descriptionRow
-import com.my.profile.util.HORIZONTAL_DIVIDER_TOP_BOTTOM_MARGIN
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.fillMaxWidth
 import com.varabyte.kobweb.compose.ui.modifiers.fontSize
 import com.varabyte.kobweb.compose.ui.modifiers.fontWeight
-import com.varabyte.kobweb.compose.ui.modifiers.margin
-import com.varabyte.kobweb.silk.components.layout.HorizontalDivider
 import com.varabyte.kobweb.silk.components.text.SpanText
 import org.jetbrains.compose.web.css.px
 import org.jetbrains.compose.web.dom.H6
@@ -31,7 +28,7 @@ fun onderWorkingArea() {
         )
         descriptionRow(
             title = "· 유지보수 어려움",
-            description = " : 서버 응답 코드와 컬럼명이 하드코딩되어 있고, 개발 문서가 없어 유지보수에 제약",
+            description = " : 서버 응답 코드와 컬럼명이 하드코딩되어 있고,\n   개발 문서가 없어 유지보수에 제약",
         )
         descriptionRow(
             title = "· 쿠폰 발급 제한",
