@@ -325,7 +325,7 @@
   initMetadataForClass(AbstractPersistentList, 'AbstractPersistentList', VOID, AbstractList, [Collection, KtList, AbstractList]);
   initMetadataForClass(BufferIterator, 'BufferIterator', VOID, AbstractListIterator);
   initMetadataForClass(PersistentVector, 'PersistentVector', VOID, AbstractPersistentList, [Collection, KtList, AbstractPersistentList]);
-  initMetadataForClass(PersistentVectorBuilder, 'PersistentVectorBuilder', VOID, AbstractMutableList, [AbstractMutableList, KtList, MutableCollection]);
+  initMetadataForClass(PersistentVectorBuilder, 'PersistentVectorBuilder', VOID, AbstractMutableList, [AbstractMutableList, MutableCollection, KtList]);
   initMetadataForClass(PersistentVectorIterator, 'PersistentVectorIterator', VOID, AbstractListIterator);
   initMetadataForClass(PersistentVectorMutableIterator, 'PersistentVectorMutableIterator', VOID, AbstractListIterator);
   initMetadataForCompanion(Companion_6);
@@ -350,7 +350,7 @@
   initMetadataForCompanion(Companion_8);
   initMetadataForClass(TrieNode, 'TrieNode');
   initMetadataForCompanion(Companion_9);
-  initMetadataForClass(PersistentOrderedSet, 'PersistentOrderedSet', VOID, AbstractSet, [AbstractSet, KtSet, Collection]);
+  initMetadataForClass(PersistentOrderedSet, 'PersistentOrderedSet', VOID, AbstractSet, [AbstractSet, Collection, KtSet]);
   initMetadataForClass(Links, 'Links', Links_init_$Create$);
   initMetadataForClass(PersistentOrderedSetIterator, 'PersistentOrderedSetIterator');
   initMetadataForObject(EndOfChain, 'EndOfChain');

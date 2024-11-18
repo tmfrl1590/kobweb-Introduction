@@ -57,7 +57,7 @@ fun onderProjectInfoArea(){
         companyName = "(주)더드림메이커스",
         projectDuration = "2024.01 ~ 2024.05",
         projectDescription1 = " : 전통시장과 상점가에서 사용되는 온누리 상품권 기반의 \n   이커머스 플랫폼(온더)으로, 상용화를 목표로 개발된 프로젝트\n",
-        projectDescription2 = " : 온더는 R&D 연구개발 과정에서 개발되었으나, 쿠폰 도메인 문제와 \n   복잡한 코드 구조 등으로 인해 상용화에 어려움이 있었고, 이를 해결하기 위해 재개발이 결정됨",
+        projectDescription2 = " : 온더는 R&D 연구개발 과정에서 개발되었으나, 쿠폰 도메인 문제와 \n   복잡한 코드 구조 등으로 인해 상용화에 어려움이 있었고,\n 이를 해결하기 위해 재개발이 결정됨",
     )
     onderWorkingArea()
 }
